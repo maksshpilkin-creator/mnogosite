@@ -1,0 +1,58 @@
+{
+  "slug": "zona-enduro-omsk",
+  "checked_at": "2026-11-08T13:30:28.430Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Zona%20Enduro%20%D0%9E%D0%BC%D1%81%D0%BA",
+      "checked_at": "2026-11-08T13:30:28.430Z",
+      "excerpt": "Zona Enduro, Омск, 5-я Северная улица, 196. Рейтинг: 4.7 ★."
+    }
+  ],
+  "facts": {
+    "name": "Zona Enduro",
+    "brand_display": "Zona <span>Enduro</span>",
+    "city": "Омск",
+    "address": "5-я Северная улица, 196",
+    "phone": "+7 (960) 999-78-28",
+    "phone_raw": "+79609997828",
+    "whatsapp": "79609997828",
+    "hours": "Вт-Пт 11:00-19:00, Сб 11:00-17:00",
+    "rating": 4.7,
+    "focus": "Эндуро, питбайки, экипировка",
+    "hero_subtitle": "Эндуро, питбайки и экипировка<br> в Омске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "BSE Z5 250",
+      "spec": "250 см³ · усиленный маятник · спорт-выхлоп",
+      "price": "179 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Kayo Evolution YX140",
+      "spec": "140 см³ · масляный радиатор · электростартер",
+      "price": "114 900 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Шлем эндуро Airoh / Just1",
+      "spec": "Легкий композит · развитая система вентиляции",
+      "price": "18 500 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

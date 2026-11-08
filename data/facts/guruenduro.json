@@ -1,0 +1,58 @@
+{
+  "slug": "guruenduro",
+  "checked_at": "2026-11-08T13:30:28.426Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Guruenduro%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80",
+      "checked_at": "2026-11-08T13:30:28.426Z",
+      "excerpt": "Guruenduro, Краснодар, ул. имени М.Д. Ягодина, 59. Рейтинг: 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Guruenduro",
+    "brand_display": "Guru<span>enduro</span>",
+    "city": "Краснодар",
+    "address": "ул. имени М.Д. Ягодина, 59",
+    "phone": "+7 (928) 882-33-48",
+    "phone_raw": "+79288823348",
+    "whatsapp": "79288823348",
+    "hours": "Ежедневно 10:00-20:00",
+    "rating": 4.8,
+    "focus": "Профессиональное эндуро и питбайки",
+    "hero_subtitle": "Хард-эндуро и питбайки<br> в Краснодаре"
+  },
+  "catalog": [
+    {
+      "id": "enduro1",
+      "category": "enduro",
+      "name": "GURUENDURO AIR PRO 300",
+      "spec": "300 см³ 174MN · водяное охлаждение · карбюратор NIBBI",
+      "price": "205 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "enduro2",
+      "category": "enduro",
+      "name": "GURUENDURO NB300X",
+      "spec": "300 см³ ZS174MN-5 · фрезерованные траверсы · подвеска KKE",
+      "price": "279 500 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BRZ SX125",
+      "spec": "125 см³ · усиленная стальная рама · спорт-карбюратор",
+      "price": "95 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "megacross",
+  "checked_at": "2026-11-08T13:30:28.426Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%B5%D0%B3%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D1%81%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80",
+      "checked_at": "2026-11-08T13:30:28.426Z",
+      "excerpt": "Мегакросс, Краснодар, ул. Симферопольская, 55/2. Рейтинг: 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мегакросс",
+    "brand_display": "Мега<span>кросс</span>",
+    "city": "Краснодар",
+    "address": "ул. Симферопольская, 55/2",
+    "phone": "+7 (964) 900-88-33",
+    "phone_raw": "+79649008833",
+    "whatsapp": "79649008833",
+    "hours": "Ежедневно 10:00-20:00",
+    "rating": 4.9,
+    "focus": "Официальный дилер FXMOTO, эндуро",
+    "hero_subtitle": "Эндуро и кроссовые мотоциклы<br> в Краснодаре"
+  },
+  "catalog": [
+    {
+      "id": "enduro1",
+      "category": "enduro",
+      "name": "FXMOTO X7 CB250",
+      "spec": "250 см³ · подвеска с регулировками · спорт-обода",
+      "price": "175 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "enduro2",
+      "category": "enduro",
+      "name": "ZUUMAV K8 NB300",
+      "spec": "300 см³ 174MN · водяное охлаждение · спорт-выхлоп",
+      "price": "289 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Kayo Basic TT125",
+      "spec": "125 см³ · 4-тактный · электростартер",
+      "price": "94 990 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

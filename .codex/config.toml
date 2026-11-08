@@ -1,0 +1,4 @@
+# Настройки только текущего проекта. Основная модель и права остаются у сессии.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3

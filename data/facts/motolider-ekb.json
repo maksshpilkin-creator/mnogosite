@@ -1,0 +1,58 @@
+{
+  "slug": "motolider-ekb",
+  "checked_at": "2026-11-08T13:30:28.425Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3",
+      "checked_at": "2026-11-08T13:30:28.425Z",
+      "excerpt": "Мотолидер, Екатеринбург, ул. Донбасская, 19 (ЖК Белая Башня). Рейтинг: 4.5 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотолидер",
+    "brand_display": "Мото<span>лидер</span>",
+    "city": "Екатеринбург",
+    "address": "ул. Донбасская, 19 (ЖК Белая Башня)",
+    "phone": "+7 (343) 379-07-79",
+    "phone_raw": "+73433790779",
+    "whatsapp": "79058770809",
+    "hours": "Ежедневно 10:00-20:00",
+    "rating": 4.5,
+    "focus": "Питбайки, эндуро, экипировка",
+    "hero_subtitle": "Питбайки, эндуро и экипировка<br> в Екатеринбурге"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Motoland XT250 ST",
+      "spec": "250 см³ · 4-тактный · электростартер",
+      "price": "145 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Regulmoto Seven 125",
+      "spec": "125 см³ · 4-тактный · колёса 17/14",
+      "price": "89 900 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "moped",
+      "category": "pitbike",
+      "name": "Мопед Alpha RX 125",
+      "spec": "125 см³ · дорожный классик · бак 9 л",
+      "price": "68 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

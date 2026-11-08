@@ -1,0 +1,58 @@
+{
+  "slug": "motoraion-irk",
+  "checked_at": "2026-11-08T13:30:28.431Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA",
+      "checked_at": "2026-11-08T13:30:28.431Z",
+      "excerpt": "Моторайон, Иркутск, ул. Рабочего Штаба, 136. Рейтинг: 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Моторайон",
+    "brand_display": "Мото<span>район</span>",
+    "city": "Иркутск",
+    "address": "ул. Рабочего Штаба, 136",
+    "phone": "+7 (914) 906-21-21",
+    "phone_raw": "+79149062121",
+    "whatsapp": "79149062121",
+    "hours": "Пн-Пт 10:00-18:30, Сб 11:00-17:00",
+    "rating": 4.9,
+    "focus": "Клубный салон, эндуро, сервис",
+    "hero_subtitle": "Эндуро, питбайки и клубный сервис<br> в Иркутске"
+  },
+  "catalog": [
+    {
+      "id": "enduro1",
+      "category": "enduro",
+      "name": "Regulmoto Sport-003 Pro",
+      "spec": "300 см³ 174MN · водяное охлаждение",
+      "price": "219 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Kayo TT125",
+      "spec": "125 см³ · надежный двигатель YX125",
+      "price": "94 990 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "enduro2",
+      "category": "enduro",
+      "name": "Progasi Smart 150",
+      "spec": "150 см³ · легкий кроссовый мотоцикл",
+      "price": "119 900 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

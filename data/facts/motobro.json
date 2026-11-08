@@ -1,0 +1,58 @@
+{
+  "slug": "motobro",
+  "checked_at": "2026-11-08T13:30:28.424Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%91%D0%A0%D0%9E%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA",
+      "checked_at": "2026-11-08T13:30:28.424Z",
+      "excerpt": "МотоБРО, Новосибирск, ул. Писарева, 60 (ТЦ Баzа, пав. 1.4.1). Рейтинг: 5 ★."
+    }
+  ],
+  "facts": {
+    "name": "МотоБРО",
+    "brand_display": "Мото<span>БРО</span>",
+    "city": "Новосибирск",
+    "address": "ул. Писарева, 60 (ТЦ Баzа, пав. 1.4.1)",
+    "phone": "+7 (983) 302-28-16",
+    "phone_raw": "+79833022816",
+    "whatsapp": "79833022816",
+    "hours": "Пн-Пт 10:00-19:00, Сб-Вс 11:00-18:00",
+    "rating": 5,
+    "focus": "Экипировка, эндуро, мотокросс",
+    "hero_subtitle": "Экипировка, эндуро и кросс<br> в Новосибирске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Regulmoto Sport-003 Pro",
+      "spec": "300 см³ · жидкостное охлаждение · 174MN",
+      "price": "215 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear1",
+      "category": "gear",
+      "name": "Мотоботы Leatt 4.5 Enduro",
+      "spec": "SlideLock защита голеностопа · подошва Enduro",
+      "price": "24 500 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear2",
+      "category": "gear",
+      "name": "Шлем кроссовый Ataki JK801",
+      "spec": "Термопластик · вентиляция · DD-ring застежка",
+      "price": "5 490 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

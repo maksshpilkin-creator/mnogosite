@@ -1,0 +1,58 @@
+{
+  "slug": "ponarin-mx",
+  "checked_at": "2026-11-08T13:30:28.428Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Ponarin%20MX%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6",
+      "checked_at": "2026-11-08T13:30:28.428Z",
+      "excerpt": "Ponarin MX, Воронеж, ул. Антонова-Овсеенко, 9В. Рейтинг: 5 ★."
+    }
+  ],
+  "facts": {
+    "name": "Ponarin MX",
+    "brand_display": "Ponarin <span>MX</span>",
+    "city": "Воронеж",
+    "address": "ул. Антонова-Овсеенко, 9В",
+    "phone": "+7 (960) 130-86-20",
+    "phone_raw": "+79601308620",
+    "whatsapp": "79601308620",
+    "hours": "Ежедневно 10:00-19:00",
+    "rating": 5,
+    "focus": "Спортивное эндуро и экипировка",
+    "hero_subtitle": "Спортивное эндуро и мотокросс<br> в Воронеже"
+  },
+  "catalog": [
+    {
+      "id": "enduro1",
+      "category": "enduro",
+      "name": "JHL MX300",
+      "spec": "300 см³ ZS174MN · карбюратор FCR · регулировки KKE",
+      "price": "179 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "enduro2",
+      "category": "enduro",
+      "name": "JHL Z7 NC300S",
+      "spec": "300 см³ 4-клапанный · фрезерованные узлы CNC",
+      "price": "285 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Regulmoto Pilot 125",
+      "spec": "125 см³ · двигатель YX125 · дисковые тормоза",
+      "price": "84 900 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "motosalon-vibecoding-19sites",
+  "version": "1.0.0",
+  "description": "Автоматическая генерация и продажа 19 демо-сайтов для мотосалонов за 4 минуты",
+  "scripts": {
+    "generate": "node scripts/generate_content.js",
+    "dossiers": "node scripts/generate_dossiers.js",
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "all": "npm run generate && npm run dossiers && npm run build"
+  },
+  "keywords": [
+    "vibecoding",
+    "motosalon",
+    "claude-code",
+    "multi-agent",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "saratov-moto",
+  "checked_at": "2026-11-08T13:30:28.430Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2-%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2",
+      "checked_at": "2026-11-08T13:30:28.430Z",
+      "excerpt": "Саратов-Мото, Саратов, ул. имени В.Д. Хомяковой, 20а. Рейтинг: 4.7 ★."
+    }
+  ],
+  "facts": {
+    "name": "Саратов-Мото",
+    "brand_display": "Саратов-<span>Мото</span>",
+    "city": "Саратов",
+    "address": "ул. имени В.Д. Хомяковой, 20а",
+    "phone": "+7 (917) 311-20-02",
+    "phone_raw": "+79173112002",
+    "whatsapp": "79173112002",
+    "hours": "Пн-Сб 10:00-19:00",
+    "rating": 4.7,
+    "focus": "2400+ позиций техники и запчастей",
+    "hero_subtitle": "Мототехника, эндуро и запчасти<br> в Саратове"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Motoland WRX 250",
+      "spec": "250 см³ · двигатель 165FMM · защита перьев",
+      "price": "144 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Racer RC125-PM",
+      "spec": "125 см³ · 4-тактный · дисковые тормоза",
+      "price": "84 900 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "moped",
+      "category": "pitbike",
+      "name": "Мопед Racer Alpha 110",
+      "spec": "110 см³ · дорожные шины · расход 2 л/100 км",
+      "price": "64 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

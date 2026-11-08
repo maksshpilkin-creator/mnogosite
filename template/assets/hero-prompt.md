@@ -1,0 +1,8 @@
+# Hero asset
+
+Built-in image_gen, reference: макеты_эталона/06_гибрид_01_04.png.
+Illustrative image for a fictional demo, not real business photography.
+Original: hero-enduro.png. Web copy: hero-enduro.jpg (JPEG quality 88, no content changes).
+
+Use case: product-mockup. Create ONE separate photorealistic web hero image asset for the approved motorcycle dealership website in the reference. Reference image is a WEBSITE screenshot only for visual art direction: recreate ONLY the orange motorcycle from its upper-right hero; do NOT reproduce the website or any text.
+Asset: a bright safety-orange enduro motorcycle, 300cc style, full vehicle completely in frame with both knobby spoked wheels, high orange front fender, white side panels, black seat, slim off-road frame. Three-quarter side angle with the front wheel facing LEFT, as in the reference. Highly detailed plausible mechanics, correct handlebars, suspension, engine, chain, stand, wheels, no distorted duplicated parts. Standing on its kickstand, not a display pedestal. Detached isolated studio product photograph on a clean very light neutral gray/off-white seamless cyclorama and floor with a soft grounded shadow. Entire bike clear, no cut-off handlebars or wheels. Match orange/white/black colors and striking poised silhouette of reference hero. Motorcycle should occupy about 85% frame width and height. Horizontal crop 1400x1050 (or highest-quality landscape); crisp controlled studio light, even light-gray backdrop without a horizon or clutter. No shelves, garage, mountains, rider, person, logo, lettering, watermarks, prices or UI. This is an illustration for a fictional demo, not a real photo of the business.

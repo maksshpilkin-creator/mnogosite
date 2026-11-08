@@ -1,0 +1,58 @@
+{
+  "slug": "pitbike-magazine",
+  "checked_at": "2026-11-08T13:30:28.417Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Pitbike%20magazine%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA",
+      "checked_at": "2026-11-08T13:30:28.422Z",
+      "excerpt": "Pitbike magazine, Новосибирск, ул. Станционная, 4/1, офис 012. Рейтинг: 4.4 ★."
+    }
+  ],
+  "facts": {
+    "name": "Pitbike magazine",
+    "brand_display": "Pitbike <span>magazine</span>",
+    "city": "Новосибирск",
+    "address": "ул. Станционная, 4/1, офис 012",
+    "phone": "+7 (383) 277-94-00",
+    "phone_raw": "+73832779400",
+    "whatsapp": "79930079400",
+    "hours": "Пн-Сб 10:00-19:00",
+    "rating": 4.4,
+    "focus": "Питбайки, кросс, экипировка",
+    "hero_subtitle": "Питбайки, эндуро и кроссовая экипировка<br> в Новосибирске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Kayo T2 250 Enduro",
+      "spec": "250 см³ · 4-тактный · электростартер",
+      "price": "159 990 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Kayo Basic TT125",
+      "spec": "125 см³ · 4-тактный · колёса 17/14",
+      "price": "94 990 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Шлем Fly Racing Kinetic",
+      "spec": "Ударопрочный полимер · сертификация ECE",
+      "price": "12 900 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

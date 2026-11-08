@@ -1,0 +1,58 @@
+{
+  "slug": "gsbmoto-rostov",
+  "checked_at": "2026-11-08T13:30:28.428Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/GSBMOTO%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83",
+      "checked_at": "2026-11-08T13:30:28.428Z",
+      "excerpt": "GSBMOTO, Ростов-на-Дону, ул. Доватора, 140 (2 этаж). Рейтинг: 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "GSBMOTO",
+    "brand_display": "GSB<span>MOTO</span>",
+    "city": "Ростов-на-Дону",
+    "address": "ул. Доватора, 140 (2 этаж)",
+    "phone": "+7 (863) 322-10-68",
+    "phone_raw": "+78633221068",
+    "whatsapp": "78633221068",
+    "hours": "Ежедневно 10:00-19:00",
+    "rating": 4.9,
+    "focus": "Эндуро, квадроциклы, рассрочка",
+    "hero_subtitle": "Эндуро и квадроциклы<br> в Ростове-на-Дону"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Progasi Palma 250",
+      "spec": "250 см³ · карбюратор Nibbi · спортивный руль",
+      "price": "164 990 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "TMBK 125 Pitster",
+      "spec": "125 см³ · колеса 17/14 · прочная рама",
+      "price": "72 990 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл GSBMOTO 200 Wild",
+      "spec": "200 см³ · автоматическая трансмиссия · фаркоп",
+      "price": "189 990 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

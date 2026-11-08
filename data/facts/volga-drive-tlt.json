@@ -1,0 +1,58 @@
+{
+  "slug": "volga-drive-tlt",
+  "checked_at": "2026-11-08T13:30:28.430Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%92%D0%BE%D0%BB%D0%B3%D0%B0%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%20%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8",
+      "checked_at": "2026-11-08T13:30:28.430Z",
+      "excerpt": "Волга Драйв, Тольятти, ул. Толстого, 3. Рейтинг: 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Волга Драйв",
+    "brand_display": "Волга <span>Драйв</span>",
+    "city": "Тольятти",
+    "address": "ул. Толстого, 3",
+    "phone": "+7 (931) 105-18-62",
+    "phone_raw": "+79311051862",
+    "whatsapp": "79311051862",
+    "hours": "Ежедневно 10:00-19:00",
+    "rating": 4.9,
+    "focus": "Питбайки, квадроциклы, лодки, дорожники",
+    "hero_subtitle": "Квадроциклы, питбайки и эндуро<br> в Тольятти"
+  },
+  "catalog": [
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Linhai D300 4x4",
+      "spec": "300 см³ · полный привод · кардан · фаркоп",
+      "price": "379 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Regulmoto Sport-003",
+      "spec": "250 см³ · надежный ZS172FMM · прочная рама",
+      "price": "175 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Kayo Basic TT125",
+      "spec": "125 см³ · колеса 17/14 · электростартер",
+      "price": "94 990 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

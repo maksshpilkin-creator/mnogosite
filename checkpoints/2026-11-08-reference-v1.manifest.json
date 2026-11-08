@@ -1,0 +1,482 @@
+{
+  "checkpoint": "2026-11-08-reference-v1",
+  "date": "2026-11-08",
+  "scope": "accepted fictional local demo, not a real client launch",
+  "files": [
+    {
+      "path": "макеты_эталона/06_гибрид_01_04.png",
+      "bytes": 2135775,
+      "sha256": "E4B1CC4AE873044F0C59BD20BD9A30B8565A9696BCF927584B1A81FD3D82529A"
+    },
+    {
+      "path": "ЭТАЛОН.md",
+      "bytes": 3431,
+      "sha256": "247C54B337FBDE3ADF3110CCD2D80CB6E63549B2CFF4603957684F83B1D7C3BA"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 12171,
+      "sha256": "66B6EB88806F63FC9BF13E2B7CC85ACFF8218F76A1504071831A0AA730BCAAA2"
+    },
+    {
+      "path": "checkpoints/README.md",
+      "bytes": 1569,
+      "sha256": "2A5BE927B2488825FFE2A7B7F6C217E8DE62D110AB4DBD3D201D98E40470DE4D"
+    },
+    {
+      "path": "design-qa.md",
+      "bytes": 4516,
+      "sha256": "EDEAE39E4AD58AF392EBE5373C15B1A343D23FCD373514B11D435EA4A0C4E949"
+    },
+    {
+      "path": "dist/motodrive54/app.js",
+      "bytes": 14596,
+      "sha256": "E6077BFFBDDF594EA3D72FD6C307613C5EC839CD1178502676F91162E32AE9E3"
+    },
+    {
+      "path": "dist/motodrive54/assets/fonts/OFL-RobotoCondensed.txt",
+      "bytes": 4393,
+      "sha256": "0E4CC6ECE88573545BE2ED25835363662A6182BA4A4C1B5C8FEDA52ADD30E8A6"
+    },
+    {
+      "path": "dist/motodrive54/assets/fonts/RobotoCondensed-Italic-Variable.ttf",
+      "bytes": 388124,
+      "sha256": "78F643B1923008B00DFC9B371A2ECD4D80A017722925F1A3FAC9940BE56D1B7D"
+    },
+    {
+      "path": "dist/motodrive54/assets/fonts/RobotoCondensed-Variable.ttf",
+      "bytes": 371616,
+      "sha256": "DACE262AFCEE68A5276F200D8026C57221735C0118AB5FDA8C2C0D3DC409A8D0"
+    },
+    {
+      "path": "dist/motodrive54/assets/hero-enduro.jpg",
+      "bytes": 302775,
+      "sha256": "3000C77B7A1A642B1756AC5970F2890D6FD05A761EEA353BDA56E62B77BA0ADE"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/adjustments-horizontal.svg",
+      "bytes": 696,
+      "sha256": "51C876BABC598CF69AD1146F0FB621919A975758DF0CC7ABF45052006358A353"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/arrow-right.svg",
+      "bytes": 428,
+      "sha256": "7E602A26D53E78CEB788F38CB89EC1D1091130C56D7829CA294B7ED0642277C6"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/atv.svg",
+      "bytes": 464,
+      "sha256": "AFFE4265F5FBF699122581988AC39A8EC426C81EC7B4878CB65BC0B938BDF425"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/calendar.svg",
+      "bytes": 520,
+      "sha256": "8CF9EC1649B01832C5130AB6938012D101BEED21DDCA33A78F55A6BF2EF943B6"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/car-suv.svg",
+      "bytes": 716,
+      "sha256": "71C9C7661A5B397B8C7270F417B882500A8943B9B2DB79417A3F3B9B7BE74F78"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/check.svg",
+      "bytes": 389,
+      "sha256": "E206067A7D570997B5B3A7D30AB287C0B15A492787649A8B96DFF8FAD2862FBE"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/chevron-down.svg",
+      "bytes": 424,
+      "sha256": "5A2E5C2A155CE06264A3F7299073ED636142DFD0B324B747387D9CFBF9FB5E3E"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/chevron-right.svg",
+      "bytes": 401,
+      "sha256": "83733BB6E03E1D20FD2674D06A493642C8EA6EEF76C44EBB2239B9EF17DEDFF7"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/copy.svg",
+      "bytes": 627,
+      "sha256": "3A455A299DB4EC939FD0473D15C81C1D3F30F65DEC81A7DE816317C989B06073"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/helmet.svg",
+      "bytes": 524,
+      "sha256": "F595C7C40042420665F90D41222BF74B87D2BC8C9B0CF9FB723595BCF848176C"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/LICENSE-MDI.txt",
+      "bytes": 992,
+      "sha256": "3BAE6305BCAA6D10219B999F65C342034C2D40B1C0E8567FA08605E73CCBA829"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/LICENSE.txt",
+      "bytes": 1073,
+      "sha256": "B740A1D46122672DA62833E97F7E7C8A13FA85CBC7445B584B297CC00DDE93DB"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/mail.svg",
+      "bytes": 466,
+      "sha256": "94CA7EED1A9B89C7D3345E7C62A622060A502645B4AE10B7ED160294583D3C33"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/map-pin.svg",
+      "bytes": 479,
+      "sha256": "682A0C629579341AFD218175D96489747A35BF0A75E3177616F819320CB69F67"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/menu-2.svg",
+      "bytes": 438,
+      "sha256": "BCEF199C5E53082A56C7BF33D4C48181B71373EB5D923CCE8884ACA09D106842"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/motorbike.svg",
+      "bytes": 527,
+      "sha256": "12F2F059998757265C839A817387F1C577D9477DDD5FB2F1E1CE23E1214DAB9F"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/mountain.svg",
+      "bytes": 486,
+      "sha256": "A015C6E2B1D9FA1A7750ECBC64347826B41F98AF2BC86D62F81EAB0A7A68192E"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/phone.svg",
+      "bytes": 469,
+      "sha256": "4659F9041061912C6382C6FDE8D2455105CE2F29145DF862D81D22F3A73F83E6"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/settings.svg",
+      "bytes": 942,
+      "sha256": "EF9CF42D822C00B4FAD5BC5EECEDDD4E1EC3774BB7DDD09891D0FBA274BC3E95"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/SOURCES.txt",
+      "bytes": 288,
+      "sha256": "FFEB6ABB31EEA9013965142D8B0C84910A14D12A359FB276CCFB0F3061538F70"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/tool.svg",
+      "bytes": 437,
+      "sha256": "F812B6A05026DD0B242533272FF99F3E05EAB6FC647063D8A322707C25558E6E"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/users.svg",
+      "bytes": 536,
+      "sha256": "A9892BCBA1ADAD20184C0B50641B1A96A56FB9EF5135FF60462C664874021CC3"
+    },
+    {
+      "path": "dist/motodrive54/assets/icons/x.svg",
+      "bytes": 406,
+      "sha256": "9350785360414C39450C3505F17D1745E55A7534EDACE8548E30CF49E3727D43"
+    },
+    {
+      "path": "dist/motodrive54/assets/product-atv.jpg",
+      "bytes": 176022,
+      "sha256": "FAE3468B733CA536823B32DC3AB971667944ACB6F7AE05908D03484522595198"
+    },
+    {
+      "path": "dist/motodrive54/assets/product-enduro.jpg",
+      "bytes": 155027,
+      "sha256": "792D548B4D4995EE0124E224BCB22A06649040BF3E55F411B81CEE6CFCFDA54E"
+    },
+    {
+      "path": "dist/motodrive54/assets/product-pitbike.jpg",
+      "bytes": 182010,
+      "sha256": "E9619E5DC7B6B4EEFDE81A20BD26F3F885253E7EF4677C632C56AAA607F36B42"
+    },
+    {
+      "path": "dist/motodrive54/assets/rider.jpg",
+      "bytes": 363609,
+      "sha256": "456AE5FF4D2AB7A8282B899ABB85CD30DB7A54AD36B840398EC2D008943005DF"
+    },
+    {
+      "path": "dist/motodrive54/assets/showroom.jpg",
+      "bytes": 432161,
+      "sha256": "BCF3FC70A49389247757CAF89770723A8F18617BCB08A1ECF3C1AD5C626B2DBD"
+    },
+    {
+      "path": "dist/motodrive54/index.html",
+      "bytes": 13345,
+      "sha256": "F2BFD146C7D55BF668748940D254D5648B626D7118FEFDF41F6FE3C1DB8C569F"
+    },
+    {
+      "path": "dist/motodrive54/styles.css",
+      "bytes": 24804,
+      "sha256": "592489086E4BE068C54ED99BD57DE6D091932EF50A7C70E88C427FC941923E87"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 10136,
+      "sha256": "AEAA2E0C049F892E80E6071026B822DF26937AC8CAE3C375CF6798CEA4CC5D1F"
+    },
+    {
+      "path": "package.json",
+      "bytes": 792,
+      "sha256": "821888C4A08137C447038580C8872458D8783E4EE1A187E28DD8F25C90784874"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 5585,
+      "sha256": "FB784F9D21742418B86E7060EED7CA2BBBFF08A004EC0A62976D5CCBE15A5317"
+    },
+    {
+      "path": "reports/developer-reference.md",
+      "bytes": 6962,
+      "sha256": "48C7EB5AB4ECE10FE6DDC2E452E9E61A698F5EB2ADA0F4C476B566970023F7C2"
+    },
+    {
+      "path": "reports/site-check/motodrive54-reference.md",
+      "bytes": 11708,
+      "sha256": "D90465345A5118284ACAA2AFEFCF5EB199D349CC64759C97DB25924C2F6115AC"
+    },
+    {
+      "path": "scripts/build-reference.js",
+      "bytes": 1539,
+      "sha256": "2549F43F5C9B3042BBF255A43F25AC16443C12056E07EE829CF396FD6F8B64C9"
+    },
+    {
+      "path": "scripts/build.js",
+      "bytes": 8902,
+      "sha256": "191F9FFE453C168558E17DC070671C25A95D4FF6F432BAA875BE9A2E3242207C"
+    },
+    {
+      "path": "scripts/guard-legacy.js",
+      "bytes": 508,
+      "sha256": "71C36782B42A2314BA8C1A2DC7029DFE0E87F0D521A6B62291E1B03330885C38"
+    },
+    {
+      "path": "scripts/serve.js",
+      "bytes": 2369,
+      "sha256": "BCAEB85B2F71DC00D1B41500606642F2D7A17D03372716092E12D170F5BE23AC"
+    },
+    {
+      "path": "TEAM.md",
+      "bytes": 14274,
+      "sha256": "DFC69C045DB0CA2999731C5157FB8EB756619B1901665EF43A11A3BEEEBE0763"
+    },
+    {
+      "path": "template/app.js",
+      "bytes": 14596,
+      "sha256": "E6077BFFBDDF594EA3D72FD6C307613C5EC839CD1178502676F91162E32AE9E3"
+    },
+    {
+      "path": "template/assets/ASSETS.md",
+      "bytes": 1534,
+      "sha256": "B1627CBD78192392BE867261653B58FA99DC50A7E881EC661C70B3EF42615C0C"
+    },
+    {
+      "path": "template/assets/fonts/OFL-RobotoCondensed.txt",
+      "bytes": 4393,
+      "sha256": "0E4CC6ECE88573545BE2ED25835363662A6182BA4A4C1B5C8FEDA52ADD30E8A6"
+    },
+    {
+      "path": "template/assets/fonts/RobotoCondensed-Italic-Variable.ttf",
+      "bytes": 388124,
+      "sha256": "78F643B1923008B00DFC9B371A2ECD4D80A017722925F1A3FAC9940BE56D1B7D"
+    },
+    {
+      "path": "template/assets/fonts/RobotoCondensed-Variable.ttf",
+      "bytes": 371616,
+      "sha256": "DACE262AFCEE68A5276F200D8026C57221735C0118AB5FDA8C2C0D3DC409A8D0"
+    },
+    {
+      "path": "template/assets/hero-enduro.jpg",
+      "bytes": 302775,
+      "sha256": "3000C77B7A1A642B1756AC5970F2890D6FD05A761EEA353BDA56E62B77BA0ADE"
+    },
+    {
+      "path": "template/assets/hero-enduro.png",
+      "bytes": 2438532,
+      "sha256": "B3BBCB379C85631F251DD0EC3732A61EE9DB6E5C0977C79A59D2F252AEB3F5B7"
+    },
+    {
+      "path": "template/assets/hero-prompt.md",
+      "bytes": 1707,
+      "sha256": "2472450F5E907D5D785D42C344D425ED63CE6E8C8B89F568BC0200DAB26C4F55"
+    },
+    {
+      "path": "template/assets/icons/adjustments-horizontal.svg",
+      "bytes": 696,
+      "sha256": "51C876BABC598CF69AD1146F0FB621919A975758DF0CC7ABF45052006358A353"
+    },
+    {
+      "path": "template/assets/icons/arrow-right.svg",
+      "bytes": 428,
+      "sha256": "7E602A26D53E78CEB788F38CB89EC1D1091130C56D7829CA294B7ED0642277C6"
+    },
+    {
+      "path": "template/assets/icons/atv.svg",
+      "bytes": 464,
+      "sha256": "AFFE4265F5FBF699122581988AC39A8EC426C81EC7B4878CB65BC0B938BDF425"
+    },
+    {
+      "path": "template/assets/icons/calendar.svg",
+      "bytes": 520,
+      "sha256": "8CF9EC1649B01832C5130AB6938012D101BEED21DDCA33A78F55A6BF2EF943B6"
+    },
+    {
+      "path": "template/assets/icons/car-suv.svg",
+      "bytes": 716,
+      "sha256": "71C9C7661A5B397B8C7270F417B882500A8943B9B2DB79417A3F3B9B7BE74F78"
+    },
+    {
+      "path": "template/assets/icons/check.svg",
+      "bytes": 389,
+      "sha256": "E206067A7D570997B5B3A7D30AB287C0B15A492787649A8B96DFF8FAD2862FBE"
+    },
+    {
+      "path": "template/assets/icons/chevron-down.svg",
+      "bytes": 424,
+      "sha256": "5A2E5C2A155CE06264A3F7299073ED636142DFD0B324B747387D9CFBF9FB5E3E"
+    },
+    {
+      "path": "template/assets/icons/chevron-right.svg",
+      "bytes": 401,
+      "sha256": "83733BB6E03E1D20FD2674D06A493642C8EA6EEF76C44EBB2239B9EF17DEDFF7"
+    },
+    {
+      "path": "template/assets/icons/copy.svg",
+      "bytes": 627,
+      "sha256": "3A455A299DB4EC939FD0473D15C81C1D3F30F65DEC81A7DE816317C989B06073"
+    },
+    {
+      "path": "template/assets/icons/helmet.svg",
+      "bytes": 524,
+      "sha256": "F595C7C40042420665F90D41222BF74B87D2BC8C9B0CF9FB723595BCF848176C"
+    },
+    {
+      "path": "template/assets/icons/LICENSE-MDI.txt",
+      "bytes": 992,
+      "sha256": "3BAE6305BCAA6D10219B999F65C342034C2D40B1C0E8567FA08605E73CCBA829"
+    },
+    {
+      "path": "template/assets/icons/LICENSE.txt",
+      "bytes": 1073,
+      "sha256": "B740A1D46122672DA62833E97F7E7C8A13FA85CBC7445B584B297CC00DDE93DB"
+    },
+    {
+      "path": "template/assets/icons/mail.svg",
+      "bytes": 466,
+      "sha256": "94CA7EED1A9B89C7D3345E7C62A622060A502645B4AE10B7ED160294583D3C33"
+    },
+    {
+      "path": "template/assets/icons/map-pin.svg",
+      "bytes": 479,
+      "sha256": "682A0C629579341AFD218175D96489747A35BF0A75E3177616F819320CB69F67"
+    },
+    {
+      "path": "template/assets/icons/menu-2.svg",
+      "bytes": 438,
+      "sha256": "BCEF199C5E53082A56C7BF33D4C48181B71373EB5D923CCE8884ACA09D106842"
+    },
+    {
+      "path": "template/assets/icons/motorbike.svg",
+      "bytes": 527,
+      "sha256": "12F2F059998757265C839A817387F1C577D9477DDD5FB2F1E1CE23E1214DAB9F"
+    },
+    {
+      "path": "template/assets/icons/mountain.svg",
+      "bytes": 486,
+      "sha256": "A015C6E2B1D9FA1A7750ECBC64347826B41F98AF2BC86D62F81EAB0A7A68192E"
+    },
+    {
+      "path": "template/assets/icons/phone.svg",
+      "bytes": 469,
+      "sha256": "4659F9041061912C6382C6FDE8D2455105CE2F29145DF862D81D22F3A73F83E6"
+    },
+    {
+      "path": "template/assets/icons/settings.svg",
+      "bytes": 942,
+      "sha256": "EF9CF42D822C00B4FAD5BC5EECEDDD4E1EC3774BB7DDD09891D0FBA274BC3E95"
+    },
+    {
+      "path": "template/assets/icons/SOURCES.txt",
+      "bytes": 288,
+      "sha256": "FFEB6ABB31EEA9013965142D8B0C84910A14D12A359FB276CCFB0F3061538F70"
+    },
+    {
+      "path": "template/assets/icons/tool.svg",
+      "bytes": 437,
+      "sha256": "F812B6A05026DD0B242533272FF99F3E05EAB6FC647063D8A322707C25558E6E"
+    },
+    {
+      "path": "template/assets/icons/users.svg",
+      "bytes": 536,
+      "sha256": "A9892BCBA1ADAD20184C0B50641B1A96A56FB9EF5135FF60462C664874021CC3"
+    },
+    {
+      "path": "template/assets/icons/x.svg",
+      "bytes": 406,
+      "sha256": "9350785360414C39450C3505F17D1745E55A7534EDACE8548E30CF49E3727D43"
+    },
+    {
+      "path": "template/assets/product-atv.jpg",
+      "bytes": 176022,
+      "sha256": "FAE3468B733CA536823B32DC3AB971667944ACB6F7AE05908D03484522595198"
+    },
+    {
+      "path": "template/assets/product-atv.png",
+      "bytes": 1701851,
+      "sha256": "899E8DA08F80ADE8A5E4A7B0FF7ED767638576AACE1DED018548403B55CBD979"
+    },
+    {
+      "path": "template/assets/product-enduro.jpg",
+      "bytes": 155027,
+      "sha256": "792D548B4D4995EE0124E224BCB22A06649040BF3E55F411B81CEE6CFCFDA54E"
+    },
+    {
+      "path": "template/assets/product-enduro.png",
+      "bytes": 1868736,
+      "sha256": "3B540DF843F54595D1A8DCEAF87AE3FC4491D7B2D3FB60323CFE5DD487133B48"
+    },
+    {
+      "path": "template/assets/product-pitbike.jpg",
+      "bytes": 182010,
+      "sha256": "E9619E5DC7B6B4EEFDE81A20BD26F3F885253E7EF4677C632C56AAA607F36B42"
+    },
+    {
+      "path": "template/assets/product-pitbike.png",
+      "bytes": 1710428,
+      "sha256": "32C3D9DA761DA500C6C309FD60F0DFCD4B419B997EDA5833236E541551E500C2"
+    },
+    {
+      "path": "template/assets/product-prompts.md",
+      "bytes": 5129,
+      "sha256": "91955E24A3D8F3C11CA47D6983C7243F21E262CABF0E1EA722A4CC4AEC1905CA"
+    },
+    {
+      "path": "template/assets/rider.jpg",
+      "bytes": 363609,
+      "sha256": "456AE5FF4D2AB7A8282B899ABB85CD30DB7A54AD36B840398EC2D008943005DF"
+    },
+    {
+      "path": "template/assets/rider.png",
+      "bytes": 2667710,
+      "sha256": "18EC63A913CB9DC8A521DB8647838F55A9FDC2EF160456007DEDDE375D8E3588"
+    },
+    {
+      "path": "template/assets/showroom.jpg",
+      "bytes": 432161,
+      "sha256": "BCF3FC70A49389247757CAF89770723A8F18617BCB08A1ECF3C1AD5C626B2DBD"
+    },
+    {
+      "path": "template/assets/showroom.png",
+      "bytes": 2855410,
+      "sha256": "BE5CF4E0CF9D39D684BF695D262AF895C776952A030F5EC6DC98B4B15136CD6D"
+    },
+    {
+      "path": "template/assets/support-prompts.md",
+      "bytes": 3539,
+      "sha256": "C37F26E89722B3B06018C652621674E2AEA73AFDF239B71572BA55F848152FAE"
+    },
+    {
+      "path": "template/index.html",
+      "bytes": 13345,
+      "sha256": "F2BFD146C7D55BF668748940D254D5648B626D7118FEFDF41F6FE3C1DB8C569F"
+    },
+    {
+      "path": "template/styles.css",
+      "bytes": 24804,
+      "sha256": "592489086E4BE068C54ED99BD57DE6D091932EF50A7C70E88C427FC941923E87"
+    }
+  ]
+}

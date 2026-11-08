@@ -1,0 +1,58 @@
+{
+  "slug": "bars-moto-kzn",
+  "checked_at": "2026-11-08T13:30:28.427Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%91%D0%B0%D1%80%D1%81-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C",
+      "checked_at": "2026-11-08T13:30:28.427Z",
+      "excerpt": "Барс-мото, Казань, ул. Алафузова, 3Б. Рейтинг: 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Барс-мото",
+    "brand_display": "Барс-<span>мото</span>",
+    "city": "Казань",
+    "address": "ул. Алафузова, 3Б",
+    "phone": "+7 (843) 555-22-10",
+    "phone_raw": "+78435552210",
+    "whatsapp": "79875552210",
+    "hours": "Пн-Сб 09:00-19:00",
+    "rating": 4.8,
+    "focus": "Эндуро, квадроциклы, запчасти",
+    "hero_subtitle": "Эндуро, квадроциклы и запчасти<br> в Казани"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Motoland TT 250",
+      "spec": "250 см³ · 4-тактный · электростартер · внедорожный",
+      "price": "149 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Regulmoto Pilot 125",
+      "spec": "125 см³ · 4-тактный · дисковые тормоза",
+      "price": "88 500 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³ · вариатор · LED-оптика · фаркоп",
+      "price": "235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

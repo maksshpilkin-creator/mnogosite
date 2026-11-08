@@ -1,0 +1,58 @@
+{
+  "slug": "multi-moto-samara",
+  "checked_at": "2026-11-08T13:30:28.427Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0",
+      "checked_at": "2026-11-08T13:30:28.427Z",
+      "excerpt": "Мульти-мото, Самара, ул. Алма-Атинская, 57 (2 этаж). Рейтинг: 4.3 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мульти-мото",
+    "brand_display": "Мульти-<span>мото</span>",
+    "city": "Самара",
+    "address": "ул. Алма-Атинская, 57 (2 этаж)",
+    "phone": "+7 (937) 066-66-23",
+    "phone_raw": "+79370666623",
+    "whatsapp": "79370666623",
+    "hours": "Ежедневно 10:00-19:00",
+    "rating": 4.3,
+    "focus": "Питбайки, дорожники, мотосервис",
+    "hero_subtitle": "Питбайки, эндуро и сервис<br> в Самаре"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Kayo K2 250 Enduro",
+      "spec": "250 см³ · прочная стальная рама · электростартер",
+      "price": "169 990 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Kayo Basic YX125",
+      "spec": "125 см³ · легкий вес 71 кг · дисковые тормоза",
+      "price": "94 990 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "road",
+      "category": "enduro",
+      "name": "Zontes ZT350-X",
+      "spec": "348 см³ · инжектор Bosch · ABS Bosch · туринг",
+      "price": "429 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

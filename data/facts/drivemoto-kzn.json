@@ -1,0 +1,58 @@
+{
+  "slug": "drivemoto-kzn",
+  "checked_at": "2026-11-08T13:30:28.427Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Drivemoto%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C",
+      "checked_at": "2026-11-08T13:30:28.427Z",
+      "excerpt": "Drivemoto, Казань, ул. Академика Арбузова, 5. Рейтинг: 4.5 ★."
+    }
+  ],
+  "facts": {
+    "name": "Drivemoto",
+    "brand_display": "Drive<span>moto</span>",
+    "city": "Казань",
+    "address": "ул. Академика Арбузова, 5",
+    "phone": "+7 (919) 636-05-11",
+    "phone_raw": "+79196360511",
+    "whatsapp": "79196360511",
+    "hours": "Пн-Пт 09:00-19:00, Сб 09:00-18:00",
+    "rating": 4.5,
+    "focus": "Квадроциклы, эндуро, тюнинг",
+    "hero_subtitle": "Квадроциклы и эндуро<br> в Казани"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Progasi Super Max 300",
+      "spec": "300 см³ ZS175FMM · карбюратор Nibbi Racing · хром-молибден",
+      "price": "189 990 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Avantis Hunter 200 Big",
+      "spec": "200 см³ · масляное охлаждение · лебедка · спинка",
+      "price": "247 900 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Progasi Smart 125",
+      "spec": "125 см³ · LED-фара · электростартер",
+      "price": "99 900 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "pro100moto-tmn",
+  "checked_at": "2026-11-08T13:30:28.429Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Pro-100moto%20%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C",
+      "checked_at": "2026-11-08T13:30:28.429Z",
+      "excerpt": "Pro-100moto, Тюмень, Березняковская ул., 4, стр. 2. Рейтинг: 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Pro-100moto",
+    "brand_display": "Pro-<span>100moto</span>",
+    "city": "Тюмень",
+    "address": "Березняковская ул., 4, стр. 2",
+    "phone": "+7 (3452) 92-38-38",
+    "phone_raw": "+73452923838",
+    "whatsapp": "79088773838",
+    "hours": "Пн-Пт 10:00-19:00, Сб-Вс 10:00-18:00",
+    "rating": 4.9,
+    "focus": "Питбайки, эндуро, Trade-in",
+    "hero_subtitle": "Питбайки, эндуро и квадроциклы<br> в Тюмени"
+  },
+  "catalog": [
+    {
+      "id": "enduro1",
+      "category": "enduro",
+      "name": "Regulmoto CR-X 300",
+      "spec": "300 см³ 174MN · водяное охлаждение · LED-фара",
+      "price": "239 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "BRZ SX150E",
+      "spec": "150 см³ · колеса 17/14 · спорт-карбюратор",
+      "price": "109 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "enduro2",
+      "category": "enduro",
+      "name": "Hasky F7 Racing 300",
+      "spec": "300 см³ · подвеска FastAce · траверсы CNC",
+      "price": "329 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}
