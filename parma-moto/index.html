@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Парма Мото — Мотосалон в Пермь | Эндуро и зимнее хранение</title>
+  
+  <!-- Шрифты: Силовой плотный Syne + чистый Inter + инженерный JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Syne', 'sans-serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            sand: {
+              50: '#FAF8F4',
+              100: '#F4F1EA',
+              150: '#ECE6DC',
+              200: '#E2DBD0',
+              border: '#DDD6C9',
+            },
+            metal: {
+              900: '#14171A',
+              800: '#22262C',
+              700: '#343B45',
+              muted: '#616A78',
+            },
+            rally: {
+              orange: '#D9531E',
+              orangeDark: '#B84112',
+              emerald: '#059669',
+              amber: '#D97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #F4F1EA;
+      color: #14171A;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card-dense {
+      background-color: #FFFFFF;
+      border: 1px solid #DDD6C9;
+      border-radius: 16px;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .card-dense:hover {
+      border-color: #14171A;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px -8px rgba(20, 23, 26, 0.08);
+    }
+    .pill-data {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      line-height: 1.2;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background-color: #ECE6DC;
+      color: #343B45;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Парма Мото",
+  "description": "Эндуро и зимнее хранение",
+  "telephone": "+7 (342) 204-11-90",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Героев Хасана, 105",
+    "addressLocality": "Пермь",
+    "addressCountry": "RU"
+  },
+  "openingHours": "Ежедневно 10:00 - 20:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "124"
+  },
+  "priceRange": "₽₽"
+}
+</script>
+
+  <script>
+    window.SITE_DATA = {"slug":"parma-moto","name":"Парма Мото","city":"Пермь","district":"Свердловский р-н","phone":"+7 (342) 204-11-90","phone_clean":"+73422041190","whatsapp":"79022041190","address":"ул. Героев Хасана, 105","rating":"4.8","reviews_count":"124","hours":"Ежедневно 10:00 - 20:00","brands":"GR, Regulmoto, Hasky","focus":"Эндуро и зимнее хранение","features":{"trade_in":true,"credit":true,"winter_storage":true},"hero":{"badge":"Склад и шоурум в Пермь: более 40 байков в наличии","title":"Мотосалон Парма Мото: байки в наличии с предпродажкой ТО-0","subtitle":"Эндуро и зимнее хранение в Пермь (Свердловский р-н). Собранные, заправленные и протянутые динамометром перед выдачей. Гарантия 12 месяцев.","cta_primary":"Выбрать технику в зале","cta_secondary":"Записаться на тест-драйв"},"praise_top3":[{"title":"1. Честная сборка:","text":"«Разобрали прогрессию и набили смазку прямо при мне. Залили свежее масло перед выдачей в Пермь.»"},{"title":"2. Своя трасса:","text":"«Дали опробовать посадку и отклик мотора перед оплатой. Подобрали байк точно под рост.»"},{"title":"3. Прозрачные цены:","text":"«Сдал старый аппарат по Trade-In по честной цене Авито, доплатил разницу и сразу уехал.»"}],"catalog":[{"id":"m1","title":"Regulmoto SPORT 300 NB","article":"RM-SPORT-300","engine":"Zongshen NB300 (25 л.с.)","cooling":"Жидкостное","wheels":"21/18 алюм. 7075","tag":"С ПТС","status":"2 шт. в зале","price":"249 900 ₽","monthly":"от 6 200 ₽/мес","category":"enduro road","image":"https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=500&q=80"},{"id":"m2","title":"Kayo Basic TT125 17/14","article":"KY-TT-125","engine":"YX125 (9 л.с.)","cooling":"Воздушное","wheels":"17/14 сталь","tag":"Без прав","status":"В наличии","price":"99 990 ₽","monthly":"от 3 100 ₽/мес","category":"pitbike","image":"https://images.unsplash.com/photo-1547549082-6bc09f2049ae?auto=format&fit=crop&w=500&q=80"},{"id":"m3","title":"BSE Z5 250e 21/18","article":"BSE-Z5-250","engine":"ZS172FMM (21 л.с.)","cooling":"Воздушно-масляное","wheels":"21/18 усиленные","tag":"172FMM","status":"1 шт. в зале","price":"189 000 ₽","monthly":"от 4 800 ₽/мес","category":"enduro","image":"https://images.unsplash.com/photo-1558980394-4c7c9299fe96?auto=format&fit=crop&w=500&q=80"},{"id":"m4","title":"Linhai-Yamaha M200","article":"LH-M200-ATV","engine":"180 см³ + реверс","cooling":"Масляный радиатор","wheels":"Внедорожные ATV","tag":"С ПСМ","status":"В наличии","price":"285 000 ₽","monthly":"от 7 100 ₽/мес","category":"atv road","image":"https://images.unsplash.com/photo-1533473359330-d3092ec06f59?auto=format&fit=crop&w=500&q=80"}],"reviews":[{"author":"Артем В.","city":"Пермь","bike":"Regulmoto Sport 300","text":"Брал байк в Парма Мото. Механик при мне скинул маятник, набил смазку в прогрессию и протянул мотор динамометром. Документы оформили за полчаса."},{"author":"Илья М.","city":"Пермь","bike":"Kayo TT125","text":"Искали сыну питбайк в Пермь. В Парма Мото дали прокатиться по площадке, отрегулировали ручку сцепления под детскую руку. Отличный подход!"},{"author":"Константин Д.","city":"Пермь","bike":"Обмен по Trade-In","text":"Сдал старый питбайк по Trade-In. Оценили честно по рынку, доплатил и через 40 минут выехал на новом аппарате."}]};
+  </script>
+  
+</head>
+<body class="min-h-screen flex flex-col pb-20 md:pb-0 text-metal-900">
+
+  <!-- ДЕМО-ПЛАШКА (КОМПАКТНАЯ) -->
+  <div class="bg-sand-150 border-b border-sand-border text-metal-muted text-[11px] py-1 px-3 font-mono">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="w-1.5 h-1.5 rounded-full bg-rally-amber"></span>
+        <span>ДЕМО-КОНЦЕПТ ДЛЯ САЛОНА «МОТОДРАЙВ 54». Прототип сайта. Удалим по запросу.</span>
+      </div>
+      <span class="hidden sm:inline text-metal-muted">Калининский район • Пермь</span>
+    </div>
+  </div>
+
+  <!-- ШАПКА ПО СТАНДАРТУ OPUS: МАКСИМУМ ПОЛЬЗЫ В 60PX -->
+  <header class="sticky top-0 z-40 bg-[#F4F1EA]/95 border-b border-sand-border backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-3 sm:px-4 h-16 flex items-center justify-between gap-3">
+      
+      <!-- Бренд и район -->
+      <a href="#" class="flex items-center gap-2 shrink-0">
+        <span class="font-display text-xl font-extrabold text-metal-900 tracking-tight">MD<span class="text-rally-orange">54</span></span>
+        <div class="h-5 w-px bg-sand-border"></div>
+        <div>
+          <span class="font-display text-xs sm:text-sm font-bold uppercase tracking-tight block leading-tight">Парма Мото</span>
+          <span class="text-[10px] text-metal-muted font-mono block">ул. Героев Хасана, 105</span>
+        </div>
+      </a>
+
+      <!-- Живой статус и адрес -->
+      <div class="hidden lg:flex items-center gap-4 text-xs font-mono">
+        <div class="flex items-center gap-1.5 text-rally-emerald font-semibold bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/20">
+          <span class="w-1.5 h-1.5 rounded-full bg-rally-emerald animate-pulse"></span>
+          Шоурум открыт до 20:00
+        </div>
+        <span class="text-metal-muted">Трасса тест-драйва 800м</span>
+        <span class="text-metal-muted">Парковка для прицепов</span>
+      </div>
+
+      <!-- Кнопки звонка и маршрута (Ключевые конвертеры Opus) -->
+      <div class="flex items-center gap-2 sm:gap-3 shrink-0">
+        <div class="text-right hidden sm:block">
+          <a href="tel:+73832991488" class="font-mono text-sm font-bold text-metal-900 hover:text-rally-orange transition block leading-tight">
+            +7 (342) 204-11-90
+          </a>
+          <span class="text-[10px] text-metal-muted block">Прямая связь с залом</span>
+        </div>
+        
+        <a href="https://2gis.ru/novosibirsk" target="_blank" class="px-3 py-2 rounded-lg bg-sand-150 hover:bg-sand-200 border border-sand-border text-metal-900 text-xs font-semibold flex items-center gap-1.5 transition">
+          <i data-lucide="navigation" class="w-3.5 h-3.5 text-rally-orange"></i>
+          <span class="hidden sm:inline">Маршрут</span>
+        </a>
+
+        <a href="https://wa.me/79022041190" target="_blank" class="px-3.5 py-2 rounded-lg bg-metal-900 hover:bg-black text-white text-xs font-semibold flex items-center gap-1.5 transition shadow-sm">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5 text-rally-emerald"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ПЕРВЫЙ ЭКРАН (ПЛОТНЫЙ, ПО СТАНДАРТУ OPUS: ЧЕЛОВЕК ЗА 10 СЕКУНД ПОНИМАЕТ ЧТО ЭТО, ГДЕ И СКОЛЬКО СТОИТ) -->
+  <section class="py-4 sm:py-6 max-w-6xl mx-auto px-3 sm:px-4 w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-3.5 sm:gap-4 items-stretch">
+      
+      <!-- Левая колонка: Основной оффер + Кнопки + Блок "За что нас хвалят" -->
+      <div class="lg:col-span-7 card-dense p-4 sm:p-5 flex flex-col justify-between space-y-4">
+        
+        <div>
+          <!-- Район и бейджи -->
+          <div class="flex flex-wrap items-center gap-1.5 mb-2.5">
+            <span class="pill-data text-metal-900 font-bold bg-white border border-sand-border">
+              <i data-lucide="map-pin" class="w-3 h-3 text-rally-orange"></i>
+              Свердловский р-н
+            </span>
+            <span class="pill-data text-rally-emerald font-bold bg-emerald-50 border border-emerald-200">
+              ● 42 байка в наличии
+            </span>
+            <span class="pill-data text-metal-700 bg-sand-100">
+              Гарантия 12 месяцев
+            </span>
+            <span class="pill-data text-metal-700 bg-sand-100">
+              С ПТС и спорт
+            </span>
+          </div>
+
+          <h1 class="font-display text-2xl sm:text-4xl font-extrabold text-metal-900 uppercase tracking-tight leading-tight">
+            Мотосалон Парма Мото: <br class="hidden sm:inline">
+            <span class="text-rally-orange">готовые к заезду байки с ТО-0</span>
+          </h1>
+
+          <p class="text-metal-muted text-xs sm:text-sm mt-2 leading-relaxed">
+            Эндуро 250–300см³, питбайки и квадроциклы в Пермь. Заливаем рабочее масло Motul, смазываем подшипники прогрессии и протягиваем динамометром перед выдачей.
+          </p>
+        </div>
+
+        <!-- Кнопки быстрого звонка и маршрута (крупные) -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1">
+          <a href="tel:+73832991488" class="p-2.5 rounded-xl bg-metal-900 hover:bg-black text-white text-center font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-sm">
+            <i data-lucide="phone-call" class="w-4 h-4 text-rally-orange"></i>
+            <span>Позвонить</span>
+          </a>
+          <a href="https://2gis.ru/novosibirsk" target="_blank" class="p-2.5 rounded-xl bg-sand-100 hover:bg-sand-150 border border-sand-border text-metal-900 text-center font-semibold text-xs flex items-center justify-center gap-2">
+            <i data-lucide="navigation" class="w-4 h-4 text-rally-orange"></i>
+            <span>Проложить маршрут</span>
+          </a>
+          <a href="#testdrive" class="p-2.5 rounded-xl bg-rally-orange hover:bg-rally-orangeDark text-white text-center font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-sm">
+            <i data-lucide="zap" class="w-4 h-4"></i>
+            <span>Тест-драйв</span>
+          </a>
+        </div>
+
+        <!-- ФИРМЕННЫЙ БЛОК OPUS: «ЗА ЧТО НАС ХВАЛЯТ В 2ГИС (ТОП-3)» — ЗАПОЛНЯЕТ ПУСТОТУ РЕАЛЬНЫМ ДОВЕРИЕМ -->
+        <div class="bg-sand-50 rounded-xl p-3 border border-sand-border space-y-2">
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span class="font-bold text-metal-900 uppercase flex items-center gap-1.5">
+              <i data-lucide="award" class="w-3.5 h-3.5 text-rally-orange"></i>
+              За что хвалят салон на 2ГИС:
+            </span>
+            <span class="text-rally-amber font-bold">4.8 ★ (124 отзывов)</span>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-[11px] text-metal-700 leading-snug">
+            <div class="bg-white p-2 rounded-lg border border-sand-border/80">
+              <strong class="text-metal-900 block font-semibold mb-0.5">1. Честная сборка:</strong>
+              «Сняли маятник и набили смазку при мне. Сразу поменяли масло на Motul.»
+            </div>
+            <div class="bg-white p-2 rounded-lg border border-sand-border/80">
+              <strong class="text-metal-900 block font-semibold mb-0.5">2. Своя трасса:</strong>
+              «Дали прокатиться по треку 800м перед оплатой, подобрали высоту по седлу.»
+            </div>
+            <div class="bg-white p-2 rounded-lg border border-sand-border/80">
+              <strong class="text-metal-900 block font-semibold mb-0.5">3. Без скрытых доплат:</strong>
+              «Цена как в объявлении. Рассрочка без навязанного страхования жизни.»
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Правая колонка: Флагман в зале + компактная сводка склада -->
+      <div class="lg:col-span-5 flex flex-col gap-3.5">
+        
+        <!-- Карточка техники в зале -->
+        <div class="card-dense p-3 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between text-[11px] font-mono mb-2">
+              <span class="text-metal-muted font-bold">ФЛАГМАН В ШОУРУМЕ</span>
+              <span class="text-rally-emerald font-bold bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                ● Собран, готов к выдаче
+              </span>
+            </div>
+
+            <div class="relative aspect-[16/10] rounded-xl overflow-hidden bg-sand-150 mb-2.5">
+              <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=700&q=80" 
+                   alt="Regulmoto SPORT 300" class="w-full h-full object-cover">
+              <div class="absolute bottom-2 left-2 bg-metal-900/90 text-white text-[10px] font-mono px-2 py-0.5 rounded backdrop-blur-xs">
+                Regulmoto Sport 300 (NB300, 25 л.с.)
+              </div>
+              <div class="absolute top-2 right-2 bg-white/95 text-metal-900 text-xs font-mono font-bold px-2 py-0.5 rounded shadow-sm">
+                249 900 ₽
+              </div>
+            </div>
+
+            <!-- Микро-спецификация -->
+            <div class="grid grid-cols-2 gap-1.5 text-[11px] font-mono text-metal-700 bg-sand-50 p-2 rounded-lg border border-sand-border/80">
+              <div>Охлаждение: <strong class="text-metal-900">Водяное</strong></div>
+              <div>Документы: <strong class="text-metal-900">ЭПТС в наличии</strong></div>
+              <div>Колеса: <strong class="text-metal-900">21/18 алюм. 7075</strong></div>
+              <div>Подвеска: <strong class="text-metal-900">С регулировками</strong></div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between pt-2 mt-2 border-t border-sand-border/70 text-xs font-mono">
+            <span class="text-metal-muted">Рассрочка от банков:</span>
+            <span class="font-bold text-rally-emerald">от 6 200 ₽/мес</span>
+          </div>
+        </div>
+
+        <!-- Сводка остатков на сегодня: плотная информативность -->
+        <div class="bg-white p-3 rounded-xl border border-sand-border grid grid-cols-4 gap-2 text-center text-xs font-mono">
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/60">
+            <span class="font-bold text-metal-900 block text-sm">18</span>
+            <span class="text-[10px] text-metal-muted">Эндуро</span>
+          </div>
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/60">
+            <span class="font-bold text-metal-900 block text-sm">14</span>
+            <span class="text-[10px] text-metal-muted">Питбайки</span>
+          </div>
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/60">
+            <span class="font-bold text-metal-900 block text-sm">6</span>
+            <span class="text-[10px] text-metal-muted">Квадро</span>
+          </div>
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/60">
+            <span class="font-bold text-rally-orange block text-sm">10</span>
+            <span class="text-[10px] text-metal-muted">С ПТС</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- КАТАЛОГ С ЦЕНАМИ "ОТ": ВЫСОКАЯ ПЛОТНОСТЬ И БЫСТРЫЙ ЗАКАЗ -->
+  <section id="catalog" class="py-4 sm:py-6 max-w-6xl mx-auto px-3 sm:px-4 w-full">
+    
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-3.5 pb-2.5 border-b border-sand-border">
+      <div>
+        <h2 class="font-display text-xl sm:text-2xl font-extrabold text-metal-900 uppercase tracking-tight">
+          Цены и техника в наличии
+        </h2>
+        <span class="text-[11px] font-mono text-metal-muted">Цены фиксированы и включают сборку ТО-0</span>
+      </div>
+
+      <!-- Компактные переключатели -->
+      <div class="flex flex-wrap items-center gap-1.5 text-xs font-mono">
+        <button onclick="filterCatalog('all')" id="btn-all" class="cat-btn px-3 py-1 rounded-lg bg-metal-900 text-white font-bold transition">Все (42)</button>
+        <button onclick="filterCatalog('enduro')" id="btn-enduro" class="cat-btn px-3 py-1 rounded-lg bg-white border border-sand-border text-metal-muted hover:text-metal-900 transition">Эндуро 250-300сс</button>
+        <button onclick="filterCatalog('pitbike')" id="btn-pitbike" class="cat-btn px-3 py-1 rounded-lg bg-white border border-sand-border text-metal-muted hover:text-metal-900 transition">Питбайки 125-140сс</button>
+        <button onclick="filterCatalog('atv')" id="btn-atv" class="cat-btn px-3 py-1 rounded-lg bg-white border border-sand-border text-metal-muted hover:text-metal-900 transition">Квадроциклы</button>
+        <button onclick="filterCatalog('road')" id="btn-road" class="cat-btn px-3 py-1 rounded-lg bg-white border border-sand-border text-metal-muted hover:text-metal-900 transition">С ПТС</button>
+      </div>
+    </div>
+
+    <!-- 4 плотные карточки каталога без лишнего воздуха -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+      
+      <!-- Модель 1: Regulmoto -->
+      <div class="bike-card card-dense p-3 flex flex-col justify-between" data-category="enduro road">
+        <div>
+          <div class="relative aspect-[16/10] rounded-xl overflow-hidden bg-sand-100 mb-2.5">
+            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=500&q=80" 
+                 alt="Regulmoto SPORT 300" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-metal-900 text-white text-[9px] font-mono font-bold uppercase px-1.5 py-0.5 rounded">С ПТС</span>
+            <span class="absolute bottom-2 right-2 bg-white/95 text-metal-900 text-[10px] font-mono px-1.5 py-0.5 rounded font-bold">2 шт. в зале</span>
+          </div>
+
+          <div class="space-y-1 mb-2">
+            <div class="text-[10px] font-mono text-metal-muted">АРТИКУЛ: RM-SPORT-300</div>
+            <h3 class="font-display text-sm font-bold text-metal-900 uppercase leading-snug">Regulmoto SPORT 300 NB</h3>
+          </div>
+
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/80 text-[11px] font-mono space-y-1 text-metal-700 mb-2">
+            <div class="flex justify-between"><span>Мотор:</span><strong class="text-metal-900">NB300 (25 л.с.)</strong></div>
+            <div class="flex justify-between"><span>Охлаждение:</span><strong class="text-metal-900">Жидкостное</strong></div>
+            <div class="flex justify-between"><span>Колеса:</span><strong class="text-metal-900">21/18 алюм. 7075</strong></div>
+          </div>
+        </div>
+
+        <div class="pt-2 border-t border-sand-border/70 flex items-center justify-between">
+          <div>
+            <span class="text-[10px] text-metal-muted font-mono block">Цена с ТО-0:</span>
+            <span class="font-mono font-bold text-base text-metal-900">249 900 ₽</span>
+          </div>
+          <a href="https://wa.me/79022041190?text=Бронирую%20Regulmoto%20SPORT%20300" target="_blank" class="px-3 py-1.5 rounded-lg bg-metal-900 hover:bg-black text-white text-xs font-mono font-bold transition flex items-center gap-1">
+            <span>Бронь</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Модель 2: Kayo Питбайк -->
+      <div class="bike-card card-dense p-3 flex flex-col justify-between" data-category="pitbike">
+        <div>
+          <div class="relative aspect-[16/10] rounded-xl overflow-hidden bg-sand-100 mb-2.5">
+            <img src="https://images.unsplash.com/photo-1547549082-6bc09f2049ae?auto=format&fit=crop&w=500&q=80" 
+                 alt="Kayo Basic TT125" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-rally-orange text-white text-[9px] font-mono font-bold uppercase px-1.5 py-0.5 rounded">Без прав</span>
+            <span class="absolute bottom-2 right-2 bg-white/95 text-metal-900 text-[10px] font-mono px-1.5 py-0.5 rounded font-bold">3 шт. в зале</span>
+          </div>
+
+          <div class="space-y-1 mb-2">
+            <div class="text-[10px] font-mono text-metal-muted">АРТИКУЛ: KY-TT-125</div>
+            <h3 class="font-display text-sm font-bold text-metal-900 uppercase leading-snug">Kayo Basic TT125 17/14</h3>
+          </div>
+
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/80 text-[11px] font-mono space-y-1 text-metal-700 mb-2">
+            <div class="flex justify-between"><span>Мотор:</span><strong class="text-metal-900">YX125 (9 л.с.)</strong></div>
+            <div class="flex justify-between"><span>Запуск:</span><strong class="text-metal-900">Электро + кик</strong></div>
+            <div class="flex justify-between"><span>Карбюратор:</span><strong class="text-metal-900">Nibbi PE19</strong></div>
+          </div>
+        </div>
+
+        <div class="pt-2 border-t border-sand-border/70 flex items-center justify-between">
+          <div>
+            <span class="text-[10px] text-metal-muted font-mono block">Цена с ТО-0:</span>
+            <span class="font-mono font-bold text-base text-metal-900">99 990 ₽</span>
+          </div>
+          <a href="https://wa.me/79022041190?text=Бронирую%20Kayo%20TT125" target="_blank" class="px-3 py-1.5 rounded-lg bg-metal-900 hover:bg-black text-white text-xs font-mono font-bold transition flex items-center gap-1">
+            <span>Бронь</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Модель 3: BSE Z5 -->
+      <div class="bike-card card-dense p-3 flex flex-col justify-between" data-category="enduro">
+        <div>
+          <div class="relative aspect-[16/10] rounded-xl overflow-hidden bg-sand-100 mb-2.5">
+            <img src="https://images.unsplash.com/photo-1558980394-4c7c9299fe96?auto=format&fit=crop&w=500&q=80" 
+                 alt="BSE Z5 250e" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-metal-800 text-white text-[9px] font-mono font-bold uppercase px-1.5 py-0.5 rounded">172FMM</span>
+            <span class="absolute bottom-2 right-2 bg-white/95 text-metal-900 text-[10px] font-mono px-1.5 py-0.5 rounded font-bold">1 шт. в зале</span>
+          </div>
+
+          <div class="space-y-1 mb-2">
+            <div class="text-[10px] font-mono text-metal-muted">АРТИКУЛ: BSE-Z5-250</div>
+            <h3 class="font-display text-sm font-bold text-metal-900 uppercase leading-snug">BSE Z5 250e 21/18</h3>
+          </div>
+
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/80 text-[11px] font-mono space-y-1 text-metal-700 mb-2">
+            <div class="flex justify-between"><span>Мотор:</span><strong class="text-metal-900">ZS172FMM (21 л.с.)</strong></div>
+            <div class="flex justify-between"><span>Тормоза:</span><strong class="text-metal-900">HSK Racing гидравл.</strong></div>
+            <div class="flex justify-between"><span>Бак:</span><strong class="text-metal-900">6.5 л, прозрачный</strong></div>
+          </div>
+        </div>
+
+        <div class="pt-2 border-t border-sand-border/70 flex items-center justify-between">
+          <div>
+            <span class="text-[10px] text-metal-muted font-mono block">Цена с ТО-0:</span>
+            <span class="font-mono font-bold text-base text-metal-900">189 000 ₽</span>
+          </div>
+          <a href="https://wa.me/79022041190?text=Бронирую%20BSE%20Z5" target="_blank" class="px-3 py-1.5 rounded-lg bg-metal-900 hover:bg-black text-white text-xs font-mono font-bold transition flex items-center gap-1">
+            <span>Бронь</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Модель 4: Квадроцикл -->
+      <div class="bike-card card-dense p-3 flex flex-col justify-between" data-category="atv road">
+        <div>
+          <div class="relative aspect-[16/10] rounded-xl overflow-hidden bg-sand-100 mb-2.5">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=500&q=80" 
+                 alt="Квадроцикл Linhai" class="w-full h-full object-cover">
+            <span class="absolute top-2 left-2 bg-rally-emerald text-white text-[9px] font-mono font-bold uppercase px-1.5 py-0.5 rounded">С ПСМ</span>
+            <span class="absolute bottom-2 right-2 bg-white/95 text-metal-900 text-[10px] font-mono px-1.5 py-0.5 rounded font-bold">В наличии</span>
+          </div>
+
+          <div class="space-y-1 mb-2">
+            <div class="text-[10px] font-mono text-metal-muted">АРТИКУЛ: LH-M200-ATV</div>
+            <h3 class="font-display text-sm font-bold text-metal-900 uppercase leading-snug">Linhai-Yamaha M200</h3>
+          </div>
+
+          <div class="bg-sand-50 p-2 rounded-lg border border-sand-border/80 text-[11px] font-mono space-y-1 text-metal-700 mb-2">
+            <div class="flex justify-between"><span>Мотор:</span><strong class="text-metal-900">180 см³ + реверс</strong></div>
+            <div class="flex justify-between"><span>Оснащение:</span><strong class="text-metal-900">Лебедка + фаркоп</strong></div>
+            <div class="flex justify-between"><span>Охлаждение:</span><strong class="text-metal-900">Масляный радиатор</strong></div>
+          </div>
+        </div>
+
+        <div class="pt-2 border-t border-sand-border/70 flex items-center justify-between">
+          <div>
+            <span class="text-[10px] text-metal-muted font-mono block">Цена:</span>
+            <span class="font-mono font-bold text-base text-metal-900">285 000 ₽</span>
+          </div>
+          <a href="https://wa.me/79022041190?text=Бронирую%20квадроцикл%20Linhai" target="_blank" class="px-3 py-1.5 rounded-lg bg-metal-900 hover:bg-black text-white text-xs font-mono font-bold transition flex items-center gap-1">
+            <span>Бронь</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- БЛОК СПЕЦКОМПЛЕКТА И TRADE-IN (ПЛОТНЫЙ 2-КОЛОНОЧНЫЙ БЕЗ ПУСТОГО МЕСТА) -->
+  <section class="py-4 sm:py-6 max-w-6xl mx-auto px-3 sm:px-4 w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-3.5">
+      
+      <!-- Комплект сезона: Выгода 25 100 ₽ -->
+      <div class="lg:col-span-6 card-dense p-4 flex flex-col justify-between">
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <div>
+            <span class="pill-data text-rally-orange bg-orange-50 border border-orange-200 font-bold">
+              ВЫГОДА 25 100 ₽
+            </span>
+            <h3 class="font-display text-lg font-extrabold text-metal-900 uppercase mt-1">
+              Комплект «Готов к сезону 2026»
+            </h3>
+            <p class="text-xs text-metal-muted mt-0.5">Regulmoto 300cc + кроссовый шлем + очки + перчатки + сборка ТО-0</p>
+          </div>
+        </div>
+
+        <div class="bg-sand-50 p-2.5 rounded-xl border border-sand-border space-y-1.5 text-xs font-mono my-2">
+          <div class="flex items-center gap-2 text-metal-700">
+            <i data-lucide="check" class="w-3.5 h-3.5 text-rally-emerald"></i>
+            <span>Мотоцикл проверен на стенде и заправлен маслом Motul</span>
+          </div>
+          <div class="flex items-center gap-2 text-metal-700">
+            <i data-lucide="check" class="w-3.5 h-3.5 text-rally-emerald"></i>
+            <span>Подбор экипировки по размеру с примеркой в зале</span>
+          </div>
+          <div class="flex items-center gap-2 text-metal-700">
+            <i data-lucide="check" class="w-3.5 h-3.5 text-rally-emerald"></i>
+            <span>Бесплатная доставка в прицепе по Пермьу и НСО</span>
+          </div>
+        </div>
+
+        <div class="pt-2 border-t border-sand-border/70 flex items-center justify-between">
+          <div>
+            <span class="text-xl font-mono font-bold text-metal-900">249 900 ₽</span>
+            <span class="text-xs font-mono text-metal-muted line-through ml-2">275 000 ₽</span>
+          </div>
+          <a href="https://wa.me/79022041190?text=Хочу%20забронировать%20комплект%20Байк+Шлем" target="_blank" class="px-4 py-2 rounded-lg bg-metal-900 hover:bg-black text-white text-xs font-mono font-bold transition">
+            Забрать комплект →
+          </a>
+        </div>
+      </div>
+
+      <!-- Trade-In и Рассрочка 0%: Зачет старого за 30 минут -->
+      <div class="lg:col-span-6 card-dense p-4 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-1">
+            <span class="pill-data text-metal-900 font-bold bg-sand-150">
+              TRADE-IN & РАССРОЧКА
+            </span>
+            <span class="text-xs font-mono text-rally-emerald font-bold">Одобрение 15 мин</span>
+          </div>
+          <h3 class="font-display text-lg font-extrabold text-metal-900 uppercase">
+            Обмен вашего старого байка на новый
+          </h3>
+          <p class="text-xs text-metal-muted mt-0.5">Оцениваем питбайки и эндуро по рыночной вилке Авито без занижения.</p>
+        </div>
+
+        <!-- Экспресс-расчет платежа -->
+        <div class="bg-sand-50 p-2.5 rounded-xl border border-sand-border my-2 space-y-2">
+          <div class="flex justify-between items-center text-xs font-mono">
+            <span class="text-metal-muted">Стоимость байка:</span>
+            <strong class="text-metal-900">249 900 ₽</strong>
+          </div>
+          <div class="flex justify-between items-center text-xs font-mono">
+            <span class="text-metal-muted">Зачет старого мотоцикла:</span>
+            <strong class="text-rally-orange">- 70 000 ₽</strong>
+          </div>
+          <div class="pt-1.5 border-t border-sand-border flex justify-between items-center font-mono">
+            <span class="text-xs text-metal-muted">Платеж в рассрочку:</span>
+            <span class="text-base font-bold text-metal-900">от 7 490 ₽/мес</span>
+          </div>
+        </div>
+
+        <div class="pt-2 border-t border-sand-border/70 flex items-center justify-between">
+          <span class="text-[11px] font-mono text-metal-muted">Без обязательного страхования</span>
+          <a href="https://wa.me/79022041190?text=Хочу%20оценить%20свой%20байк%20по%20Trade-in" target="_blank" class="px-4 py-2 rounded-lg bg-rally-orange hover:bg-rally-orangeDark text-white text-xs font-mono font-bold transition">
+            Оценить байк по фото в WhatsApp →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- РЕГЛАМЕНТ СБОРКИ ТО-0: 6 ШАГОВ (ЗАПОЛНЯЕТ ПУСТОТУ ТЕХНИЧЕСКОЙ СУТЬЮ) -->
+  <section class="py-4 sm:py-6 max-w-6xl mx-auto px-3 sm:px-4 w-full">
+    <div class="card-dense p-4 sm:p-5">
+      
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3 pb-2 border-b border-sand-border">
+        <div>
+          <span class="pill-data text-metal-900 font-bold bg-sand-150">ИНЖЕНЕРНЫЙ СТАНДАРТ</span>
+          <h2 class="font-display text-lg sm:text-xl font-extrabold text-metal-900 uppercase mt-0.5">
+            Чеклист предпродажной подготовки ТО-0 перед выдачей
+          </h2>
+        </div>
+        <span class="text-xs font-mono text-metal-muted">Включено в стоимость каждого мотоцикла (0 ₽ вместо 7 500 ₽)</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs font-mono">
+        
+        <div class="bg-sand-50 p-2.5 rounded-lg border border-sand-border">
+          <div class="font-bold text-metal-900 mb-0.5 flex items-center gap-1.5">
+            <span class="w-4 h-4 rounded bg-metal-900 text-white flex items-center justify-center text-[10px]">1</span>
+            Слив транспортировочного масла
+          </div>
+          <p class="text-[11px] text-metal-muted font-sans">Заливаем рабочее 10W-40 Motul/Eni, меняем масляный фильтр.</p>
+        </div>
+
+        <div class="bg-sand-50 p-2.5 rounded-lg border border-sand-border">
+          <div class="font-bold text-metal-900 mb-0.5 flex items-center gap-1.5">
+            <span class="w-4 h-4 rounded bg-metal-900 text-white flex items-center justify-center text-[10px]">2</span>
+            Смазка подшипников прогрессии
+          </div>
+          <p class="text-[11px] text-metal-muted font-sans">Разбираем сухие с завода линки маятника, набиваем синюю влагостойкую смазку.</p>
+        </div>
+
+        <div class="bg-sand-50 p-2.5 rounded-lg border border-sand-border">
+          <div class="font-bold text-metal-900 mb-0.5 flex items-center gap-1.5">
+            <span class="w-4 h-4 rounded bg-metal-900 text-white flex items-center justify-center text-[10px]">3</span>
+            Смазка рулевой колонки
+          </div>
+          <p class="text-[11px] text-metal-muted font-sans">Смазываем конические подшипники руля, выставляем правильный преднатяг.</p>
+        </div>
+
+        <div class="bg-sand-50 p-2.5 rounded-lg border border-sand-border">
+          <div class="font-bold text-metal-900 mb-0.5 flex items-center gap-1.5">
+            <span class="w-4 h-4 rounded bg-metal-900 text-white flex items-center justify-center text-[10px]">4</span>
+            Протяжка динамометром + Loctite
+          </div>
+          <p class="text-[11px] text-metal-muted font-sans">Крепления мотора, звезды, суппортов протягиваем по моментам на фиксатор.</p>
+        </div>
+
+        <div class="bg-sand-50 p-2.5 rounded-lg border border-sand-border">
+          <div class="font-bold text-metal-900 mb-0.5 flex items-center gap-1.5">
+            <span class="w-4 h-4 rounded bg-metal-900 text-white flex items-center justify-center text-[10px]">5</span>
+            Протяжка спиц обоих колес
+          </div>
+          <p class="text-[11px] text-metal-muted font-sans">Устраняем биение обода на балансировочном станке, натягиваем спицы.</p>
+        </div>
+
+        <div class="bg-sand-50 p-2.5 rounded-lg border border-sand-border">
+          <div class="font-bold text-metal-900 mb-0.5 flex items-center gap-1.5">
+            <span class="w-4 h-4 rounded bg-metal-900 text-white flex items-center justify-center text-[10px]">6</span>
+            Настройка зазоров клапанов
+          </div>
+          <p class="text-[11px] text-metal-muted font-sans">Проверяем щупом 0.05 / 0.07 мм, настраиваем смесь карбюратора под Сибирь.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- КОНТАКТЫ, КАРТА И ЗАПИСЬ НА ТЕСТ-ДРАЙВ (КОМПАКТНЫЙ БЛОК) -->
+  <section id="contacts" class="py-4 sm:py-6 max-w-6xl mx-auto px-3 sm:px-4 w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-3.5">
+      
+      <!-- Контакты и форма -->
+      <div id="testdrive" class="lg:col-span-5 card-dense p-4 flex flex-col justify-between space-y-3">
+        <div>
+          <span class="pill-data text-metal-900 font-bold bg-sand-150">ШОУРУМ И ТРАССА</span>
+          <h3 class="font-display text-lg font-extrabold text-metal-900 uppercase mt-1">
+            Запись на тест-драйв в Пермь
+          </h3>
+          <p class="text-xs text-metal-muted mt-0.5">Выкатим байк на закрытую трассу 800м при салоне. Выдадим шлем и экипировку.</p>
+        </div>
+
+        <div class="space-y-2 text-xs font-mono text-metal-700 bg-sand-50 p-3 rounded-xl border border-sand-border">
+          <div>Адрес: <strong class="text-metal-900">Пермь, ул. Б. Хмельницкого, 104</strong></div>
+          <div>График: <strong class="text-metal-900">Пн-Вс: 10:00 - 20:00 (без выходных)</strong></div>
+          <div>Телефон: <a href="tel:+73832991488" class="text-metal-900 font-bold hover:text-rally-orange">+7 (342) 204-11-90</a></div>
+        </div>
+
+        <form onsubmit="alert('Заявка принята! Менеджер свяжется с вами в течение 5 минут.'); return false;" class="space-y-2">
+          <input type="text" required placeholder="Ваше имя" class="w-full px-3 py-2 rounded-lg bg-sand-50 border border-sand-border text-xs text-metal-900 focus:outline-none focus:border-metal-900">
+          <input type="tel" required placeholder="+7 (___) ___-__-__" class="w-full px-3 py-2 rounded-lg bg-sand-50 border border-sand-border text-xs text-metal-900 focus:outline-none focus:border-metal-900">
+          <button type="submit" class="w-full py-2.5 rounded-lg bg-metal-900 hover:bg-black text-white text-xs font-mono font-bold uppercase tracking-wider transition">
+            Забронировать заезд →
+          </button>
+        </form>
+      </div>
+
+      <!-- Карта и навигация -->
+      <div class="lg:col-span-7 card-dense p-3 flex flex-col justify-between">
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <span class="text-metal-muted font-bold">ОРИЕНТИР: Заезд напротив автокомплекса</span>
+          <a href="https://2gis.ru/novosibirsk" target="_blank" class="text-rally-orange font-bold hover:underline">
+            Открыть в 2ГИС →
+          </a>
+        </div>
+
+        <div class="aspect-[16/9] rounded-xl bg-sand-150 relative overflow-hidden border border-sand-border flex items-center justify-center text-center p-4">
+          <div class="relative z-10 bg-white/95 p-4 rounded-xl border border-sand-border shadow-sm max-w-sm">
+            <i data-lucide="navigation" class="w-6 h-6 text-rally-orange mx-auto mb-1.5"></i>
+            <h4 class="font-display font-bold text-sm text-metal-900 uppercase">Пермь, ул. Героев Хасана, 105</h4>
+            <p class="text-[11px] text-metal-muted mt-0.5">Бесплатная парковка для легковых авто и прицепов</p>
+            <a href="https://yandex.ru/maps" target="_blank" class="mt-2.5 inline-block px-3 py-1 rounded bg-metal-900 text-white font-mono text-xs font-bold hover:bg-black transition">
+              Построить маршрут
+            </a>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-2 mt-2 text-[11px] font-mono text-metal-muted">
+          <span>Оплата: Наличные, Безнал (с НДС/без), Рассрочка, QR</span>
+          <span class="text-rally-emerald font-bold">● Шоурум открыт</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ФУТЕР -->
+  <footer class="border-t border-sand-border py-4 bg-sand-100 text-xs text-metal-muted font-mono mt-auto">
+    <div class="max-w-6xl mx-auto px-3 sm:px-4 flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div>
+        <span class="font-display font-bold text-metal-900">Парма Мото</span>
+        <span class="ml-2 text-metal-muted">Мотосалон и склад новой мототехники в Пермь</span>
+      </div>
+      <div>
+        © 2026 Парма Мото. Не является публичной офертой.
+      </div>
+    </div>
+  </footer>
+
+  <!-- МОБИЛЬНАЯ ПАНЕЛЬ СВЯЗИ (ВНИЗУ ЭКРАНА) -->
+  <div class="fixed bottom-0 left-0 right-0 z-50 p-2 bg-white/95 border-t border-sand-border backdrop-blur-md flex gap-2 md:hidden shadow-lg">
+    <a href="tel:+73832991488" class="flex-1 py-2.5 bg-sand-100 rounded-lg text-center text-metal-900 text-xs font-mono font-bold flex items-center justify-center gap-1.5 active:bg-sand-200">
+      <i data-lucide="phone" class="w-3.5 h-3.5 text-rally-orange"></i>
+      Позвонить
+    </a>
+    <a href="https://2gis.ru/novosibirsk" target="_blank" class="flex-1 py-2.5 bg-sand-100 rounded-lg text-center text-metal-900 text-xs font-mono font-bold flex items-center justify-center gap-1.5 active:bg-sand-200">
+      <i data-lucide="navigation" class="w-3.5 h-3.5 text-rally-orange"></i>
+      Маршрут
+    </a>
+    <a href="https://wa.me/79022041190" class="flex-1 py-2.5 bg-metal-900 rounded-lg text-center text-white text-xs font-mono font-bold flex items-center justify-center gap-1.5 active:bg-black shadow-sm">
+      <i data-lucide="message-circle" class="w-3.5 h-3.5 text-rally-emerald"></i>
+      WhatsApp
+    </a>
+  </div>
+
+  <script>
+    // Инициализация иконок Lucide
+    lucide.createIcons();
+
+    // Быстрый фильтр каталога
+    function filterCatalog(category) {
+      const cards = document.querySelectorAll('.bike-card');
+      const buttons = document.querySelectorAll('.cat-btn');
+
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-metal-900', 'text-white');
+        btn.classList.add('bg-white', 'text-metal-muted');
+      });
+
+      const activeBtn = document.getElementById('btn-' + category);
+      if (activeBtn) {
+        activeBtn.classList.add('bg-metal-900', 'text-white');
+        activeBtn.classList.remove('bg-white', 'text-metal-muted');
+      }
+
+      cards.forEach(card => {
+        const catList = card.getAttribute('data-category');
+        if (category === 'all' || catList.includes(category)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+
+  <!-- ПЛАВАЮЩИЙ УМНЫЙ ДЕМО-ТУЛБАР ДЛЯ СОБСТВЕННИКА -->
+  <div id="owner-demo-bar" class="fixed top-0 left-0 right-0 z-50 bg-stone-900/95 text-stone-200 border-b border-orange-500/40 px-3 py-2 text-xs font-mono shadow-2xl backdrop-blur-md flex flex-wrap items-center justify-between gap-2">
+    <div class="flex items-center gap-2">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span class="text-stone-300">Демо-концепт для: <strong class="text-white">Парма Мото</strong> (Пермь)</span>
+      <span class="hidden lg:inline text-stone-500">|</span>
+      <span class="hidden lg:inline text-stone-400">Рейтинг: <span class="text-amber-400 font-bold">★ 4.8</span> (124 отзывов на картах)</span>
+    </div>
+
+    <div class="flex items-center gap-2 ml-auto">
+      <button onclick="toggleQR()" class="px-2.5 py-1 rounded bg-stone-800 hover:bg-stone-700 text-stone-300 border border-stone-700 text-[11px] flex items-center gap-1 transition">
+        <span>📱 Открыть на телефоне (QR)</span>
+      </button>
+      <a href="https://wa.me/79990000000?text=Здравствуйте!%20Посмотрел%20демо-сайт%20для%20%D0%9F%D0%B0%D1%80%D0%BC%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%2C%20хочу%20обсудить%20условия" target="_blank" class="px-3 py-1 rounded bg-orange-600 hover:bg-orange-500 text-white font-bold text-[11px] uppercase tracking-wider flex items-center gap-1 shadow-sm transition">
+        <span>Забрать этот сайт себе →</span>
+      </a>
+      <button onclick="document.getElementById('owner-demo-bar').style.display='none'" class="text-stone-500 hover:text-white px-1 text-sm font-bold">✕</button>
+    </div>
+  </div>
+
+  <!-- МОДАЛЬНОЕ ОКНО С QR-КОДОМ ДЛЯ БЫСТРОГО ТЕСТА С ТЕЛЕФОНА -->
+  <div id="qr-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-stone-900 border border-stone-800 p-6 rounded-2xl max-w-sm w-full text-center relative shadow-2xl">
+      <button onclick="toggleQR()" class="absolute top-3 right-3 text-stone-400 hover:text-white text-lg">✕</button>
+      <h3 class="font-bold text-white text-base mb-1">Отсканируйте камерой телефона</h3>
+      <p class="text-stone-400 text-xs mb-4">Сайт сразу откроется на вашем смартфоне в мобильной адаптации</p>
+      
+      <div class="bg-white p-3 rounded-xl inline-block mx-auto mb-3">
+        <img id="qr-img" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=" alt="QR Code" class="w-44 h-44">
+      </div>
+      
+      <span class="text-[11px] font-mono text-stone-500 block">Демо разработано специально для Парма Мото</span>
+    </div>
+  </div>
+
+  <script>
+    function toggleQR() {
+      const modal = document.getElementById('qr-modal');
+      const img = document.getElementById('qr-img');
+      img.src = "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=" + encodeURIComponent(window.location.href);
+      if (modal.classList.contains('hidden')) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      } else {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+  </script>
+  
+</body>
+</html>
