@@ -1,0 +1,64 @@
+{
+  "slug": "motodepo-vladivostok",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/vladivostok/firm/3518929657475306",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Мото Депо, Владивосток, Русская ул., 92. Рейтинг 4.9 ★. Продажа эндуро, питбайков, квадроциклов и экипировки."
+    }
+  ],
+  "facts": {
+    "name": "Мото Депо",
+    "brand_display": "Мото <span>Депо</span>",
+    "city": "Владивосток",
+    "district": "Советский р-н",
+    "address": "Русская ул., 92",
+    "phone": "+7 (423) 260-88-88",
+    "phone_raw": "+74232608888",
+    "whatsapp": "79025244711",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-17:00",
+    "rating": 4.9,
+    "brands": "Kayo, Regulmoto, Motoland, BSE",
+    "focus": "Эндуро, питбайки, квадроциклы, сервис",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 152 000 ₽, Квадро от 239 000 ₽",
+    "verified_source": "2GIS Владивосток",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, питбайки и квадроциклы<br> во Владивостоке"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., 5 передач, электростартер",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, колеса 17/14, 4-тактный, для дачи и трасс",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляное охлаждение, лебедка",
+      "price": "от 239 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

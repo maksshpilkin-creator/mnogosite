@@ -1,0 +1,64 @@
+{
+  "slug": "megabike-mgn",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/magnitogorsk/firm/70000001037592812",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "МегаБайк, Магнитогорск, Западное шоссе, 362/4. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "МегаБайк",
+    "brand_display": "Мега<span>Байк</span>",
+    "city": "Магнитогорск",
+    "district": "Правобережный р-н",
+    "address": "Западное шоссе, 362/4",
+    "phone": "+7 (982) 333-99-99",
+    "phone_raw": "+79823339999",
+    "whatsapp": "79823339999",
+    "hours": "Пн-Вс 10:00-19:00",
+    "rating": 4.9,
+    "brands": "Motoland, Kayo, BSE, Progasi",
+    "focus": "Эндуро, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 85 000 ₽, Эндуро от 149 000 ₽, Квадро от 225 000 ₽",
+    "verified_source": "2GIS Магнитогорск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотоцентр и сервис техники<br> в Магнитогорске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Progasi Super Max 250",
+      "spec": "250 см³, сиденье с нескользящим покрытием, LED оптика",
+      "price": "от 149 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland TCX125",
+      "spec": "125 см³, спортивный глушитель, прочная стальная рама",
+      "price": "от 85 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland 200 Allroad",
+      "spec": "200 см³, расширители арок, защита рук, фаркоп",
+      "price": "от 225 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

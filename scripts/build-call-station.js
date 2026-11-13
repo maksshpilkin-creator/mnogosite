@@ -11,6 +11,7 @@ const leads = factFiles.map(f => JSON.parse(fs.readFileSync(path.join(factsDir, 
 
 // Timezone offset relative to MSK (UTC+3)
 const cityOffsets = {
+  // MSK (UTC+3)
   'Москва': 0,
   'Мытищи': 0,
   'Санкт-Петербург': 0,
@@ -28,30 +29,60 @@ const cityOffsets = {
   'Пенза': 0,
   'Ставрополь': 0,
   'Сочи': 0,
+  'Липецк': 0,
+  'Белгород': 0,
+  'Курск': 0,
+  'Набережные Челны': 0,
+  'Чебоксары': 0,
+  'Вологда': 0,
+  'Иваново': 0,
+  'Калуга': 0,
+  'Брянск': 0,
+  'Смоленск': 0,
+  'Владимир': 0,
+  'Кострома': 0,
+  'Новороссийск': 0,
+  'Пятигорск': 0,
+  // MSK-1 (UTC+2)
+  'Калининград': -1,
+  // MSK+1 (UTC+4)
   'Самара': 1,
   'Тольятти': 1,
   'Саратов': 1,
   'Ульяновск': 1,
+  'Астрахань': 1,
+  // MSK+2 (UTC+5)
   'Екатеринбург': 2,
   'Челябинск': 2,
   'Уфа': 2,
   'Пермь': 2,
   'Тюмень': 2,
   'Оренбург': 2,
+  'Магнитогорск': 2,
+  // MSK+3 (UTC+6)
   'Омск': 3,
+  // MSK+4 (UTC+7)
   'Новосибирск': 4,
   'Красноярск': 4,
   'Барнаул': 4,
   'Кемерово': 4,
   'Новокузнецк': 4,
+  'Томск': 4,
+  // MSK+5 (UTC+8)
   'Иркутск': 5,
-  'Хабаровск': 7
+  'Улан-Удэ': 5,
+  // MSK+7 (UTC+10)
+  'Хабаровск': 7,
+  'Владивосток': 7
 };
 
-// Sort leads: who is closer to MSK (UTC+3) is higher up (0 first, then +1, +2, +3, +4, +5, +7)
+// Sort leads: who is closer to MSK (UTC+3) is higher up (0 first, then +1/-1, +2, +3, +4, +5, +7)
 leads.sort((a, b) => {
-  const offA = cityOffsets[a.facts.city] || 0;
-  const offB = cityOffsets[b.facts.city] || 0;
+  const offA = cityOffsets[a.facts.city] ?? 0;
+  const offB = cityOffsets[b.facts.city] ?? 0;
+  const distA = Math.abs(offA);
+  const distB = Math.abs(offB);
+  if (distA !== distB) return distA - distB;
   if (offA !== offB) return offA - offB;
   return a.facts.city.localeCompare(b.facts.city, 'ru');
 });
@@ -64,10 +95,11 @@ const cardsHtml = leads.map((lead, idx) => {
   const f = lead.facts;
   const offset = cityOffsets[f.city] ?? 0;
   const offsetLabel = offset === 0 ? 'МСК' : (offset > 0 ? `+${offset} от МСК` : `${offset} от МСК`);
-  const offsetColor = offset >= 4 ? 'bg-purple-500/20 text-purple-300 border-purple-500/30' :
-                      offset >= 2 ? 'bg-orange-500/20 text-orange-300 border-orange-500/30' :
-                      offset >= 1 ? 'bg-yellow-500/20 text-yellow-300 border-yellow-500/30' :
-                                    'bg-sky-500/20 text-sky-300 border-sky-500/30';
+  const absOffset = Math.abs(offset);
+  const offsetColor = absOffset >= 5 ? 'bg-purple-500/20 text-purple-300 border-purple-500/30' :
+                      absOffset >= 3 ? 'bg-orange-500/20 text-orange-300 border-orange-500/30' :
+                      absOffset >= 1 ? 'bg-yellow-500/20 text-yellow-300 border-yellow-500/30' :
+                                       'bg-sky-500/20 text-sky-300 border-sky-500/30';
 
   const modelsSample = lead.catalog.map(c => c.name).slice(0, 2).join(', ');
   const demoUrl = `https://makssaas.gitverse.site/motosalons/${lead.slug}/`;

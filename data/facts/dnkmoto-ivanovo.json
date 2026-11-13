@@ -1,0 +1,64 @@
+{
+  "slug": "dnkmoto-ivanovo",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/ivanovo/firm/70000001034298154",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "DnkMoto, Иваново, ул. Куконковых, 96. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "DnkMoto",
+    "brand_display": "Dnk<span>Moto</span>",
+    "city": "Иваново",
+    "district": "Ленинский р-н",
+    "address": "ул. Куконковых, 96",
+    "phone": "+7 (4932) 92-94-96",
+    "phone_raw": "+74932929496",
+    "whatsapp": "79631529496",
+    "hours": "Пн-Пт 10:00-19:00, Сб 10:00-17:00, Вс 10:00-15:00",
+    "rating": 4.8,
+    "brands": "Kayo, BSE, Regulmoto, Progasi",
+    "focus": "Эндуро, питбайки, тюнинг, сервис",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 147 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Иваново",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и центр запчастей<br> в Иваново"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро BSE Z3 250",
+      "spec": "250 см³, мощная хром-молибденовая рама, регулировки подвески",
+      "price": "от 147 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Progasi Smart 125",
+      "spec": "125 см³, стильный итальянский дизайн, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 150",
+      "spec": "150 см³, вариатор, гидравлические тормоза",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

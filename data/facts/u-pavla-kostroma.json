@@ -1,0 +1,64 @@
+{
+  "slug": "u-pavla-kostroma",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/kostroma/firm/70000001021948215",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Мотосалон У Павла, Кострома, ул. Костромская, 78. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотосалон У Павла",
+    "brand_display": "Салон <span>У Павла</span>",
+    "city": "Кострома",
+    "district": "Фабричный р-н",
+    "address": "ул. Костромская, 78",
+    "phone": "+7 (4942) 49-22-32",
+    "phone_raw": "+74942492232",
+    "whatsapp": "74942492232",
+    "hours": "Пн-Пт 09:00-18:00, Сб 09:00-15:00",
+    "rating": 4.8,
+    "brands": "Kayo, GR, Ataki, Regulmoto",
+    "focus": "Эндуро, квадроциклы, экипировка Rolling Moto",
+    "price_range_note": "Питбайки от 87 000 ₽, Эндуро от 152 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Кострома",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон, сервис и экипировка<br> в Костроме"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро GR1 F250A Enduro OPTIMUM",
+      "spec": "250 см³, двигатель Zongshen CB250, колеса 21/18",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, проверенный 4Т мотор, колеса 17/14",
+      "price": "от 87 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 200",
+      "spec": "200 см³, надежный утилитарник с фаркопом",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

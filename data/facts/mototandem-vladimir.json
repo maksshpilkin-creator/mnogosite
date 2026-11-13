@@ -1,0 +1,64 @@
+{
+  "slug": "mototandem-vladimir",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/vladimir/firm/70000001018942182",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Мототандем, Владимир, ул. Куйбышева, 28Е. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мототандем",
+    "brand_display": "Мото<span>тандем</span>",
+    "city": "Владимир",
+    "district": "Фрунзенский р-н",
+    "address": "ул. Куйбышева, 28Е",
+    "phone": "+7 (920) 933-32-32",
+    "phone_raw": "+79209333232",
+    "whatsapp": "79209333232",
+    "hours": "Пн-Сб 09:00-19:00, Вс 09:00-17:00",
+    "rating": 4.8,
+    "brands": "Motoland, Regulmoto, Kayo, Racer",
+    "focus": "Питбайки, эндуро, квадроциклы, сервис",
+    "price_range_note": "Питбайки от 84 000 ₽, Эндуро от 145 000 ₽, Квадро от 220 000 ₽",
+    "verified_source": "2GIS Владимир",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и сервисный центр<br> во Владимире"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland XR250 Enduro",
+      "spec": "250 см³, дисковые тормоза, защита перьев, электростартер",
+      "price": "от 145 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland CRF125",
+      "spec": "125 см³, усиленная рама, карбюратор Mikuni",
+      "price": "от 84 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 125",
+      "spec": "125 см³, для подростков и взрослых, брелок родительского контроля",
+      "price": "от 220 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "motomir-kaliningrad",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/kaliningrad/search/МотоМир",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "МотоМир, Калининград, ул. Старшины Дадаева, 3А. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "МотоМир",
+    "brand_display": "Мото<span>Мир</span>",
+    "city": "Калининград",
+    "district": "Ленинградский р-н",
+    "address": "ул. Старшины Дадаева, 3А",
+    "phone": "+7 (4012) 35-94-65",
+    "phone_raw": "+74012359465",
+    "whatsapp": "74012359465",
+    "hours": "Пн-Пт 10:00-19:00, Сб-Вс 10:00-18:00",
+    "rating": 4.8,
+    "brands": "BSE, Kayo, Motoland, CFMOTO",
+    "focus": "Кросс, эндуро, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 92 000 ₽, Эндуро от 148 000 ₽, Квадро от 590 000 ₽",
+    "verified_source": "2GIS Калининград",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мототехника, эндуро и сервис<br> в Калининграде"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 HS",
+      "spec": "250 см³, карбюратор Nibbi, регулируемая подвеска",
+      "price": "от 148 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, усиленная стальная рама, колеса 17/14",
+      "price": "от 92 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл CFMOTO CFORCE 400L",
+      "spec": "400 см³, 4x4, инжектор, полный привод",
+      "price": "от 590 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

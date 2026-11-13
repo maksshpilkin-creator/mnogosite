@@ -1,0 +1,64 @@
+{
+  "slug": "bike4you-tomsk",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/tomsk/firm/70000001048291845",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Bike4You, Томск, ул. Мичурина, 47г ст1. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Bike4you",
+    "brand_display": "Bike4you <span>Томск</span>",
+    "city": "Томск",
+    "district": "Октябрьский р-н",
+    "address": "ул. Мичурина, 47г, ст. 1",
+    "phone": "+7 (923) 422-87-80",
+    "phone_raw": "+79234228780",
+    "whatsapp": "79234228780",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-18:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Kayo, Motoland, BSE",
+    "focus": "Эндуро, питбайки, экипировка, сервис",
+    "price_range_note": "Питбайки от 87 900 ₽, Эндуро от 153 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "2GIS Томск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, питбайки и квадроциклы<br> в Томске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto ZR 250",
+      "spec": "250 см³, водяное охлаждение, 26 л.с., алюминиевые обода",
+      "price": "от 153 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Mini TD125",
+      "spec": "125 см³, 4-тактный двигатель, колеса 14/12",
+      "price": "от 87 900 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track PRO",
+      "spec": "200 см³, масляный радиатор, электролебедка",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

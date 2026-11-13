@@ -5,7 +5,7 @@ const path = require('path');
 const root = path.resolve(__dirname, '..');
 const factsDir = path.join(root, 'data', 'facts');
 const distDir = path.join(root, 'dist');
-const reportPath = path.join(root, 'reports', 'site-check', 'summary-19-leads.md');
+const reportPath = path.join(root, 'reports', 'site-check', 'summary-all-leads.md');
 
 const factFiles = fs.readdirSync(factsDir).filter(f => f.endsWith('.json'));
 
@@ -13,7 +13,7 @@ let totalChecks = 0;
 let passedChecks = 0;
 const results = [];
 
-console.log(`Запуск независимой проверки 19 сайтов (роль business_verifier)...`);
+console.log(`Запуск независимой проверки ${factFiles.length} сайтов (роль business_verifier)...`);
 
 for (const file of factFiles) {
   const factData = JSON.parse(fs.readFileSync(path.join(factsDir, file), 'utf8'));
@@ -93,16 +93,16 @@ for (const file of factFiles) {
 }
 
 // Generate report
-let report = `# 📋 Отчёт независимой приёмки 19 сайтов (business_verifier)
+let report = `# 📋 Отчёт независимой приёмки ${factFiles.length} сайтов (business_verifier)
 
 > **Дата проверки:** ${new Date().toLocaleString('ru-RU', { timeZone: 'Asia/Novosibirsk' })} (НСК)  
 > **Всего сайтов проверено:** ${results.length}  
 > **Всего проверок пройдено:** ${passedChecks} из ${totalChecks} (${Math.round(passedChecks / totalChecks * 100)}%)  
-> **Общий вердикт:** ${passedChecks === totalChecks ? '🟢 PASS (Все 19 сайтов полностью верифицированы)' : '🔴 NEEDS CHANGES'}
+> **Общий вердикт:** ${passedChecks === totalChecks ? `🟢 PASS (Все ${factFiles.length} сайтов полностью верифицированы)` : '🔴 NEEDS CHANGES'}
 
 ---
 
-## Сводная таблица по всем 19 салонам
+## Сводная таблица по всем ${factFiles.length} салонам
 
 | № | Город | Салон (slug) | Рейтинг | Телефон | WhatsApp | Проверенный адрес | Каталог (3 товара) | Статус QA |
 |---|---|---|:---:|---|---|---|---|:---:|
@@ -135,5 +135,7 @@ for (const r of results) {
 }
 
 fs.writeFileSync(reportPath, report, 'utf8');
-console.log(`\nОтчёт верификации сохранён в: reports/site-check/summary-19-leads.md`);
+const legacyReportPath = path.join(root, 'reports', 'site-check', 'summary-19-leads.md');
+fs.writeFileSync(legacyReportPath, report, 'utf8');
+console.log(`\nОтчёт верификации сохранён в: ${path.relative(root, reportPath)}`);
 console.log(`Пройдено проверок: ${passedChecks}/${totalChecks} (${Math.round(passedChecks / totalChecks * 100)}%)`);

@@ -1,0 +1,64 @@
+{
+  "slug": "kursk-moto",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/kursk/firm/70000001031952281",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Курск-Мото, Курск, ул. Пирогова, 1-Б. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Курск-Мото",
+    "brand_display": "Курск-<span>Мото</span>",
+    "city": "Курск",
+    "district": "Центральный р-н",
+    "address": "ул. Пирогова, 1-Б",
+    "phone": "+7 (4712) 34-90-10",
+    "phone_raw": "+74712349010",
+    "whatsapp": "79192109010",
+    "hours": "Пн-Вс 09:00-18:00",
+    "rating": 4.8,
+    "brands": "Kayo, GR, Ataki, Regulmoto",
+    "focus": "Эндуро, питбайки, квадроциклы, экипировка",
+    "price_range_note": "Питбайки от 87 000 ₽, Эндуро от 154 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Курск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мототехника, эндуро и экипировка<br> в Курске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo K1 250 MX",
+      "spec": "250 см³, надежный двигатель 169FMM, короткоходная ручка газа",
+      "price": "от 154 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Ataki Start 125",
+      "spec": "125 см³, дисковые тормоза, защита картера, колеса 17/14",
+      "price": "от 87 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Predator 125",
+      "spec": "125 см³, полуавтомат, защита для подростков и взрослых",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

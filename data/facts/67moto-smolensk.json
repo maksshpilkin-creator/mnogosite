@@ -1,0 +1,64 @@
+{
+  "slug": "67moto-smolensk",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/smolensk/firm/70000001041982015",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "67МОТО, Смоленск, Краснинское шоссе, 37. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "67МОТО",
+    "brand_display": "<span>67</span>МОТО",
+    "city": "Смоленск",
+    "district": "Заднепровский р-н",
+    "address": "Краснинское шоссе, 37",
+    "phone": "+7 (977) 333-30-67",
+    "phone_raw": "+79773333067",
+    "whatsapp": "79773333067",
+    "hours": "Пн-Вс 10:00-18:00",
+    "rating": 4.9,
+    "brands": "Regulmoto, Progasi, BSE, Kayo",
+    "focus": "Эндуро, питбайки, квадроциклы, экипировка",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "2GIS Смоленск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Специализированный мотосалон<br> в Смоленске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Progasi Ibiza 250",
+      "spec": "250 см³, карбюратор Nibbi Racing, фрезерованные траверсы",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE PH10 125",
+      "spec": "125 см³, кикстартер, складные подножки, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Regulmoto Athlete 200",
+      "spec": "200 см³, лебедка, спинка пассажира, LED балка",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "moto48-lipetsk",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/lipetsk/firm/1266658933219468",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Мото48, Липецк, Воронежское шоссе, 1а. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мото48",
+    "brand_display": "Мото<span>48</span>",
+    "city": "Липецк",
+    "district": "Октябрьский р-н",
+    "address": "Воронежское шоссе, 1а",
+    "phone": "+7 (4742) 39-77-04",
+    "phone_raw": "+74742397704",
+    "whatsapp": "79107427704",
+    "hours": "Пн-Пт 08:00-18:00, Сб 09:00-16:00, Вс 09:00-14:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Motoland, Racer, Kayo",
+    "focus": "Эндуро, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 84 900 ₽, Эндуро от 142 000 ₽, Квадро от 220 000 ₽",
+    "verified_source": "2GIS Липецк",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, питбайки и квадроциклы<br> в Липецке"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland Dakar 250 LT",
+      "spec": "250 см³, дорожная резина/эндуро, ПТС, электростартер",
+      "price": "от 142 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Regulmoto Seven 125",
+      "spec": "125 см³, электростартер, фары, колеса 17/14",
+      "price": "от 84 900 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, вариатор F-N-R, LED оптика, багажники",
+      "price": "от 220 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

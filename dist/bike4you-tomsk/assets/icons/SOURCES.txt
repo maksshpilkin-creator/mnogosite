@@ -1,0 +1,2 @@
+Source: Tabler Icons (https://github.com/tabler/tabler-icons), MIT; individual outline SVGs downloaded 2026-11-08. See LICENSE.txt.
+ATV: Material Design Icons (https://github.com/Templarian/MaterialDesign/blob/master/svg/atv.svg), Apache 2.0; downloaded 2026-11-08. See LICENSE-MDI.txt.

@@ -1,0 +1,64 @@
+{
+  "slug": "bringmoto-ulan-ude",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/ulan_ude/firm/70000001053709214",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Bringmoto, Улан-Удэ, ул. Гоголя, 47 к1. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Bringmoto",
+    "brand_display": "Bring<span>moto</span>",
+    "city": "Улан-Удэ",
+    "district": "Советский р-н",
+    "address": "ул. Гоголя, 47, корп. 1",
+    "phone": "+7 (914) 055-20-48",
+    "phone_raw": "+79140552048",
+    "whatsapp": "79140552048",
+    "hours": "Пн-Сб 10:00-19:00, Вс 11:00-17:00",
+    "rating": 4.8,
+    "brands": "Kayo, Regulmoto, Motoland, Racer",
+    "focus": "Эндуро, горные мотоциклы, квадроциклы",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, Квадро от 250 000 ₽",
+    "verified_source": "2GIS Улан-Удэ",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Склад мототехники и эндуро<br> в Улан-Удэ"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 ST",
+      "spec": "250 см³, усиленные перья вилки, внедорожный протектор",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE DX 125",
+      "spec": "125 см³, гидравлические тормоза, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Regulmoto Hunter 200",
+      "spec": "200 см³, электростартер, цифровой спидометр",
+      "price": "от 250 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

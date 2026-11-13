@@ -1,0 +1,64 @@
+{
+  "slug": "dvakita-astrakhan",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/astrakhan/firm/112644265789125",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Два кита, Астрахань, ул. Адмирала Нахимова, 80в. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Два кита",
+    "brand_display": "Два <span>кита</span>",
+    "city": "Астрахань",
+    "district": "Советский р-н",
+    "address": "ул. Адмирала Нахимова, 80в",
+    "phone": "+7 (8512) 20-10-17",
+    "phone_raw": "+78512201017",
+    "whatsapp": "78512201017",
+    "hours": "Пн-Пт 09:00-18:00, Сб 09:00-17:00, Вс 09:00-16:00",
+    "rating": 4.8,
+    "brands": "Yamaha, Bajaj, Kayo, Motoland",
+    "focus": "Мотоциклы, эндуро, квадроциклы, сервис",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 155 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Астрахань",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и активный отдых<br> в Астрахани"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo T2 250 Enduro",
+      "spec": "250 см³, дисковые тормоза, усиленный маятник",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Evolution YX125",
+      "spec": "125 см³, алюминиевый маятник, карбюратор NIBBI",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Promax Hunter 200",
+      "spec": "200 см³, дисковые гидравлические тормоза, фаркоп",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

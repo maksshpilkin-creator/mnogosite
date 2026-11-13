@@ -1,0 +1,64 @@
+{
+  "slug": "motodrive-cheboksary",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/cheboksary/firm/70000001021703623",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Moto Drive, Чебоксары, пр. Ивана Яковлева, 13. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Moto Drive",
+    "brand_display": "Moto <span>Drive</span>",
+    "city": "Чебоксары",
+    "district": "Ленинский р-н",
+    "address": "пр-кт Ивана Яковлева, 13",
+    "phone": "+7 (900) 333-92-12",
+    "phone_raw": "+79003339212",
+    "whatsapp": "79003339212",
+    "hours": "Пн-Пт 09:00-19:00, Сб-Вс 09:00-17:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, BSE, Kayo, Progasi",
+    "focus": "Эндуро, квадроциклы, экипировка, сервис",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 146 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "2GIS Чебоксары",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и центр экипировки<br> в Чебоксарах"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto Athlete 250",
+      "spec": "250 см³, мотор 172FMM, подвеска с регулировками",
+      "price": "от 146 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE PH 125",
+      "spec": "125 см³, надежный японский карбюратор, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Regulmoto Hummer 200",
+      "spec": "200 см³, вариатор, литые диски, спинка пассажира",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

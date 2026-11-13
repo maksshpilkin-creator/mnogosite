@@ -37,7 +37,7 @@
     <div class="flex flex-wrap items-center gap-3 bg-slate-900/90 p-3 rounded-2xl border border-slate-800 text-xs font-mono shadow-md">
       <div>
         <span class="text-slate-400 block text-[10px]">ВСЕГО БАЗА:</span>
-        <span class="text-base font-bold text-white">39</span>
+        <span class="text-base font-bold text-white">59</span>
       </div>
       <div class="h-6 w-px bg-slate-800"></div>
       <div>
@@ -78,8 +78,8 @@
 
     <!-- Filters -->
     <div class="flex flex-wrap items-center gap-1 font-mono text-xs" id="filter-buttons">
-      <button type="button" onclick="setFilter('all', this)" class="filter-btn active px-2.5 py-1 rounded-lg bg-white/10 text-white font-bold">Все (39)</button>
-      <button type="button" onclick="setFilter('no_site', this)" class="filter-btn px-2.5 py-1 rounded-lg text-emerald-300 hover:text-white border border-emerald-500/30">Без сайта (11)</button>
+      <button type="button" onclick="setFilter('all', this)" class="filter-btn active px-2.5 py-1 rounded-lg bg-white/10 text-white font-bold">Все (59)</button>
+      <button type="button" onclick="setFilter('no_site', this)" class="filter-btn px-2.5 py-1 rounded-lg text-emerald-300 hover:text-white border border-emerald-500/30">Без сайта (31)</button>
       <button type="button" onclick="setFilter('has_site', this)" class="filter-btn px-2.5 py-1 rounded-lg text-sky-300 hover:text-white border border-sky-500/30">Редизайн (28)</button>
       <button type="button" onclick="setFilter('new', this)" class="filter-btn px-2.5 py-1 rounded-lg text-slate-400 hover:text-white">Новые</button>
       <button type="button" onclick="setFilter('sent', this)" class="filter-btn px-2.5 py-1 rounded-lg text-slate-400 hover:text-amber-400">В WhatsApp</button>
@@ -97,7 +97,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div class="bg-slate-950/80 p-3.5 rounded-xl border border-emerald-500/30 space-y-2">
-        <h3 class="font-bold text-xs uppercase font-mono text-emerald-300">🟢 Скрипт А: Салон БЕЗ отдельного сайта (11 шт.):</h3>
+        <h3 class="font-bold text-xs uppercase font-mono text-emerald-300">🟢 Скрипт А: Салон БЕЗ отдельного сайта (31 шт.):</h3>
         <p class="text-slate-300 leading-relaxed">
           «— Здравствуйте! Это мотосалон <strong>[Название]</strong>?<br>
           — Меня зовут Максим, я разработчик. Смотрел вашу карточку в <strong>[Городе]</strong>: хороший рейтинг на картах, техника в наличии, но увидел, что отдельного современного сайта пока нет.<br>
@@ -209,11 +209,215 @@
   <!-- Leads Grid -->
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="cards-container">
     
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-mototime-belgorod" data-slug="mototime-belgorod" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#01 · Белгород</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.9</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мото-Тайм</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Дзгоева, 4">📍 ул. Дзгоева, 4</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE-%D0%A2%D0%B0%D0%B9%D0%BC%20%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D1%83%D0%BB.%20%D0%94%D0%B7%D0%B3%D0%BE%D0%B5%D0%B2%D0%B0%2C%204" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE-%D0%A2%D0%B0%D0%B9%D0%BC%20%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE-%D0%A2%D0%B0%D0%B9%D0%BC%20%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D1%83%D0%BB.%20%D0%94%D0%B7%D0%B3%D0%BE%D0%B5%D0%B2%D0%B0%2C%204" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 10:00-20:00, Сб-Вс 10:00-19:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро GR2 250 Enduro PRO, Питбайк Kayo Basic TT125 EM</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74722783178" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4722) 78-31-78</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/mototime-belgorod/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('mototime-belgorod')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-mototime-belgorod" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('mototime-belgorod', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-mototime-belgorod" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-mototime-belgorod" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('mototime-belgorod', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-moto-pervy-bryansk" data-slug="moto-pervy-bryansk" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#02 · Брянск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мотосалон Первый</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="Шоссейная ул., 3">📍 Шоссейная ул., 3</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%91%D1%80%D1%8F%D0%BD%D1%81%D0%BA%20%D0%A8%D0%BE%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%203" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%91%D1%80%D1%8F%D0%BD%D1%81%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%91%D1%80%D1%8F%D0%BD%D1%81%D0%BA%20%D0%A8%D0%BE%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%203" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Сб 09:00-19:00, Вс 10:00-16:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Regulmoto Legend 250, Питбайк Kayo Basic TT125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74832330585" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4832) 33-05-85</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/moto-pervy-bryansk/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('moto-pervy-bryansk')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-moto-pervy-bryansk" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('moto-pervy-bryansk', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-moto-pervy-bryansk" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-moto-pervy-bryansk" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('moto-pervy-bryansk', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-mototandem-vladimir" data-slug="mototandem-vladimir" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#03 · Владимир</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мототандем</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Куйбышева, 28Е">📍 ул. Куйбышева, 28Е</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D1%83%D0%BB.%20%D0%9A%D1%83%D0%B9%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D0%B0%2C%2028%D0%95" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%20%D1%83%D0%BB.%20%D0%9A%D1%83%D0%B9%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D0%B0%2C%2028%D0%95" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Сб 09:00-19:00, Вс 09:00-17:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Мотоцикл Motoland XR250 Enduro, Питбайк Motoland CRF125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79209333232" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (920) 933-32-32</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/mototandem-vladimir/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('mototandem-vladimir')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-mototandem-vladimir" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('mototandem-vladimir', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-mototandem-vladimir" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-mototandem-vladimir" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('mototandem-vladimir', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motorbike-vlg" data-slug="motorbike-vlg" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#01 · Волгоград</span>
+            <span class="text-orange-400 font-bold">#04 · Волгоград</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.5</span>
@@ -277,11 +481,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-ss-motors-vologda" data-slug="ss-motors-vologda" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#05 · Вологда</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.7</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">СС Моторс</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Преображенского, 45Б">📍 ул. Преображенского, 45Б</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%A1%D0%A1%20%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D1%81%20%D0%92%D0%BE%D0%BB%D0%BE%D0%B3%D0%B4%D0%B0%20%D1%83%D0%BB.%20%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%2045%D0%91" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%A1%D0%A1%20%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D1%81%20%D0%92%D0%BE%D0%BB%D0%BE%D0%B3%D0%B4%D0%B0" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%A1%D0%A1%20%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D1%81%20%D0%92%D0%BE%D0%BB%D0%BE%D0%B3%D0%B4%D0%B0%20%D1%83%D0%BB.%20%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%2045%D0%91" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 09:00-18:00, Сб 10:00-16:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Мотоцикл Regulmoto Sport 250, Питбайк Kayo Mini KMB 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+78172530073" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (8172) 53-00-73</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/ss-motors-vologda/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('ss-motors-vologda')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-ss-motors-vologda" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('ss-motors-vologda', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-ss-motors-vologda" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-ss-motors-vologda" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('ss-motors-vologda', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-ponarin-mx" data-slug="ponarin-mx" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#02 · Воронеж</span>
+            <span class="text-orange-400 font-bold">#06 · Воронеж</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
@@ -345,11 +617,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-dnkmoto-ivanovo" data-slug="dnkmoto-ivanovo" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#07 · Иваново</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">DnkMoto</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Куконковых, 96">📍 ул. Куконковых, 96</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=DnkMoto%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%20%D1%83%D0%BB.%20%D0%9A%D1%83%D0%BA%D0%BE%D0%BD%D0%BA%D0%BE%D0%B2%D1%8B%D1%85%2C%2096" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/DnkMoto%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=DnkMoto%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%20%D1%83%D0%BB.%20%D0%9A%D1%83%D0%BA%D0%BE%D0%BD%D0%BA%D0%BE%D0%B2%D1%8B%D1%85%2C%2096" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 10:00-19:00, Сб 10:00-17:00, Вс 10:00-15:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро BSE Z3 250, Питбайк Progasi Smart 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74932929496" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4932) 92-94-96</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/dnkmoto-ivanovo/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('dnkmoto-ivanovo')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-dnkmoto-ivanovo" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('dnkmoto-ivanovo', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-dnkmoto-ivanovo" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-dnkmoto-ivanovo" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('dnkmoto-ivanovo', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-bars-moto-kzn" data-slug="bars-moto-kzn" data-status="new" data-has-website="no">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#03 · Казань</span>
+            <span class="text-orange-400 font-bold">#08 · Казань</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
@@ -417,7 +757,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#04 · Казань</span>
+            <span class="text-orange-400 font-bold">#09 · Казань</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.5</span>
@@ -481,11 +821,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-buggyjump-kaluga" data-slug="buggyjump-kaluga" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#10 · Калуга</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Buggy Jump</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Кропоткина, 4">📍 ул. Кропоткина, 4</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=Buggy%20Jump%20%D0%9A%D0%B0%D0%BB%D1%83%D0%B3%D0%B0%20%D1%83%D0%BB.%20%D0%9A%D1%80%D0%BE%D0%BF%D0%BE%D1%82%D0%BA%D0%B8%D0%BD%D0%B0%2C%204" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/Buggy%20Jump%20%D0%9A%D0%B0%D0%BB%D1%83%D0%B3%D0%B0" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Buggy%20Jump%20%D0%9A%D0%B0%D0%BB%D1%83%D0%B3%D0%B0%20%D1%83%D0%BB.%20%D0%9A%D1%80%D0%BE%D0%BF%D0%BE%D1%82%D0%BA%D0%B8%D0%BD%D0%B0%2C%204" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 09:00-19:00, Сб-Вс 10:00-18:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Motoland TT 250, Питбайк Regulmoto Seven 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74842577279" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4842) 57-72-79</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/buggyjump-kaluga/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('buggyjump-kaluga')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-buggyjump-kaluga" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('buggyjump-kaluga', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-buggyjump-kaluga" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-buggyjump-kaluga" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('buggyjump-kaluga', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motoded-kirov" data-slug="motoded-kirov" data-status="new" data-has-website="no">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#05 · Киров</span>
+            <span class="text-orange-400 font-bold">#11 · Киров</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
@@ -549,11 +957,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-u-pavla-kostroma" data-slug="u-pavla-kostroma" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#12 · Кострома</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мотосалон У Павла</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Костромская, 78">📍 ул. Костромская, 78</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%A3%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%B0%20%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D0%B0%20%D1%83%D0%BB.%20%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D1%81%D0%BA%D0%B0%D1%8F%2C%2078" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%A3%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%B0%20%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D0%B0" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%A3%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%B0%20%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D0%B0%20%D1%83%D0%BB.%20%D0%9A%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%BC%D1%81%D0%BA%D0%B0%D1%8F%2C%2078" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 09:00-18:00, Сб 09:00-15:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро GR1 F250A Enduro OPTIMUM, Питбайк Kayo Basic TT125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74942492232" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4942) 49-22-32</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/u-pavla-kostroma/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('u-pavla-kostroma')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-u-pavla-kostroma" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('u-pavla-kostroma', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-u-pavla-kostroma" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-u-pavla-kostroma" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('u-pavla-kostroma', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-guruenduro" data-slug="guruenduro" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#06 · Краснодар</span>
+            <span class="text-orange-400 font-bold">#13 · Краснодар</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
@@ -621,7 +1097,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#07 · Краснодар</span>
+            <span class="text-orange-400 font-bold">#14 · Краснодар</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
@@ -685,11 +1161,147 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-kursk-moto" data-slug="kursk-moto" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#15 · Курск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Курск-Мото</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Пирогова, 1-Б">📍 ул. Пирогова, 1-Б</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9A%D1%83%D1%80%D1%81%D0%BA-%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9A%D1%83%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%2C%201-%D0%91" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9A%D1%83%D1%80%D1%81%D0%BA-%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9A%D1%83%D1%80%D1%81%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9A%D1%83%D1%80%D1%81%D0%BA-%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9A%D1%83%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9F%D0%B8%D1%80%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%2C%201-%D0%91" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Вс 09:00-18:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Kayo K1 250 MX, Питбайк Ataki Start 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74712349010" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4712) 34-90-10</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/kursk-moto/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('kursk-moto')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-kursk-moto" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('kursk-moto', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-kursk-moto" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-kursk-moto" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('kursk-moto', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-moto48-lipetsk" data-slug="moto48-lipetsk" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#16 · Липецк</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мото48</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="Воронежское шоссе, 1а">📍 Воронежское шоссе, 1а</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE48%20%D0%9B%D0%B8%D0%BF%D0%B5%D1%86%D0%BA%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%201%D0%B0" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE48%20%D0%9B%D0%B8%D0%BF%D0%B5%D1%86%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE48%20%D0%9B%D0%B8%D0%BF%D0%B5%D1%86%D0%BA%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%201%D0%B0" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 08:00-18:00, Сб 09:00-16:00, Вс 09:00-14:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Мотоцикл Motoland Dakar 250 LT, Питбайк Regulmoto Seven 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74742397704" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4742) 39-77-04</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/moto48-lipetsk/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('moto48-lipetsk')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-moto48-lipetsk" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('moto48-lipetsk', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-moto48-lipetsk" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-moto48-lipetsk" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('moto48-lipetsk', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-lkmoto-mytishchi" data-slug="lkmoto-mytishchi" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#08 · Мытищи</span>
+            <span class="text-orange-400 font-bold">#17 · Мытищи</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
@@ -753,11 +1365,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-favorit-chelny" data-slug="favorit-chelny" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#18 · Набережные Челны</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мотосалон Фаворит</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. 40 лет Победы, 84/1">📍 ул. 40 лет Победы, 84/1</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%A4%D0%B0%D0%B2%D0%BE%D1%80%D0%B8%D1%82%20%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%A7%D0%B5%D0%BB%D0%BD%D1%8B%20%D1%83%D0%BB.%2040%20%D0%BB%D0%B5%D1%82%20%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B%2C%2084%2F1" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%A4%D0%B0%D0%B2%D0%BE%D1%80%D0%B8%D1%82%20%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%A7%D0%B5%D0%BB%D0%BD%D1%8B" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%A4%D0%B0%D0%B2%D0%BE%D1%80%D0%B8%D1%82%20%D0%9D%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%A7%D0%B5%D0%BB%D0%BD%D1%8B%20%D1%83%D0%BB.%2040%20%D0%BB%D0%B5%D1%82%20%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B%2C%2084%2F1" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Сб 09:00-18:00, Вс 10:00-17:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Motoland CRF250, Питбайк Motoland Apex 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79991633649" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (999) 163-36-49</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/favorit-chelny/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('favorit-chelny')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-favorit-chelny" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('favorit-chelny', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-favorit-chelny" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-favorit-chelny" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('favorit-chelny', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-darex-moto-nn" data-slug="darex-moto-nn" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#09 · Нижний Новгород</span>
+            <span class="text-orange-400 font-bold">#19 · Нижний Новгород</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.7</span>
@@ -821,11 +1501,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-1001moto-novoross" data-slug="1001moto-novoross" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#20 · Новороссийск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">1001MOTO</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="пос. Цемдолина, ул. Полевая, 2А">📍 пос. Цемдолина, ул. Полевая, 2А</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=1001MOTO%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%20%D0%BF%D0%BE%D1%81.%20%D0%A6%D0%B5%D0%BC%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0%2C%20%D1%83%D0%BB.%20%D0%9F%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F%2C%202%D0%90" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/1001MOTO%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=1001MOTO%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%20%D0%BF%D0%BE%D1%81.%20%D0%A6%D0%B5%D0%BC%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0%2C%20%D1%83%D0%BB.%20%D0%9F%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F%2C%202%D0%90" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Вс 09:30-18:30</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Regulmoto TE 250, Питбайк BSE MX 125 Sport</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79884884868" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (988) 488-48-68</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/1001moto-novoross/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('1001moto-novoross')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-1001moto-novoross" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('1001moto-novoross', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-1001moto-novoross" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-1001moto-novoross" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('1001moto-novoross', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-extreme-sport-penza" data-slug="extreme-sport-penza" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#10 · Пенза</span>
+            <span class="text-orange-400 font-bold">#21 · Пенза</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
@@ -889,11 +1637,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motocity-pyatigorsk" data-slug="motocity-pyatigorsk" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#22 · Пятигорск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.9</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мото Сити</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="Бештаугорское шоссе, 75">📍 Бештаугорское шоссе, 75</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B8%D1%82%D0%B8%20%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA%20%D0%91%D0%B5%D1%88%D1%82%D0%B0%D1%83%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2075" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B8%D1%82%D0%B8%20%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B8%D1%82%D0%B8%20%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA%20%D0%91%D0%B5%D1%88%D1%82%D0%B0%D1%83%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2075" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Вс 09:00-18:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Motoland XT250 HS, Питбайк Kayo Basic TT125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79624961010" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (962) 496-10-10</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/motocity-pyatigorsk/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('motocity-pyatigorsk')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-motocity-pyatigorsk" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('motocity-pyatigorsk', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-motocity-pyatigorsk" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-motocity-pyatigorsk" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('motocity-pyatigorsk', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-gsbmoto-rostov" data-slug="gsbmoto-rostov" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#11 · Ростов-на-Дону</span>
+            <span class="text-orange-400 font-bold">#23 · Ростов-на-Дону</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
@@ -961,7 +1777,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#12 · Рязань</span>
+            <span class="text-orange-400 font-bold">#24 · Рязань</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
@@ -1029,7 +1845,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#13 · Санкт-Петербург</span>
+            <span class="text-orange-400 font-bold">#25 · Санкт-Петербург</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
@@ -1093,11 +1909,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-67moto-smolensk" data-slug="67moto-smolensk" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#26 · Смоленск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.9</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">67МОТО</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="Краснинское шоссе, 37">📍 Краснинское шоссе, 37</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=67%D0%9C%D0%9E%D0%A2%D0%9E%20%D0%A1%D0%BC%D0%BE%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2037" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/67%D0%9C%D0%9E%D0%A2%D0%9E%20%D0%A1%D0%BC%D0%BE%D0%BB%D0%B5%D0%BD%D1%81%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=67%D0%9C%D0%9E%D0%A2%D0%9E%20%D0%A1%D0%BC%D0%BE%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2037" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Вс 10:00-18:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Progasi Ibiza 250, Питбайк BSE PH10 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79773333067" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (977) 333-30-67</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/67moto-smolensk/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('67moto-smolensk')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-67moto-smolensk" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('67moto-smolensk', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-67moto-smolensk" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-67moto-smolensk" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('67moto-smolensk', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-crazymoto-sochi" data-slug="crazymoto-sochi" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#14 · Сочи</span>
+            <span class="text-orange-400 font-bold">#27 · Сочи</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
@@ -1165,7 +2049,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#15 · Ставрополь</span>
+            <span class="text-orange-400 font-bold">#28 · Ставрополь</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
@@ -1233,7 +2117,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#16 · Тверь</span>
+            <span class="text-orange-400 font-bold">#29 · Тверь</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
@@ -1301,7 +2185,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#17 · Тула</span>
+            <span class="text-orange-400 font-bold">#30 · Тула</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
@@ -1365,11 +2249,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motodrive-cheboksary" data-slug="motodrive-cheboksary" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#31 · Чебоксары</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Moto Drive</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="пр-кт Ивана Яковлева, 13">📍 пр-кт Ивана Яковлева, 13</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=Moto%20Drive%20%D0%A7%D0%B5%D0%B1%D0%BE%D0%BA%D1%81%D0%B0%D1%80%D1%8B%20%D0%BF%D1%80-%D0%BA%D1%82%20%D0%98%D0%B2%D0%B0%D0%BD%D0%B0%20%D0%AF%D0%BA%D0%BE%D0%B2%D0%BB%D0%B5%D0%B2%D0%B0%2C%2013" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/Moto%20Drive%20%D0%A7%D0%B5%D0%B1%D0%BE%D0%BA%D1%81%D0%B0%D1%80%D1%8B" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Moto%20Drive%20%D0%A7%D0%B5%D0%B1%D0%BE%D0%BA%D1%81%D0%B0%D1%80%D1%8B%20%D0%BF%D1%80-%D0%BA%D1%82%20%D0%98%D0%B2%D0%B0%D0%BD%D0%B0%20%D0%AF%D0%BA%D0%BE%D0%B2%D0%BB%D0%B5%D0%B2%D0%B0%2C%2013" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 09:00-19:00, Сб-Вс 09:00-17:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="0">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Мотоцикл Regulmoto Athlete 250, Питбайк BSE PH 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79003339212" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (900) 333-92-12</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/motodrive-cheboksary/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('motodrive-cheboksary')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-motodrive-cheboksary" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('motodrive-cheboksary', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-motodrive-cheboksary" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-motodrive-cheboksary" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('motodrive-cheboksary', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-sp-motors-yar" data-slug="sp-motors-yar" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#18 · Ярославль</span>
+            <span class="text-orange-400 font-bold">#32 · Ярославль</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-sky-500/20 text-sky-300 border-sky-500/30">МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
@@ -1433,11 +2385,147 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motomir-kaliningrad" data-slug="motomir-kaliningrad" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#33 · Калининград</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">-1 от МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">МотоМир</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Старшины Дадаева, 3А">📍 ул. Старшины Дадаева, 3А</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%9C%D0%B8%D1%80%20%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%20%D1%83%D0%BB.%20%D0%A1%D1%82%D0%B0%D1%80%D1%88%D0%B8%D0%BD%D1%8B%20%D0%94%D0%B0%D0%B4%D0%B0%D0%B5%D0%B2%D0%B0%2C%203%D0%90" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%9C%D0%B8%D1%80%20%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%9C%D0%B8%D1%80%20%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%20%D1%83%D0%BB.%20%D0%A1%D1%82%D0%B0%D1%80%D1%88%D0%B8%D0%BD%D1%8B%20%D0%94%D0%B0%D0%B4%D0%B0%D0%B5%D0%B2%D0%B0%2C%203%D0%90" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 10:00-19:00, Сб-Вс 10:00-18:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="-1">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Motoland XT250 HS, Питбайк BSE MX 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74012359465" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (4012) 35-94-65</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/motomir-kaliningrad/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('motomir-kaliningrad')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-motomir-kaliningrad" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('motomir-kaliningrad', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-motomir-kaliningrad" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-motomir-kaliningrad" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('motomir-kaliningrad', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-dvakita-astrakhan" data-slug="dvakita-astrakhan" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#34 · Астрахань</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+1 от МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Два кита</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Адмирала Нахимова, 80в">📍 ул. Адмирала Нахимова, 80в</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%94%D0%B2%D0%B0%20%D0%BA%D0%B8%D1%82%D0%B0%20%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D0%B0%20%D0%9D%D0%B0%D1%85%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0%2C%2080%D0%B2" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%94%D0%B2%D0%B0%20%D0%BA%D0%B8%D1%82%D0%B0%20%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%8C" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%94%D0%B2%D0%B0%20%D0%BA%D0%B8%D1%82%D0%B0%20%D0%90%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D0%B0%20%D0%9D%D0%B0%D1%85%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0%2C%2080%D0%B2" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Пт 09:00-18:00, Сб 09:00-17:00, Вс 09:00-16:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="1">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Kayo T2 250 Enduro, Питбайк Kayo Evolution YX125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+78512201017" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (8512) 20-10-17</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/dvakita-astrakhan/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('dvakita-astrakhan')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-dvakita-astrakhan" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('dvakita-astrakhan', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-dvakita-astrakhan" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-dvakita-astrakhan" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('dvakita-astrakhan', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-multi-moto-samara" data-slug="multi-moto-samara" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#19 · Самара</span>
+            <span class="text-orange-400 font-bold">#35 · Самара</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+1 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.3</span>
@@ -1505,7 +2593,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#20 · Саратов</span>
+            <span class="text-orange-400 font-bold">#36 · Саратов</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+1 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.7</span>
@@ -1573,7 +2661,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#21 · Тольятти</span>
+            <span class="text-orange-400 font-bold">#37 · Тольятти</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+1 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
@@ -1641,7 +2729,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#22 · Ульяновск</span>
+            <span class="text-orange-400 font-bold">#38 · Ульяновск</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+1 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
@@ -1709,8 +2797,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#23 · Екатеринбург</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+2 от МСК</span>
+            <span class="text-orange-400 font-bold">#39 · Екатеринбург</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
         </div>
@@ -1777,8 +2865,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#24 · Екатеринбург</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+2 от МСК</span>
+            <span class="text-orange-400 font-bold">#40 · Екатеринбург</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.5</span>
         </div>
@@ -1841,12 +2929,80 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-megabike-mgn" data-slug="megabike-mgn" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#41 · Магнитогорск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.9</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">МегаБайк</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="Западное шоссе, 362/4">📍 Западное шоссе, 362/4</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%B5%D0%B3%D0%B0%D0%91%D0%B0%D0%B9%D0%BA%20%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%20%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%20362%2F4" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%B5%D0%B3%D0%B0%D0%91%D0%B0%D0%B9%D0%BA%20%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%B5%D0%B3%D0%B0%D0%91%D0%B0%D0%B9%D0%BA%20%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%20%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%20362%2F4" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Вс 10:00-19:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="2">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Progasi Super Max 250, Питбайк Motoland TCX125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79823339999" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (982) 333-99-99</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/megabike-mgn/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('megabike-mgn')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-megabike-mgn" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('megabike-mgn', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-megabike-mgn" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-megabike-mgn" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('megabike-mgn', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motokrug-orenburg" data-slug="motokrug-orenburg" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#25 · Оренбург</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+2 от МСК</span>
+            <span class="text-orange-400 font-bold">#42 · Оренбург</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
         </div>
@@ -1913,8 +3069,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#26 · Пермь</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+2 от МСК</span>
+            <span class="text-orange-400 font-bold">#43 · Пермь</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
         </div>
@@ -1981,8 +3137,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#27 · Тюмень</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+2 от МСК</span>
+            <span class="text-orange-400 font-bold">#44 · Тюмень</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
         </div>
@@ -2049,8 +3205,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#28 · Уфа</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+2 от МСК</span>
+            <span class="text-orange-400 font-bold">#45 · Уфа</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
         </div>
@@ -2117,8 +3273,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#29 · Челябинск</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+2 от МСК</span>
+            <span class="text-orange-400 font-bold">#46 · Челябинск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-yellow-500/20 text-yellow-300 border-yellow-500/30">+2 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.6</span>
         </div>
@@ -2185,7 +3341,7 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#30 · Омск</span>
+            <span class="text-orange-400 font-bold">#47 · Омск</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+3 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.7</span>
@@ -2253,8 +3409,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#31 · Барнаул</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+4 от МСК</span>
+            <span class="text-orange-400 font-bold">#48 · Барнаул</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
         </div>
@@ -2321,8 +3477,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#32 · Кемерово</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+4 от МСК</span>
+            <span class="text-orange-400 font-bold">#49 · Кемерово</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
         </div>
@@ -2389,8 +3545,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#33 · Красноярск</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+4 от МСК</span>
+            <span class="text-orange-400 font-bold">#50 · Красноярск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
         </div>
@@ -2457,8 +3613,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#34 · Новокузнецк</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+4 от МСК</span>
+            <span class="text-orange-400 font-bold">#51 · Новокузнецк</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
         </div>
@@ -2525,8 +3681,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#35 · Новосибирск</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+4 от МСК</span>
+            <span class="text-orange-400 font-bold">#52 · Новосибирск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 5</span>
         </div>
@@ -2593,8 +3749,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#36 · Новосибирск</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+4 от МСК</span>
+            <span class="text-orange-400 font-bold">#53 · Новосибирск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.4</span>
         </div>
@@ -2661,8 +3817,8 @@
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#37 · Новосибирск</span>
-            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+4 от МСК</span>
+            <span class="text-orange-400 font-bold">#54 · Новосибирск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
         </div>
@@ -2725,11 +3881,79 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-bike4you-tomsk" data-slug="bike4you-tomsk" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#55 · Томск</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-orange-500/20 text-orange-300 border-orange-500/30">+4 от МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Bike4you</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Мичурина, 47г, ст. 1">📍 ул. Мичурина, 47г, ст. 1</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=Bike4you%20%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9C%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0%2C%2047%D0%B3%2C%20%D1%81%D1%82.%201" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/Bike4you%20%D0%A2%D0%BE%D0%BC%D1%81%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Bike4you%20%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9C%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0%2C%2047%D0%B3%2C%20%D1%81%D1%82.%201" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Сб 10:00-19:00, Вс 10:00-18:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="4">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Мотоцикл Regulmoto ZR 250, Питбайк Kayo Mini TD125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79234228780" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (923) 422-87-80</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/bike4you-tomsk/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('bike4you-tomsk')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-bike4you-tomsk" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('bike4you-tomsk', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-bike4you-tomsk" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-bike4you-tomsk" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('bike4you-tomsk', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motoraion-irk" data-slug="motoraion-irk" data-status="new" data-has-website="yes">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#38 · Иркутск</span>
+            <span class="text-orange-400 font-bold">#56 · Иркутск</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+5 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.9</span>
@@ -2793,11 +4017,147 @@
     </div>
   
 
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-bringmoto-ulan-ude" data-slug="bringmoto-ulan-ude" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#57 · Улан-Удэ</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+5 от МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.8</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Bringmoto</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="ул. Гоголя, 47, корп. 1">📍 ул. Гоголя, 47, корп. 1</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=Bringmoto%20%D0%A3%D0%BB%D0%B0%D0%BD-%D0%A3%D0%B4%D1%8D%20%D1%83%D0%BB.%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2C%2047%2C%20%D0%BA%D0%BE%D1%80%D0%BF.%201" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/Bringmoto%20%D0%A3%D0%BB%D0%B0%D0%BD-%D0%A3%D0%B4%D1%8D" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Bringmoto%20%D0%A3%D0%BB%D0%B0%D0%BD-%D0%A3%D0%B4%D1%8D%20%D1%83%D0%BB.%20%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8F%2C%2047%2C%20%D0%BA%D0%BE%D1%80%D0%BF.%201" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Сб 10:00-19:00, Вс 11:00-17:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="5">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Эндуро Motoland XT250 ST, Питбайк BSE DX 125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+79140552048" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (914) 055-20-48</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/bringmoto-ulan-ude/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('bringmoto-ulan-ude')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-bringmoto-ulan-ude" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('bringmoto-ulan-ude', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-bringmoto-ulan-ude" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-bringmoto-ulan-ude" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('bringmoto-ulan-ude', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
+    <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motodepo-vladivostok" data-slug="motodepo-vladivostok" data-status="new" data-has-website="no">
+      <div>
+        <div class="flex items-center justify-between text-xs font-mono mb-2">
+          <div class="flex items-center gap-2">
+            <span class="text-orange-400 font-bold">#58 · Владивосток</span>
+            <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+7 от МСК</span>
+          </div>
+          <span class="text-amber-400 font-bold">★ 4.9</span>
+        </div>
+
+        <h3 class="font-extrabold text-base text-white leading-tight">Мото Депо</h3>
+        <div class="mt-1.5 flex items-center gap-2 text-[11px] font-mono"><span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-bold">🟢 Сайта нет (без сайта)</span></div>
+        
+        <div class="flex items-center justify-between mt-1.5 text-xs text-slate-400">
+          <span class="truncate flex items-center gap-1" title="Русская ул., 92">📍 Русская ул., 92</span>
+          <span class="flex items-center gap-1 shrink-0 ml-2 font-mono text-[10px]">
+            <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%94%D0%B5%D0%BF%D0%BE%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%2092" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-yellow-500/15 text-yellow-300 hover:bg-yellow-500 hover:text-black transition border border-yellow-500/25" title="Яндекс Карты">Яндекс</a>
+            <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%20%D0%94%D0%B5%D0%BF%D0%BE%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-300 hover:bg-emerald-500 hover:text-white transition border border-emerald-500/25" title="2ГИС">2ГИС</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%94%D0%B5%D0%BF%D0%BE%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%2092" target="_blank" rel="noopener" class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 hover:bg-blue-500 hover:text-white transition border border-blue-500/25" title="Google Maps">Google</a>
+          </span>
+        </div>
+
+        <div class="mt-2.5 p-2.5 bg-slate-950/70 rounded-xl border border-slate-800 text-xs font-mono space-y-1">
+          <div class="flex justify-between items-center text-slate-400">
+            <span>График: <strong class="text-slate-300 font-sans">Пн-Сб 10:00-19:00, Вс 10:00-17:00</strong></span>
+            <span class="local-time font-bold text-sky-400" data-offset="7">--:--</span>
+          </div>
+          <div class="text-slate-400 truncate">Модели: <span class="text-slate-200 font-sans">Мотоцикл Regulmoto Sport 003, Питбайк Kayo Basic TT125</span></div>
+        </div>
+
+        <!-- Phone & Demo Links -->
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs font-bold font-mono">
+          <a href="tel:+74232608888" class="py-2 px-2.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-slate-700 flex items-center justify-center gap-1.5 transition">
+            <span>📞 +7 (423) 260-88-88</span>
+          </a>
+          <a href="https://makssaas.gitverse.site/motosalons/motodepo-vladivostok/" target="_blank" class="py-2 px-2.5 rounded-lg bg-orange-600/90 hover:bg-orange-500 text-white flex items-center justify-center gap-1.5 transition shadow">
+            <span>🌐 Демо-сайт</span>
+          </a>
+        </div>
+
+        <!-- WhatsApp Quick Copy Action -->
+        <div class="mt-2">
+          <button type="button" class="w-full py-1.5 px-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 hover:text-emerald-200 border border-emerald-500/30 text-xs font-mono font-medium flex items-center justify-center gap-1.5 transition" onclick="copyWhatsAppMessage('motodepo-vladivostok')">
+            <span>📋 Скопировать сообщение для WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Call Notes Input -->
+        <div class="mt-2.5">
+          <input type="text" id="note-motodepo-vladivostok" class="w-full px-2.5 py-1.5 text-xs bg-slate-950/80 border border-slate-800 rounded-lg text-slate-300 placeholder-slate-600 focus:outline-none focus:border-orange-500/50 font-sans" placeholder="Заметка (имя директора, дата перезвона...)" onchange="saveNote('motodepo-vladivostok', this.value)">
+        </div>
+      </div>
+
+      <!-- Status Footer -->
+      <div class="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+        <label for="select-motodepo-vladivostok" class="text-[10px] font-mono text-slate-500 uppercase">Статус:</label>
+        <select id="select-motodepo-vladivostok" class="bg-slate-950 border border-slate-700 text-xs rounded-lg px-2 py-1 text-slate-200 focus:outline-none focus:border-orange-500 transition font-mono" onchange="updateStatus('motodepo-vladivostok', this.value)">
+          <option value="new">⚪ Новый</option>
+          <option value="sent">🟡 Скинул в WhatsApp</option>
+          <option value="call_later">🔵 Перезвонить</option>
+          <option value="thinking">🟣 Думает / смотрит</option>
+          <option value="deal">🟢 СДЕЛКА 15 000 ₽</option>
+          <option value="reject">🔴 Отказ / спам</option>
+        </select>
+      </div>
+    </div>
+  
+
     <div class="lead-card bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between transition-all duration-200 hover:border-orange-500/50 shadow-md" id="card-motohit27-khv" data-slug="motohit27-khv" data-status="new" data-has-website="no">
       <div>
         <div class="flex items-center justify-between text-xs font-mono mb-2">
           <div class="flex items-center gap-2">
-            <span class="text-orange-400 font-bold">#39 · Хабаровск</span>
+            <span class="text-orange-400 font-bold">#59 · Хабаровск</span>
             <span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold border bg-purple-500/20 text-purple-300 border-purple-500/30">+7 от МСК</span>
           </div>
           <span class="text-amber-400 font-bold">★ 4.8</span>
@@ -2865,6 +4225,39 @@
   <script>
     const leadsData = [
   {
+    "slug": "mototime-belgorod",
+    "name": "Мото-Тайм",
+    "city": "Белгород",
+    "address": "ул. Дзгоева, 4",
+    "phone": "+7 (4722) 78-31-78",
+    "whatsapp": "79103235750",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро GR2 250 Enduro PRO (от 159 990 ₽), Питбайк Kayo Basic TT125 EM (от 89 990 ₽)"
+  },
+  {
+    "slug": "moto-pervy-bryansk",
+    "name": "Мотосалон Первый",
+    "city": "Брянск",
+    "address": "Шоссейная ул., 3",
+    "phone": "+7 (4832) 33-05-85",
+    "whatsapp": "79103330585",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Regulmoto Legend 250 (от 145 000 ₽), Питбайк Kayo Basic TT125 (от 85 000 ₽)"
+  },
+  {
+    "slug": "mototandem-vladimir",
+    "name": "Мототандем",
+    "city": "Владимир",
+    "address": "ул. Куйбышева, 28Е",
+    "phone": "+7 (920) 933-32-32",
+    "whatsapp": "79209333232",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Мотоцикл Motoland XR250 Enduro (от 145 000 ₽), Питбайк Motoland CRF125 (от 84 000 ₽)"
+  },
+  {
     "slug": "motorbike-vlg",
     "name": "Моторбайк",
     "city": "Волгоград",
@@ -2876,6 +4269,17 @@
     "catalog": "Эндуро Motoland Dakar 250 (от 145 000 ₽), Эндуро резина и расходники (резина от 4 200 ₽)"
   },
   {
+    "slug": "ss-motors-vologda",
+    "name": "СС Моторс",
+    "city": "Вологда",
+    "address": "ул. Преображенского, 45Б",
+    "phone": "+7 (8172) 53-00-73",
+    "whatsapp": "78172530073",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Мотоцикл Regulmoto Sport 250 (от 144 000 ₽), Питбайк Kayo Mini KMB 125 (от 84 000 ₽)"
+  },
+  {
     "slug": "ponarin-mx",
     "name": "Ponarin MX",
     "city": "Воронеж",
@@ -2885,6 +4289,17 @@
     "hasWebsite": true,
     "existingWebsite": "ponarinmx.ru",
     "catalog": "JHL MX300 (от 152 000 ₽), JHL Z7 (от 275 000 ₽)"
+  },
+  {
+    "slug": "dnkmoto-ivanovo",
+    "name": "DnkMoto",
+    "city": "Иваново",
+    "address": "ул. Куконковых, 96",
+    "phone": "+7 (4932) 92-94-96",
+    "whatsapp": "79631529496",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро BSE Z3 250 (от 147 000 ₽), Питбайк Progasi Smart 125 (от 86 000 ₽)"
   },
   {
     "slug": "bars-moto-kzn",
@@ -2909,6 +4324,17 @@
     "catalog": "Мотоциклы Progasi (Super Max 300 и др.) (от 179 900 ₽), Квадроциклы (Avantis Hunter 200 и др.) (от 247 900 ₽)"
   },
   {
+    "slug": "buggyjump-kaluga",
+    "name": "Buggy Jump",
+    "city": "Калуга",
+    "address": "ул. Кропоткина, 4",
+    "phone": "+7 (4842) 57-72-79",
+    "whatsapp": "79208950103",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Motoland TT 250 (от 150 000 ₽), Питбайк Regulmoto Seven 125 (от 88 000 ₽)"
+  },
+  {
     "slug": "motoded-kirov",
     "name": "МотоДед",
     "city": "Киров",
@@ -2918,6 +4344,17 @@
     "hasWebsite": false,
     "existingWebsite": "",
     "catalog": "Эндуро Motoland WRX 250 (от 138 000 ₽), Питбайки Kayo Mini 110 (от 86 000 ₽)"
+  },
+  {
+    "slug": "u-pavla-kostroma",
+    "name": "Мотосалон У Павла",
+    "city": "Кострома",
+    "address": "ул. Костромская, 78",
+    "phone": "+7 (4942) 49-22-32",
+    "whatsapp": "74942492232",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро GR1 F250A Enduro OPTIMUM (от 152 000 ₽), Питбайк Kayo Basic TT125 (от 87 000 ₽)"
   },
   {
     "slug": "guruenduro",
@@ -2942,6 +4379,28 @@
     "catalog": "Эндуро FXMOTO / ZUUMAV / Kayo (от 145 000 ₽), Топ-модели FXMOTO (250 000–425 000 ₽)"
   },
   {
+    "slug": "kursk-moto",
+    "name": "Курск-Мото",
+    "city": "Курск",
+    "address": "ул. Пирогова, 1-Б",
+    "phone": "+7 (4712) 34-90-10",
+    "whatsapp": "79192109010",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Kayo K1 250 MX (от 154 000 ₽), Питбайк Ataki Start 125 (от 87 000 ₽)"
+  },
+  {
+    "slug": "moto48-lipetsk",
+    "name": "Мото48",
+    "city": "Липецк",
+    "address": "Воронежское шоссе, 1а",
+    "phone": "+7 (4742) 39-77-04",
+    "whatsapp": "79107427704",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Мотоцикл Motoland Dakar 250 LT (от 142 000 ₽), Питбайк Regulmoto Seven 125 (от 84 900 ₽)"
+  },
+  {
     "slug": "lkmoto-mytishchi",
     "name": "ЛКМото",
     "city": "Мытищи",
@@ -2951,6 +4410,17 @@
     "hasWebsite": true,
     "existingWebsite": "lkmoto.ru",
     "catalog": "Эндуро Regulmoto Sport 300 (от 168 000 ₽), Kove 450 Rally (от 599 000 ₽)"
+  },
+  {
+    "slug": "favorit-chelny",
+    "name": "Мотосалон Фаворит",
+    "city": "Набережные Челны",
+    "address": "ул. 40 лет Победы, 84/1",
+    "phone": "+7 (999) 163-36-49",
+    "whatsapp": "79991633649",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Motoland CRF250 (от 139 000 ₽), Питбайк Motoland Apex 125 (от 82 000 ₽)"
   },
   {
     "slug": "darex-moto-nn",
@@ -2964,6 +4434,17 @@
     "catalog": "Эндуро Progasi Super Max 300 / Kayo K1 250 (от 160 000 ₽), Питбайки и малокубатурная техника (от 88 000 ₽)"
   },
   {
+    "slug": "1001moto-novoross",
+    "name": "1001MOTO",
+    "city": "Новороссийск",
+    "address": "пос. Цемдолина, ул. Полевая, 2А",
+    "phone": "+7 (988) 488-48-68",
+    "whatsapp": "79884884868",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Regulmoto TE 250 (от 158 000 ₽), Питбайк BSE MX 125 Sport (от 89 000 ₽)"
+  },
+  {
     "slug": "extreme-sport-penza",
     "name": "ЭКСТРИМ Sport",
     "city": "Пенза",
@@ -2973,6 +4454,17 @@
     "hasWebsite": true,
     "existingWebsite": "экстрим58.рф",
     "catalog": "Эндуро Kayo T2 Enduro (от 156 000 ₽), Питбайки и кроссовые шлемы (от 94 000 ₽)"
+  },
+  {
+    "slug": "motocity-pyatigorsk",
+    "name": "Мото Сити",
+    "city": "Пятигорск",
+    "address": "Бештаугорское шоссе, 75",
+    "phone": "+7 (962) 496-10-10",
+    "whatsapp": "79624961010",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Motoland XT250 HS (от 152 000 ₽), Питбайк Kayo Basic TT125 (от 88 000 ₽)"
   },
   {
     "slug": "gsbmoto-rostov",
@@ -3006,6 +4498,17 @@
     "hasWebsite": true,
     "existingWebsite": "moto-active.ru",
     "catalog": "Эндуро Kayo K6 250 (от 189 000 ₽), Питбайки BSE PH10 (от 99 000 ₽)"
+  },
+  {
+    "slug": "67moto-smolensk",
+    "name": "67МОТО",
+    "city": "Смоленск",
+    "address": "Краснинское шоссе, 37",
+    "phone": "+7 (977) 333-30-67",
+    "whatsapp": "79773333067",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Progasi Ibiza 250 (от 155 000 ₽), Питбайк BSE PH10 125 (от 89 000 ₽)"
   },
   {
     "slug": "crazymoto-sochi",
@@ -3052,6 +4555,17 @@
     "catalog": "Эндуро Avantis FX 250 / BSE RTC-300 (от 169 000 ₽), Питбайки в наличии (от 95 000 ₽)"
   },
   {
+    "slug": "motodrive-cheboksary",
+    "name": "Moto Drive",
+    "city": "Чебоксары",
+    "address": "пр-кт Ивана Яковлева, 13",
+    "phone": "+7 (900) 333-92-12",
+    "whatsapp": "79003339212",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Мотоцикл Regulmoto Athlete 250 (от 146 000 ₽), Питбайк BSE PH 125 (от 86 000 ₽)"
+  },
+  {
     "slug": "sp-motors-yar",
     "name": "SP Motors",
     "city": "Ярославль",
@@ -3061,6 +4575,28 @@
     "hasWebsite": true,
     "existingWebsite": "spmotors.su",
     "catalog": "Эндуро Voge 300 Rally / Regulmoto (от 165 000 ₽), Питбайки и экипировка Leatt (питбайки от 94 000 ₽)"
+  },
+  {
+    "slug": "motomir-kaliningrad",
+    "name": "МотоМир",
+    "city": "Калининград",
+    "address": "ул. Старшины Дадаева, 3А",
+    "phone": "+7 (4012) 35-94-65",
+    "whatsapp": "74012359465",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Motoland XT250 HS (от 148 000 ₽), Питбайк BSE MX 125 (от 92 000 ₽)"
+  },
+  {
+    "slug": "dvakita-astrakhan",
+    "name": "Два кита",
+    "city": "Астрахань",
+    "address": "ул. Адмирала Нахимова, 80в",
+    "phone": "+7 (8512) 20-10-17",
+    "whatsapp": "78512201017",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Kayo T2 250 Enduro (от 155 000 ₽), Питбайк Kayo Evolution YX125 (от 88 000 ₽)"
   },
   {
     "slug": "multi-moto-samara",
@@ -3127,6 +4663,17 @@
     "hasWebsite": true,
     "existingWebsite": "мото66.рф",
     "catalog": "Мотоциклы 250–300cc (от 135 000 ₽), Мопеды и малокубатурная техника (от 65 000 ₽)"
+  },
+  {
+    "slug": "megabike-mgn",
+    "name": "МегаБайк",
+    "city": "Магнитогорск",
+    "address": "Западное шоссе, 362/4",
+    "phone": "+7 (982) 333-99-99",
+    "whatsapp": "79823339999",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Progasi Super Max 250 (от 149 000 ₽), Питбайк Motoland TCX125 (от 85 000 ₽)"
   },
   {
     "slug": "motokrug-orenburg",
@@ -3272,6 +4819,17 @@
     "catalog": "TZR Enduro 250 / 300 (от 89 000 до 118 800 ₽), TZR Enduro 125 (от 89 000 ₽)"
   },
   {
+    "slug": "bike4you-tomsk",
+    "name": "Bike4you",
+    "city": "Томск",
+    "address": "ул. Мичурина, 47г, ст. 1",
+    "phone": "+7 (923) 422-87-80",
+    "whatsapp": "79234228780",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Мотоцикл Regulmoto ZR 250 (от 153 000 ₽), Питбайк Kayo Mini TD125 (от 87 900 ₽)"
+  },
+  {
     "slug": "motoraion-irk",
     "name": "Моторайон",
     "city": "Иркутск",
@@ -3281,6 +4839,28 @@
     "hasWebsite": true,
     "existingWebsite": "motoraion.ru",
     "catalog": "Эндуро Regulmoto Sport-003 / Kayo T4 (от 149 000 ₽), Питбайки Progasi Smart / Kayo (от 88 000 ₽)"
+  },
+  {
+    "slug": "bringmoto-ulan-ude",
+    "name": "Bringmoto",
+    "city": "Улан-Удэ",
+    "address": "ул. Гоголя, 47, корп. 1",
+    "phone": "+7 (914) 055-20-48",
+    "whatsapp": "79140552048",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Эндуро Motoland XT250 ST (от 155 000 ₽), Питбайк BSE DX 125 (от 89 000 ₽)"
+  },
+  {
+    "slug": "motodepo-vladivostok",
+    "name": "Мото Депо",
+    "city": "Владивосток",
+    "address": "Русская ул., 92",
+    "phone": "+7 (423) 260-88-88",
+    "whatsapp": "79025244711",
+    "hasWebsite": false,
+    "existingWebsite": "",
+    "catalog": "Мотоцикл Regulmoto Sport 003 (от 152 000 ₽), Питбайк Kayo Basic TT125 (от 89 000 ₽)"
   },
   {
     "slug": "motohit27-khv",

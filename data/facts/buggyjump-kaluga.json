@@ -1,0 +1,64 @@
+{
+  "slug": "buggyjump-kaluga",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/kaluga/firm/70000001024892182",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Buggy Jump, Калуга, ул. Кропоткина, 4. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Buggy Jump",
+    "brand_display": "Buggy <span>Jump</span>",
+    "city": "Калуга",
+    "district": "Центральный р-н",
+    "address": "ул. Кропоткина, 4",
+    "phone": "+7 (4842) 57-72-79",
+    "phone_raw": "+74842577279",
+    "whatsapp": "79208950103",
+    "hours": "Пн-Пт 09:00-19:00, Сб-Вс 10:00-18:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Motoland, Kayo, Racer",
+    "focus": "Багги, питбайки, эндуро, сервис",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 150 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Калуга",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотоцентр, питбайки и квадроциклы<br> в Калуге"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland TT 250",
+      "spec": "250 см³, электростартер, дорожные шины/эндуро, фара",
+      "price": "от 150 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Regulmoto Seven 125",
+      "spec": "125 см³, электростартер, усиленная подвеска",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, светодиодная оптика, дисковые тормоза",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

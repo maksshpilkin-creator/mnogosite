@@ -1,0 +1,64 @@
+{
+  "slug": "1001moto-novoross",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/novorossiysk/firm/70000001038291415",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "1001MOTO, Новороссийск, пос. Цемдолина, ул. Полевая, 2А. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "1001MOTO",
+    "brand_display": "1001<span>MOTO</span>",
+    "city": "Новороссийск",
+    "district": "Приморский р-н",
+    "address": "пос. Цемдолина, ул. Полевая, 2А",
+    "phone": "+7 (988) 488-48-68",
+    "phone_raw": "+79884884868",
+    "whatsapp": "79884884868",
+    "hours": "Пн-Вс 09:30-18:30",
+    "rating": 4.8,
+    "brands": "Regulmoto, BSE, Progasi, Kayo",
+    "focus": "Эндуро для гор, питбайки, квадроциклы",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 158 000 ₽, Квадро от 495 000 ₽",
+    "verified_source": "2GIS Новороссийск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро для гор и побережья<br> в Новороссийске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto TE 250",
+      "spec": "250 см³, водяное охлаждение, усиленная рама для камней",
+      "price": "от 158 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125 Sport",
+      "spec": "125 см³, легкий вес 75 кг, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Linhai-Yamaha 300 4x4",
+      "spec": "300 см³, полный привод 4WD с блокировкой",
+      "price": "от 495 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

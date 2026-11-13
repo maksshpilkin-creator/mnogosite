@@ -1,0 +1,64 @@
+{
+  "slug": "moto-pervy-bryansk",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/bryansk/firm/70000001028741029",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Мотосалон Первый, Брянск, Шоссейная ул., 3. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотосалон Первый",
+    "brand_display": "Мотосалон <span>Первый</span>",
+    "city": "Брянск",
+    "district": "Бежицкий р-н",
+    "address": "Шоссейная ул., 3",
+    "phone": "+7 (4832) 33-05-85",
+    "phone_raw": "+74832330585",
+    "whatsapp": "79103330585",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-16:00",
+    "rating": 4.8,
+    "brands": "Kayo, Regulmoto, BSE, Motoland",
+    "focus": "Мотоциклы, эндуро, экипировка, сервис",
+    "price_range_note": "Питбайки от 85 000 ₽, Эндуро от 145 000 ₽, Квадро от 230 000 ₽",
+    "verified_source": "2GIS Брянск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон №1 и экипировка<br> в Брянске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Legend 250",
+      "spec": "250 см³, верхневальный мотор, электростартер, фара",
+      "price": "от 145 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, усиленная рама, колеса 17/14",
+      "price": "от 85 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 180",
+      "spec": "180 см³, масляный радиатор, фаркоп, багажники",
+      "price": "от 230 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

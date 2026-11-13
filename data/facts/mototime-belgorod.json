@@ -1,0 +1,64 @@
+{
+  "slug": "mototime-belgorod",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/belgorod/firm/70000001007421935",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Мото-Тайм, Белгород, ул. Дзгоева, 4. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мото-Тайм",
+    "brand_display": "Мото-<span>Тайм</span>",
+    "city": "Белгород",
+    "district": "Восточный р-н",
+    "address": "ул. Дзгоева, 4",
+    "phone": "+7 (4722) 78-31-78",
+    "phone_raw": "+74722783178",
+    "whatsapp": "79103235750",
+    "hours": "Пн-Пт 10:00-20:00, Сб-Вс 10:00-19:00",
+    "rating": 4.9,
+    "brands": "Kayo, GR, Regulmoto, BSE",
+    "focus": "Эндуро, питбайки, сервис Rolling Moto",
+    "price_range_note": "Питбайки от 89 990 ₽, Эндуро от 159 990 ₽, Квадро от 249 990 ₽",
+    "verified_source": "2GIS Белгород",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Официальный мотоцентр и сервис<br> в Белгороде"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро GR2 250 Enduro PRO",
+      "spec": "250 см³, мотор Zongshen 172FMM, регулируемая вилка",
+      "price": "от 159 990 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125 EM",
+      "spec": "125 см³, электростартер, фара, колеса 17/14",
+      "price": "от 89 990 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 200",
+      "spec": "200 см³, усиленная рама, автоматическая трансмиссия",
+      "price": "от 249 990 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

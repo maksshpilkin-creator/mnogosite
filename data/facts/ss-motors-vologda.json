@@ -1,0 +1,64 @@
+{
+  "slug": "ss-motors-vologda",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/vologda/firm/70000001019842193",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "СС Моторс, Вологда, ул. Преображенского, 45Б. Рейтинг 4.7 ★."
+    }
+  ],
+  "facts": {
+    "name": "СС Моторс",
+    "brand_display": "СС <span>Моторс</span>",
+    "city": "Вологда",
+    "district": "Завокзальный р-н",
+    "address": "ул. Преображенского, 45Б",
+    "phone": "+7 (8172) 53-00-73",
+    "phone_raw": "+78172530073",
+    "whatsapp": "78172530073",
+    "hours": "Пн-Пт 09:00-18:00, Сб 10:00-16:00",
+    "rating": 4.7,
+    "brands": "Regulmoto, Motoland, CFMOTO, Kayo",
+    "focus": "Мотоциклы, квадроциклы, снегоходы, сервис",
+    "price_range_note": "Питбайки от 84 000 ₽, Эндуро от 144 000 ₽, Квадро от 230 000 ₽",
+    "verified_source": "2GIS Вологда",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Салон мототехники и экипировки<br> в Вологде"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto Sport 250",
+      "spec": "250 см³, фара, зеркала, ПТС, электростартер",
+      "price": "от 144 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Mini KMB 125",
+      "spec": "125 см³, автоматическое сцепление, колеса 14/12",
+      "price": "от 84 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Shark 200",
+      "spec": "200 см³, литые диски, защита рук, лебедка",
+      "price": "от 230 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

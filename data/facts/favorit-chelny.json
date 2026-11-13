@@ -1,0 +1,64 @@
+{
+  "slug": "favorit-chelny",
+  "checked_at": "2026-11-13T23:50:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/nabchelny/firm/70000001042781615",
+      "checked_at": "2026-11-13T23:50:00.000Z",
+      "excerpt": "Фаворит, Набережные Челны, ул. 40 лет Победы, 84/1. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотосалон Фаворит",
+    "brand_display": "Фаворит <span>Мото</span>",
+    "city": "Набережные Челны",
+    "district": "Автозаводский р-н",
+    "address": "ул. 40 лет Победы, 84/1",
+    "phone": "+7 (999) 163-36-49",
+    "phone_raw": "+79991633649",
+    "whatsapp": "79991633649",
+    "hours": "Пн-Сб 09:00-18:00, Вс 10:00-17:00",
+    "rating": 4.8,
+    "brands": "Motoland, Regulmoto, Kayo, Racer",
+    "focus": "Питбайки, эндуро, сервис, запчасти",
+    "price_range_note": "Питбайки от 82 000 ₽, Эндуро от 139 000 ₽, Квадро от 215 000 ₽",
+    "verified_source": "2GIS Набережные Челны",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон, запчасти и сервис<br> в Набережных Челнах"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland CRF250",
+      "spec": "250 см³, воздушное охлаждение, дисковые тормоза",
+      "price": "от 139 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland Apex 125",
+      "spec": "125 см³, 4 скорости, кикстартер, складные рычаги",
+      "price": "от 82 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland ATV 125 Wild",
+      "spec": "125 см³, 3 передачи вперед + задний ход, пульт ДУ",
+      "price": "от 215 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}
