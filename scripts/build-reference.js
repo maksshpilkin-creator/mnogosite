@@ -6,7 +6,7 @@ const source = path.join(root, 'template');
 const output = path.join(root, 'dist', 'motodrive54');
 const html = fs.readFileSync(path.join(source, 'index.html'), 'utf8');
 if (!html.includes('content="motodrive54-demo-v1"')) throw new Error('Не найден маркер изолированного эталона. Сборка остановлена.');
-const assets = ['hero-enduro.jpg', 'product-enduro.jpg', 'product-pitbike.jpg', 'product-atv.jpg', 'rider.jpg', 'showroom.jpg'];
+const assets = ['hero-enduro.png', 'product-enduro.jpg', 'product-pitbike.jpg', 'product-atv.jpg', 'rider.jpg', 'showroom.jpg'];
 for (const file of ['index.html', 'styles.css', 'app.js', ...assets.map(name => `assets/${name}`)]) {
   if (!fs.existsSync(path.join(source, file))) throw new Error(`Нет обязательного файла: template/${file}`);
 }

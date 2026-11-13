@@ -1,35 +1,47 @@
 {
   "slug": "pitbike-magazine",
-  "checked_at": "2026-11-08T13:30:28.417Z",
+  "checked_at": "2026-11-11T16:22:29.503Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/Pitbike%20magazine%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA",
-      "checked_at": "2026-11-08T13:30:28.422Z",
-      "excerpt": "Pitbike magazine, Новосибирск, ул. Станционная, 4/1, офис 012. Рейтинг: 4.4 ★."
+      "checked_at": "2026-11-11T16:22:29.503Z",
+      "excerpt": "Pitbike magazine, Новосибирск, Ленинский р-н, ул. Станционная, 4/1, офис 012. Рейтинг: 4.4 ★. Цены по источнику: Питбайки от 95 000 ₽, Эндуро от 150 000 ₽, запчасти от 1 300 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=Pitbike%20magazine%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%2C%204%2F1%2C%20%D0%BE%D1%84%D0%B8%D1%81%20012",
+      "checked_at": "2026-11-11T16:22:29.503Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Новосибирск)."
     }
   ],
   "facts": {
     "name": "Pitbike magazine",
     "brand_display": "Pitbike <span>magazine</span>",
     "city": "Новосибирск",
+    "district": "Ленинский р-н",
     "address": "ул. Станционная, 4/1, офис 012",
     "phone": "+7 (383) 277-94-00",
     "phone_raw": "+73832779400",
     "whatsapp": "79930079400",
     "hours": "Пн-Сб 10:00-19:00",
     "rating": 4.4,
-    "focus": "Питбайки, кросс, экипировка",
-    "hero_subtitle": "Питбайки, эндуро и кроссовая экипировка<br> в Новосибирске"
+    "brands": "Kayo, BSE, Wels, YCF",
+    "focus": "Питбайки, кросс, экип",
+    "price_range_note": "Питбайки от 95 000 ₽, Эндуро от 150 000 ₽, запчасти от 1 300 ₽",
+    "verified_source": "2GIS / pbm54.ru",
+    "has_website": true,
+    "existing_website": "pbm54.ru",
+    "hero_subtitle": "Питбайки, кросс, экип<br> в Новосибирске"
   },
   "catalog": [
     {
       "id": "enduro",
       "category": "enduro",
-      "name": "Kayo T2 250 Enduro",
-      "spec": "250 см³ · 4-тактный · электростартер",
-      "price": "159 990 ₽",
+      "name": "Эндуро (Kayo T2 и др.)",
+      "spec": "Техника Kayo, BSE, Wels, YCF · уточняйте наличие",
+      "price": "от 150 000 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,9 +49,9 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "Kayo Basic TT125",
-      "spec": "125 см³ · 4-тактный · колёса 17/14",
-      "price": "94 990 ₽",
+      "name": "Питбайки (Kayo Basic 125 и др.)",
+      "spec": "Лёгкие питбайки для старта и кросса",
+      "price": "от 95 000 ₽",
       "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -47,9 +59,9 @@
     {
       "id": "gear",
       "category": "gear",
-      "name": "Шлем Fly Racing Kinetic",
-      "spec": "Ударопрочный полимер · сертификация ECE",
-      "price": "12 900 ₽",
+      "name": "Запчасти и экип Fly Racing",
+      "spec": "Перья амортизаторов, комплектующие и защита",
+      "price": "от 1 300 ₽",
       "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"

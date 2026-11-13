@@ -1,0 +1,70 @@
+{
+  "slug": "motoded-kirov",
+  "checked_at": "2026-11-11T16:22:29.529Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%94%D0%B5%D0%B4%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2",
+      "checked_at": "2026-11-11T16:22:29.529Z",
+      "excerpt": "МотоДед, Киров, Ленинский р-н, Советский тракт, 14. Рейтинг: 4.8 ★. Цены по источнику: Питбайки от 86 000 ₽, Эндуро от 138 000 ₽, резина от 3 600 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%94%D0%B5%D0%B4%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B0%D0%BA%D1%82%2C%2014",
+      "checked_at": "2026-11-11T16:22:29.529Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Киров)."
+    }
+  ],
+  "facts": {
+    "name": "МотоДед",
+    "brand_display": "Мото<span>Дед</span>",
+    "city": "Киров",
+    "district": "Ленинский р-н",
+    "address": "Советский тракт, 14",
+    "phone": "+7 (982) 383-00-53",
+    "phone_raw": "+79823830053",
+    "whatsapp": "79823830053",
+    "hours": "Пн-Пт 09:00-18:00, Сб-Вс 09:00-16:00",
+    "rating": 4.8,
+    "brands": "Motoland, Regulmoto, Kayo, BSE",
+    "focus": "Эндуро, питбайки, покрышки, экипировка",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 138 000 ₽, резина от 3 600 ₽",
+    "verified_source": "2GIS / flamp.ru",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, питбайки, покрышки, экипировка<br> в Кирове"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland WRX 250",
+      "spec": "Бренды Motoland, Regulmoto, Kayo, BSE",
+      "price": "от 138 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки Kayo Mini 110",
+      "spec": "Лёгкие питбайки для детей и начинающих",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Кроссовые покрышки и экипировка",
+      "spec": "Резина и экипировка в наличии",
+      "price": "резина от 3 600 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

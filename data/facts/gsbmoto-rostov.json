@@ -1,35 +1,47 @@
 {
   "slug": "gsbmoto-rostov",
-  "checked_at": "2026-11-08T13:30:28.428Z",
+  "checked_at": "2026-11-11T16:22:29.518Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/GSBMOTO%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83",
-      "checked_at": "2026-11-08T13:30:28.428Z",
-      "excerpt": "GSBMOTO, Ростов-на-Дону, ул. Доватора, 140 (2 этаж). Рейтинг: 4.9 ★."
+      "checked_at": "2026-11-11T16:22:29.518Z",
+      "excerpt": "GSBMOTO, Ростов-на-Дону, Советский р-н, ул. Доватора, 140 (2 этаж). Рейтинг: 4.9 ★. Цены по источнику: Питбайки от 69 990 ₽, Эндуро от 194 990 ₽, Квадро от 184 990 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=GSBMOTO%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83%20%D1%83%D0%BB.%20%D0%94%D0%BE%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%B0%2C%20140%20(2%20%D1%8D%D1%82%D0%B0%D0%B6)",
+      "checked_at": "2026-11-11T16:22:29.518Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Ростов-на-Дону)."
     }
   ],
   "facts": {
     "name": "GSBMOTO",
-    "brand_display": "GSB<span>MOTO</span>",
+    "brand_display": "GSBM<span>OTO</span>",
     "city": "Ростов-на-Дону",
+    "district": "Советский р-н",
     "address": "ул. Доватора, 140 (2 этаж)",
     "phone": "+7 (863) 322-10-68",
     "phone_raw": "+78633221068",
     "whatsapp": "78633221068",
     "hours": "Ежедневно 10:00-19:00",
     "rating": 4.9,
+    "brands": "TMBK, Progasi, Regulmoto",
     "focus": "Эндуро, квадроциклы, рассрочка",
-    "hero_subtitle": "Эндуро и квадроциклы<br> в Ростове-на-Дону"
+    "price_range_note": "Питбайки от 69 990 ₽, Эндуро от 194 990 ₽, Квадро от 184 990 ₽",
+    "verified_source": "2GIS / gsbmoto.com",
+    "has_website": true,
+    "existing_website": "gsbmoto.com",
+    "hero_subtitle": "Эндуро, квадроциклы, рассрочка<br> в Ростове-на-Дону"
   },
   "catalog": [
     {
       "id": "enduro",
       "category": "enduro",
-      "name": "Progasi Palma 250",
-      "spec": "250 см³ · карбюратор Nibbi · спортивный руль",
-      "price": "164 990 ₽",
+      "name": "Эндуро Progasi Palma / Regulmoto",
+      "spec": "Внедорожные мотоциклы в наличии и рассрочку",
+      "price": "от 194 990 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,9 +49,9 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "TMBK 125 Pitster",
-      "spec": "125 см³ · колеса 17/14 · прочная рама",
-      "price": "72 990 ₽",
+      "name": "Питбайки TMBK",
+      "spec": "Компактная техника для старта и тренировок",
+      "price": "от 69 990 ₽",
       "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -47,9 +59,9 @@
     {
       "id": "atv",
       "category": "atv",
-      "name": "Квадроцикл GSBMOTO 200 Wild",
-      "spec": "200 см³ · автоматическая трансмиссия · фаркоп",
-      "price": "189 990 ₽",
+      "name": "Квадроциклы и багги",
+      "spec": "Модели для бездорожья и активного отдыха",
+      "price": "от 184 990 ₽",
       "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"

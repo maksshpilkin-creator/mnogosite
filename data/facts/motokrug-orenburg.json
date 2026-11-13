@@ -1,0 +1,70 @@
+{
+  "slug": "motokrug-orenburg",
+  "checked_at": "2026-11-11T16:22:29.527Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3",
+      "checked_at": "2026-11-11T16:22:29.527Z",
+      "excerpt": "Мотокруг, Оренбург, Дзержинский р-н, ул. Диагностики, 2/1. Рейтинг: 4.9 ★. Цены по источнику: Питбайки от 93 000 ₽, Эндуро от 142 000 ₽, ЗИП от 800 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%94%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B8%2C%202%2F1",
+      "checked_at": "2026-11-11T16:22:29.527Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Оренбург)."
+    }
+  ],
+  "facts": {
+    "name": "Мотокруг",
+    "brand_display": "Мото<span>круг</span>",
+    "city": "Оренбург",
+    "district": "Дзержинский р-н",
+    "address": "ул. Диагностики, 2/1",
+    "phone": "+7 (932) 530-95-65",
+    "phone_raw": "+79325309565",
+    "whatsapp": "79325309565",
+    "hours": "Пн-Пт 09:30-19:00, Сб-Вс 10:00-17:00",
+    "rating": 4.9,
+    "brands": "Kayo, BSE, Motoland, Regulmoto",
+    "focus": "Эндуро, питбайки, квадроциклы, ЗИП",
+    "price_range_note": "Питбайки от 93 000 ₽, Эндуро от 142 000 ₽, ЗИП от 800 ₽",
+    "verified_source": "2GIS / motokrug56.ru",
+    "has_website": true,
+    "existing_website": "motokrug56.ru",
+    "hero_subtitle": "Эндуро, питбайки, квадроциклы, ЗИП<br> в Оренбурге"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250",
+      "spec": "Модели Motoland, Kayo, BSE, Regulmoto",
+      "price": "от 142 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки Kayo Evolution 125",
+      "spec": "Компактные питбайки для тренировок",
+      "price": "от 93 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Цепи DID, звёзды и ЗИП",
+      "spec": "Расходники, запчасти и экипировка в наличии",
+      "price": "ЗИП от 800 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

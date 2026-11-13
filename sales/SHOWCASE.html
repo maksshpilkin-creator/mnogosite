@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Витрина 39 демо-сайтов мотосалонов России (внутренняя)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #0A0D12; color: #E2E8F0; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body class="p-4 sm:p-8 max-w-7xl mx-auto min-h-screen">
+  <header class="mb-8 border-b border-slate-800 pb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+    <div>
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 font-mono text-xs uppercase mb-3">
+        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        39 проверенных мотосалонов · Внутренняя витрина (не публиковать в dist/)
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Витрина демо-сайтов мотосалонов</h1>
+      <p class="text-slate-400 text-sm mt-1 max-w-2xl">Все 39 страниц собраны в макете № 6 со встроенной картой Яндекс, мобильной панелью быстрого звонка и проверенными диапазонами цен «от» из CSV.</p>
+    </div>
+    <div class="flex flex-wrap items-center gap-2 font-mono text-xs">
+      <button onclick="filterShowcase('all', this)" class="sc-btn px-3 py-2 rounded-xl bg-white/10 text-white font-bold">Все (39)</button>
+      <button onclick="filterShowcase('no', this)" class="sc-btn px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-emerald-300">Без сайта (11)</button>
+      <button onclick="filterShowcase('yes', this)" class="sc-btn px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-sky-300">На редизайн (28)</button>
+    </div>
+  </header>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Барнаул</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">МотоСоюз</h2>
+        <p class="text-xs text-slate-400 mb-2">Индустриальный р-н · Павловский тракт, 198г</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (930) 333-19-96</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, Kayo, BSE, Motoland</div>
+          <div class="text-orange-300 font-medium">Эндуро Regulmoto Athlete 250: от 139 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motosoyuz-barnaul/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B0%D0%BA%D1%82%2C%20198%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B0%D0%BA%D1%82%2C%20198%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79303331996?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20(%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotosoyuz-barnaul%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Волгоград</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Моторбайк</h2>
+        <p class="text-xs text-slate-400 mb-2">Краснооктябрьский р-н · ул. Лермонтова, 33</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (motorbike.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Сб 10:00-18:00, Вс 10:00-17:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (927) 510-03-74</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, Motoland, Zontes, Honda, Yamaha</div>
+          <div class="text-orange-300 font-medium">Эндуро Motoland Dakar 250: от 145 000 ₽</div>
+          <a href="https://motorbike.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: motorbike.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motorbike-vlg/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%20%D1%83%D0%BB.%20%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%2C%2033" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%20%D1%83%D0%BB.%20%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%2C%2033" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79275100374?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B1%D0%B0%D0%B9%D0%BA%20(%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotorbike-vlg%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Воронеж</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Ponarin MX</h2>
+        <p class="text-xs text-slate-400 mb-2">Коминтерновский р-н · ул. Антонова-Овсеенко, 9В</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (ponarinmx.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (960) 130-86-20</span></div>
+          <div><span class="text-slate-500">Бренды:</span> JHL, Regulmoto, Progasi, Kayo</div>
+          <div class="text-orange-300 font-medium">JHL MX300: от 152 000 ₽</div>
+          <a href="https://ponarinmx.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: ponarinmx.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/ponarin-mx/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Ponarin%20MX%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Ponarin%20MX%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%20%D1%83%D0%BB.%20%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0-%D0%9E%D0%B2%D1%81%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE%2C%209%D0%92" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Ponarin%20MX%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%20%D1%83%D0%BB.%20%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0-%D0%9E%D0%B2%D1%81%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE%2C%209%D0%92" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79601308620?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Ponarin%20MX%20(%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fponarin-mx%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Екатеринбург</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Motodom (Мотодом)</h2>
+        <p class="text-xs text-slate-400 mb-2">Кировский р-н · ул. Академическая, 1 (1 этаж)</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Сб 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (966) 222-99-91</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, BSE, CFMOTO</div>
+          <div class="text-orange-300 font-medium">Эндуро BSE: от 165 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motodom-ekb/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Motodom%20(%D0%9C%D0%BE%D1%82%D0%BE%D0%B4%D0%BE%D0%BC)%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Motodom%20(%D0%9C%D0%BE%D1%82%D0%BE%D0%B4%D0%BE%D0%BC)%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%2C%201%20(1%20%D1%8D%D1%82%D0%B0%D0%B6)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Motodom%20(%D0%9C%D0%BE%D1%82%D0%BE%D0%B4%D0%BE%D0%BC)%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%2C%201%20(1%20%D1%8D%D1%82%D0%B0%D0%B6)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79662229991?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Motodom%20(%D0%9C%D0%BE%D1%82%D0%BE%D0%B4%D0%BE%D0%BC)%20(%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotodom-ekb%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Екатеринбург</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мотолидер</h2>
+        <p class="text-xs text-slate-400 mb-2">Орджоникидзевский р-н · ул. Донбасская, 19 (ЖК Белая Башня)</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (мото66.рф)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (343) 379-07-79</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, Motoland, Racer</div>
+          <div class="text-orange-300 font-medium">Мотоциклы 250–300cc: от 135 000 ₽</div>
+          <a href="https://мото66.рф" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: мото66.рф</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motolider-ekb/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%94%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2019%20(%D0%96%D0%9A%20%D0%91%D0%B5%D0%BB%D0%B0%D1%8F%20%D0%91%D0%B0%D1%88%D0%BD%D1%8F)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%20%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%94%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F%2C%2019%20(%D0%96%D0%9A%20%D0%91%D0%B5%D0%BB%D0%B0%D1%8F%20%D0%91%D0%B0%D1%88%D0%BD%D1%8F)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79058770809?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%BB%D0%B8%D0%B4%D0%B5%D1%80%20(%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotolider-ekb%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Иркутск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Моторайон</h2>
+        <p class="text-xs text-slate-400 mb-2">Куйбышевский р-н · ул. Рабочего Штаба, 136</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (motoraion.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 10:00-18:30, Сб 11:00-17:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (914) 906-21-21</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, Kayo, Progasi</div>
+          <div class="text-orange-300 font-medium">Эндуро Regulmoto Sport-003 / Kayo T4: от 149 000 ₽</div>
+          <a href="https://motoraion.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: motoraion.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motoraion-irk/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE%20%D0%A8%D1%82%D0%B0%D0%B1%D0%B0%2C%20136" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE%20%D0%A8%D1%82%D0%B0%D0%B1%D0%B0%2C%20136" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79149062121?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20(%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotoraion-irk%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Казань</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Барс-мото</h2>
+        <p class="text-xs text-slate-400 mb-2">Кировский р-н · ул. Алафузова, 3Б</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Сб 09:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (843) 555-22-10</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, Motoland, Racer</div>
+          <div class="text-orange-300 font-medium">Мотоциклы Motoland: от 140 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/bars-moto-kzn/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%91%D0%B0%D1%80%D1%81-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%91%D0%B0%D1%80%D1%81-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%BB%D0%B0%D1%84%D1%83%D0%B7%D0%BE%D0%B2%D0%B0%2C%203%D0%91" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%91%D0%B0%D1%80%D1%81-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%BB%D0%B0%D1%84%D1%83%D0%B7%D0%BE%D0%B2%D0%B0%2C%203%D0%91" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79875552210?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%91%D0%B0%D1%80%D1%81-%D0%BC%D0%BE%D1%82%D0%BE%20(%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fbars-moto-kzn%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Казань</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Drivemoto</h2>
+        <p class="text-xs text-slate-400 mb-2">Советский р-н · ул. Академика Арбузова, 5</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (dmoto16.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 09:00-19:00, Сб 09:00-18:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (919) 636-05-11</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Progasi, Avantis, CFMOTO</div>
+          <div class="text-orange-300 font-medium">Мотоциклы Progasi (Super Max 300 и др.): от 179 900 ₽</div>
+          <a href="https://dmoto16.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: dmoto16.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/drivemoto-kzn/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Drivemoto%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Drivemoto%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%90%D1%80%D0%B1%D1%83%D0%B7%D0%BE%D0%B2%D0%B0%2C%205" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Drivemoto%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%90%D1%80%D0%B1%D1%83%D0%B7%D0%BE%D0%B2%D0%B0%2C%205" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79196360511?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Drivemoto%20(%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fdrivemoto-kzn%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Кемерово</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Сусанин</h2>
+        <p class="text-xs text-slate-400 mb-2">Заводский р-н · Кузнецкий проспект, 176 к2</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (923) 466-61-23</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, Motoland, Kayo, BSE</div>
+          <div class="text-orange-300 font-medium">Эндуро Regulmoto Sport-003: от 152 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/susanin-kemerovo/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%A1%D1%83%D1%81%D0%B0%D0%BD%D0%B8%D0%BD%20%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%BE" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%A1%D1%83%D1%81%D0%B0%D0%BD%D0%B8%D0%BD%20%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%BE%20%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%2C%20176%20%D0%BA2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%A1%D1%83%D1%81%D0%B0%D0%BD%D0%B8%D0%BD%20%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%BE%20%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%2C%20176%20%D0%BA2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79234666123?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%A1%D1%83%D1%81%D0%B0%D0%BD%D0%B8%D0%BD%20(%D0%9A%D0%B5%D0%BC%D0%B5%D1%80%D0%BE%D0%B2%D0%BE)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fsusanin-kemerovo%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Киров</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">МотоДед</h2>
+        <p class="text-xs text-slate-400 mb-2">Ленинский р-н · Советский тракт, 14</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 09:00-18:00, Сб-Вс 09:00-16:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (982) 383-00-53</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Motoland, Regulmoto, Kayo, BSE</div>
+          <div class="text-orange-300 font-medium">Эндуро Motoland WRX 250: от 138 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motoded-kirov/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%94%D0%B5%D0%B4%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%94%D0%B5%D0%B4%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B0%D0%BA%D1%82%2C%2014" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%94%D0%B5%D0%B4%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%D1%82%D1%80%D0%B0%D0%BA%D1%82%2C%2014" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79823830053?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%94%D0%B5%D0%B4%20(%D0%9A%D0%B8%D1%80%D0%BE%D0%B2)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotoded-kirov%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Краснодар</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Guruenduro</h2>
+        <p class="text-xs text-slate-400 mb-2">Прикубанский округ · ул. имени М.Д. Ягодина, 59</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (guruenduro.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (928) 882-33-48</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Guruenduro, BRZ, Regulmoto</div>
+          <div class="text-orange-300 font-medium">GURUENDURO AIR PRO 300: от 205 000 ₽</div>
+          <a href="https://guruenduro.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: guruenduro.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/guruenduro/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Guruenduro%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Guruenduro%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%20%D1%83%D0%BB.%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%9C.%D0%94.%20%D0%AF%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%2C%2059" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Guruenduro%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%20%D1%83%D0%BB.%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%9C.%D0%94.%20%D0%AF%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%2C%2059" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79288823348?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Guruenduro%20(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fguruenduro%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Краснодар</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мегакросс</h2>
+        <p class="text-xs text-slate-400 mb-2">Карасунский округ · ул. Симферопольская, 55/2</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (megacross.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (964) 900-88-33</span></div>
+          <div><span class="text-slate-500">Бренды:</span> FXMOTO, ZUUMAV, Kayo</div>
+          <div class="text-orange-300 font-medium">Эндуро FXMOTO / ZUUMAV / Kayo: от 145 000 ₽</div>
+          <a href="https://megacross.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: megacross.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/megacross/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%B5%D0%B3%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D1%81%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%B5%D0%B3%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D1%81%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%20%D1%83%D0%BB.%20%D0%A1%D0%B8%D0%BC%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%2C%2055%2F2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%B5%D0%B3%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D1%81%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%20%D1%83%D0%BB.%20%D0%A1%D0%B8%D0%BC%D1%84%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%2C%2055%2F2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79649008833?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%B5%D0%B3%D0%B0%D0%BA%D1%80%D0%BE%D1%81%D1%81%20(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmegacross%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Красноярск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">ЭндуроСибирь24</h2>
+        <p class="text-xs text-slate-400 mb-2">Октябрьский р-н · ул. Норильская, 2г</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (endurosibir24.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (983) 070-89-89</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Hasky, Regulmoto, Kayo, BSE</div>
+          <div class="text-orange-300 font-medium">Эндуро Hasky F7 300 / BSE Z5: от 155 000 ₽</div>
+          <a href="https://endurosibir24.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: endurosibir24.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/enduro-sibir-krsk/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%AD%D0%BD%D0%B4%D1%83%D1%80%D0%BE%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8C24%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%AD%D0%BD%D0%B4%D1%83%D1%80%D0%BE%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8C24%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9D%D0%BE%D1%80%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%2C%202%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%AD%D0%BD%D0%B4%D1%83%D1%80%D0%BE%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8C24%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9D%D0%BE%D1%80%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%2C%202%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79830708989?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%AD%D0%BD%D0%B4%D1%83%D1%80%D0%BE%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8C24%20(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fenduro-sibir-krsk%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Мытищи</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">ЛКМото</h2>
+        <p class="text-xs text-slate-400 mb-2">Мытищинский р-н · Ярмарочная ул., с4Б</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (lkmoto.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (993) 275-87-01</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, VMC, Zontes, Kove</div>
+          <div class="text-orange-300 font-medium">Эндуро Regulmoto Sport 300: от 168 000 ₽</div>
+          <a href="https://lkmoto.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: lkmoto.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/lkmoto-mytishchi/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9B%D0%9A%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9C%D1%8B%D1%82%D0%B8%D1%89%D0%B8" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9B%D0%9A%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9C%D1%8B%D1%82%D0%B8%D1%89%D0%B8%20%D0%AF%D1%80%D0%BC%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%20%D1%814%D0%91" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9B%D0%9A%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9C%D1%8B%D1%82%D0%B8%D1%89%D0%B8%20%D0%AF%D1%80%D0%BC%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%20%D1%814%D0%91" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79932758701?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9B%D0%9A%D0%9C%D0%BE%D1%82%D0%BE%20(%D0%9C%D1%8B%D1%82%D0%B8%D1%89%D0%B8)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Flkmoto-mytishchi%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Нижний Новгород</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.7</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Darex Moto</h2>
+        <p class="text-xs text-slate-400 mb-2">Канавинский р-н · Московское шоссе, 302/1Д</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (darexmoto.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (937) 587-27-41</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, Regulmoto, BSE, Progasi</div>
+          <div class="text-orange-300 font-medium">Эндуро Progasi Super Max 300 / Kayo K1 250: от 160 000 ₽</div>
+          <a href="https://darexmoto.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: darexmoto.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/darex-moto-nn/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Darex%20Moto%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Darex%20Moto%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%20302%2F1%D0%94" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Darex%20Moto%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%20302%2F1%D0%94" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79375872741?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Darex%20Moto%20(%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fdarex-moto-nn%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Новокузнецк</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">МотоСоюз Новокузнецк</h2>
+        <p class="text-xs text-slate-400 mb-2">Куйбышевский р-н · ул. Димитрова, 21</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (3843) 56-04-64</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, Kayo, BSE, Motoland</div>
+          <div class="text-orange-300 font-medium">Эндуро Regulmoto Holeshot 300: от 146 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motosoyuz-nk/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%20%D1%83%D0%BB.%20%D0%94%D0%B8%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B0%2C%2021" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%20%D1%83%D0%BB.%20%D0%94%D0%B8%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D0%B0%2C%2021" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79029830464?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%A1%D0%BE%D1%8E%D0%B7%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA%20(%D0%9D%D0%BE%D0%B2%D0%BE%D0%BA%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotosoyuz-nk%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Новосибирск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">МотоБРО</h2>
+        <p class="text-xs text-slate-400 mb-2">Центральный р-н · ул. Писарева, 60 (ТЦ Баzа, пав. 1.4.1)</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (motobro.shop)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 10:00-19:00, Сб-Вс 11:00-18:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (983) 302-28-16</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Regulmoto, GR, Ataki, Leatt</div>
+          <div class="text-orange-300 font-medium">Шлемы кроссовые: от 3 700 ₽</div>
+          <a href="https://motobro.shop" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: motobro.shop</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motobro/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%91%D0%A0%D0%9E%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%91%D0%A0%D0%9E%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9F%D0%B8%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B0%2C%2060%20(%D0%A2%D0%A6%20%D0%91%D0%B0z%D0%B0%2C%20%D0%BF%D0%B0%D0%B2.%201.4.1)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%91%D0%A0%D0%9E%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9F%D0%B8%D1%81%D0%B0%D1%80%D0%B5%D0%B2%D0%B0%2C%2060%20(%D0%A2%D0%A6%20%D0%91%D0%B0z%D0%B0%2C%20%D0%BF%D0%B0%D0%B2.%201.4.1)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79833022816?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%91%D0%A0%D0%9E%20(%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotobro%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Новосибирск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.4</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Pitbike magazine</h2>
+        <p class="text-xs text-slate-400 mb-2">Ленинский р-н · ул. Станционная, 4/1, офис 012</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (pbm54.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Сб 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (383) 277-94-00</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, BSE, Wels, YCF</div>
+          <div class="text-orange-300 font-medium">Эндуро (Kayo T2 и др.): от 150 000 ₽</div>
+          <a href="https://pbm54.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: pbm54.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/pitbike-magazine/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Pitbike%20magazine%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Pitbike%20magazine%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%2C%204%2F1%2C%20%D0%BE%D1%84%D0%B8%D1%81%20012" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Pitbike%20magazine%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%2C%204%2F1%2C%20%D0%BE%D1%84%D0%B8%D1%81%20012" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79930079400?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Pitbike%20magazine%20(%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fpitbike-magazine%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Новосибирск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мототехника Русич</h2>
+        <p class="text-xs text-slate-400 mb-2">Калининский р-н · ул. Богдана Хмельницкого, 90/3</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 08:00-17:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (383) 271-20-40</span></div>
+          <div><span class="text-slate-500">Бренды:</span> TZR, Русич, Motoland</div>
+          <div class="text-orange-300 font-medium">TZR Enduro 250 / 300: от 89 000 до 118 800 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/rusich-moto/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%A0%D1%83%D1%81%D0%B8%D1%87%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%A0%D1%83%D1%81%D0%B8%D1%87%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0%20%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE%2C%2090%2F3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%A0%D1%83%D1%81%D0%B8%D1%87%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0%20%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE%2C%2090%2F3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79139152040?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%A0%D1%83%D1%81%D0%B8%D1%87%20(%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Frusich-moto%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Омск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.7</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Zona Enduro / Питбайк Омск55</h2>
+        <p class="text-xs text-slate-400 mb-2">Центральный р-н · 5-я Северная улица, 196</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (zona-enduro.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Вт-Пт 11:00-19:00, Сб 11:00-17:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (960) 999-78-28</span></div>
+          <div><span class="text-slate-500">Бренды:</span> BSE, Kayo, Progasi, Acerbis</div>
+          <div class="text-orange-300 font-medium">Эндуро BSE / Kayo / Progasi: от 155 000 ₽</div>
+          <a href="https://zona-enduro.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: zona-enduro.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/zona-enduro-omsk/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Zona%20Enduro%20%2F%20%D0%9F%D0%B8%D1%82%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%9E%D0%BC%D1%81%D0%BA55%20%D0%9E%D0%BC%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Zona%20Enduro%20%2F%20%D0%9F%D0%B8%D1%82%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%9E%D0%BC%D1%81%D0%BA55%20%D0%9E%D0%BC%D1%81%D0%BA%205-%D1%8F%20%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%20196" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Zona%20Enduro%20%2F%20%D0%9F%D0%B8%D1%82%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%9E%D0%BC%D1%81%D0%BA55%20%D0%9E%D0%BC%D1%81%D0%BA%205-%D1%8F%20%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%20196" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79609997828?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Zona%20Enduro%20%2F%20%D0%9F%D0%B8%D1%82%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%9E%D0%BC%D1%81%D0%BA55%20(%D0%9E%D0%BC%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fzona-enduro-omsk%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Оренбург</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мотокруг</h2>
+        <p class="text-xs text-slate-400 mb-2">Дзержинский р-н · ул. Диагностики, 2/1</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (motokrug56.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 09:30-19:00, Сб-Вс 10:00-17:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (932) 530-95-65</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, BSE, Motoland, Regulmoto</div>
+          <div class="text-orange-300 font-medium">Эндуро Motoland XT250: от 142 000 ₽</div>
+          <a href="https://motokrug56.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: motokrug56.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motokrug-orenburg/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%94%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B8%2C%202%2F1" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%94%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B8%2C%202%2F1" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79325309565?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%BA%D1%80%D1%83%D0%B3%20(%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotokrug-orenburg%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Пенза</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">ЭКСТРИМ Sport</h2>
+        <p class="text-xs text-slate-400 mb-2">Октябрьский р-н · ул. Ладожская, 38/2</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (экстрим58.рф)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Сб 10:00-19:00, Вс 10:00-16:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (960) 321-99-14</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Stels, CFMOTO, Kayo, BSE</div>
+          <div class="text-orange-300 font-medium">Эндуро Kayo T2 Enduro: от 156 000 ₽</div>
+          <a href="https://экстрим58.рф" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: экстрим58.рф</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/extreme-sport-penza/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%AD%D0%9A%D0%A1%D0%A2%D0%A0%D0%98%D0%9C%20Sport%20%D0%9F%D0%B5%D0%BD%D0%B7%D0%B0" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%AD%D0%9A%D0%A1%D0%A2%D0%A0%D0%98%D0%9C%20Sport%20%D0%9F%D0%B5%D0%BD%D0%B7%D0%B0%20%D1%83%D0%BB.%20%D0%9B%D0%B0%D0%B4%D0%BE%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%2C%2038%2F2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%AD%D0%9A%D0%A1%D0%A2%D0%A0%D0%98%D0%9C%20Sport%20%D0%9F%D0%B5%D0%BD%D0%B7%D0%B0%20%D1%83%D0%BB.%20%D0%9B%D0%B0%D0%B4%D0%BE%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%2C%2038%2F2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79603219914?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%AD%D0%9A%D0%A1%D0%A2%D0%A0%D0%98%D0%9C%20Sport%20(%D0%9F%D0%B5%D0%BD%D0%B7%D0%B0)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fextreme-sport-penza%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Пермь</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Импульс Силы</h2>
+        <p class="text-xs text-slate-400 mb-2">Ленинский р-н · ул. Спешилова, 107</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (impulse-s.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (342) 248-08-22</span></div>
+          <div><span class="text-slate-500">Бренды:</span> CFMOTO, Kayo, Progasi, Regulmoto</div>
+          <div class="text-orange-300 font-medium">Эндуро Progasi Super Max / Regulmoto: от 165 000 ₽</div>
+          <a href="https://impulse-s.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: impulse-s.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/impulse-sila-perm/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%20%D0%A1%D0%B8%D0%BB%D1%8B%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%20%D0%A1%D0%B8%D0%BB%D1%8B%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%20%D1%83%D0%BB.%20%D0%A1%D0%BF%D0%B5%D1%88%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%2C%20107" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%20%D0%A1%D0%B8%D0%BB%D1%8B%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%20%D1%83%D0%BB.%20%D0%A1%D0%BF%D0%B5%D1%88%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%2C%20107" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79028014822?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%20%D0%A1%D0%B8%D0%BB%D1%8B%20(%D0%9F%D0%B5%D1%80%D0%BC%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fimpulse-sila-perm%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Ростов-на-Дону</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">GSBMOTO</h2>
+        <p class="text-xs text-slate-400 mb-2">Советский р-н · ул. Доватора, 140 (2 этаж)</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (gsbmoto.com)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (863) 322-10-68</span></div>
+          <div><span class="text-slate-500">Бренды:</span> TMBK, Progasi, Regulmoto</div>
+          <div class="text-orange-300 font-medium">Эндуро Progasi Palma / Regulmoto: от 194 990 ₽</div>
+          <a href="https://gsbmoto.com" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: gsbmoto.com</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/gsbmoto-rostov/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/GSBMOTO%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=GSBMOTO%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83%20%D1%83%D0%BB.%20%D0%94%D0%BE%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%B0%2C%20140%20(2%20%D1%8D%D1%82%D0%B0%D0%B6)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=GSBMOTO%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83%20%D1%83%D0%BB.%20%D0%94%D0%BE%D0%B2%D0%B0%D1%82%D0%BE%D1%80%D0%B0%2C%20140%20(2%20%D1%8D%D1%82%D0%B0%D0%B6)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/78633221068?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20GSBMOTO%20(%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fgsbmoto-rostov%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Рязань</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мотоначинка</h2>
+        <p class="text-xs text-slate-400 mb-2">Октябрьский р-н · Куйбышевское шоссе, 47</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (motonachinka.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 09:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (915) 624-22-36</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, Regulmoto, Progasi, BSE, Voge</div>
+          <div class="text-orange-300 font-medium">Эндуро Kayo T2 250 / Regulmoto CR-X 300: от 158 000 ₽</div>
+          <a href="https://motonachinka.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: motonachinka.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motonachinka-rzn/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%9A%D1%83%D0%B9%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2047" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%9A%D1%83%D0%B9%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2047" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79156242236?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B0%20(%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotonachinka-rzn%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Самара</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.3</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мульти-мото</h2>
+        <p class="text-xs text-slate-400 mb-2">Кировский р-н · ул. Алма-Атинская, 57 (2 этаж)</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (163motors.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (937) 066-66-23</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, Zontes, Regulmoto</div>
+          <div class="text-orange-300 font-medium">Эндуро Kayo K2 / T2 / T4: 190 000–270 000 ₽</div>
+          <a href="https://163motors.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: 163motors.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/multi-moto-samara/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0%20%D1%83%D0%BB.%20%D0%90%D0%BB%D0%BC%D0%B0-%D0%90%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2057%20(2%20%D1%8D%D1%82%D0%B0%D0%B6)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0%20%D1%83%D0%BB.%20%D0%90%D0%BB%D0%BC%D0%B0-%D0%90%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2057%20(2%20%D1%8D%D1%82%D0%B0%D0%B6)" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79370666623?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-%D0%BC%D0%BE%D1%82%D0%BE%20(%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmulti-moto-samara%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Санкт-Петербург</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мото-Актив</h2>
+        <p class="text-xs text-slate-400 mb-2">Выборгский р-н · ул. Симонова, 11</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (moto-active.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (812) 313-25-36</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, BSE, Regulmoto, Zontes, SYM</div>
+          <div class="text-orange-300 font-medium">Эндуро Kayo K6 250: от 189 000 ₽</div>
+          <a href="https://moto-active.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: moto-active.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/moto-active-spb/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE-%D0%90%D0%BA%D1%82%D0%B8%D0%B2%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE-%D0%90%D0%BA%D1%82%D0%B8%D0%B2%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%2C%2011" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE-%D0%90%D0%BA%D1%82%D0%B8%D0%B2%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%20%D1%83%D0%BB.%20%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%2C%2011" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/78123132536?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE-%D0%90%D0%BA%D1%82%D0%B8%D0%B2%20(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmoto-active-spb%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Саратов</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.7</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Саратов-Мото</h2>
+        <p class="text-xs text-slate-400 mb-2">Заводской р-н · ул. имени В.Д. Хомяковой, 20а</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (saratov-moto.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Сб 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (917) 311-20-02</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Racer, Motoland, Regulmoto, Hasky</div>
+          <div class="text-orange-300 font-medium">Эндуро Hasky / Motoland / Regulmoto: от 140 000 ₽</div>
+          <a href="https://saratov-moto.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: saratov-moto.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/saratov-moto/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2-%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2-%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%20%D1%83%D0%BB.%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%92.%D0%94.%20%D0%A5%D0%BE%D0%BC%D1%8F%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9%2C%2020%D0%B0" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2-%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%20%D1%83%D0%BB.%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8%20%D0%92.%D0%94.%20%D0%A5%D0%BE%D0%BC%D1%8F%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9%2C%2020%D0%B0" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79173112002?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2-%D0%9C%D0%BE%D1%82%D0%BE%20(%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fsaratov-moto%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Сочи</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">CrazyMoto</h2>
+        <p class="text-xs text-slate-400 mb-2">Адлерский р-н · ул. Авиационная, 19А</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (crazymoto.pro)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 09:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (918) 403-23-02</span></div>
+          <div><span class="text-slate-500">Бренды:</span> BSE, Kayo, Regulmoto, SYM</div>
+          <div class="text-orange-300 font-medium">Эндуро Kayo T4 300: от 185 000 ₽</div>
+          <a href="https://crazymoto.pro" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: crazymoto.pro</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/crazymoto-sochi/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/CrazyMoto%20%D0%A1%D0%BE%D1%87%D0%B8" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=CrazyMoto%20%D0%A1%D0%BE%D1%87%D0%B8%20%D1%83%D0%BB.%20%D0%90%D0%B2%D0%B8%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%2C%2019%D0%90" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=CrazyMoto%20%D0%A1%D0%BE%D1%87%D0%B8%20%D1%83%D0%BB.%20%D0%90%D0%B2%D0%B8%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%2C%2019%D0%90" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79184032302?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20CrazyMoto%20(%D0%A1%D0%BE%D1%87%D0%B8)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fcrazymoto-sochi%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Ставрополь</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">ДжастМото</h2>
+        <p class="text-xs text-slate-400 mb-2">Промышленный р-н · проспект Кулакова, 51</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-20:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (989) 973-48-74</span></div>
+          <div><span class="text-slate-500">Бренды:</span> ZUUMAV, FXMOTO, Kayo, Regulmoto</div>
+          <div class="text-orange-300 font-medium">Эндуро ZUUMAV K8 300 / FXMOTO X7: от 175 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/justmoto-stavropol/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%94%D0%B6%D0%B0%D1%81%D1%82%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%94%D0%B6%D0%B0%D1%81%D1%82%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%9A%D1%83%D0%BB%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%2C%2051" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%94%D0%B6%D0%B0%D1%81%D1%82%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%9A%D1%83%D0%BB%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%2C%2051" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79899734874?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%94%D0%B6%D0%B0%D1%81%D1%82%D0%9C%D0%BE%D1%82%D0%BE%20(%D0%A1%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fjustmoto-stavropol%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Тверь</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Планета Мото</h2>
+        <p class="text-xs text-slate-400 mb-2">Московский р-н · Волоколамское шоссе, 47Б</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Сб 10:00-19:00, Вс 10:00-17:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (910) 533-30-80</span></div>
+          <div><span class="text-slate-500">Бренды:</span> BSE, Kayo, Regulmoto, Motoland</div>
+          <div class="text-orange-300 font-medium">Эндуро BSE Z3 250: от 149 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/planeta-moto-tver/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A2%D0%B2%D0%B5%D1%80%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A2%D0%B2%D0%B5%D1%80%D1%8C%20%D0%92%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%BC%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2047%D0%91" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A2%D0%B2%D0%B5%D1%80%D1%8C%20%D0%92%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%BC%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2047%D0%91" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79105333080?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%20(%D0%A2%D0%B2%D0%B5%D1%80%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fplaneta-moto-tver%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Тольятти</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Волга Драйв</h2>
+        <p class="text-xs text-slate-400 mb-2">Центральный р-н · ул. Толстого, 3</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (globaldrive.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (931) 105-18-62</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, Voge, Regulmoto, Linhai</div>
+          <div class="text-orange-300 font-medium">Эндуро и дорожники Voge / Regulmoto: от 135 000 ₽</div>
+          <a href="https://globaldrive.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: globaldrive.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/volga-drive-tlt/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%92%D0%BE%D0%BB%D0%B3%D0%B0%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%20%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%92%D0%BE%D0%BB%D0%B3%D0%B0%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%20%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8%20%D1%83%D0%BB.%20%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B3%D0%BE%2C%203" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%92%D0%BE%D0%BB%D0%B3%D0%B0%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%20%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8%20%D1%83%D0%BB.%20%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B3%D0%BE%2C%203" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79311051862?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%92%D0%BE%D0%BB%D0%B3%D0%B0%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%20(%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fvolga-drive-tlt%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Тула</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мотопарк</h2>
+        <p class="text-xs text-slate-400 mb-2">Центральный р-н · Новомосковское шоссе, 58</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 09:00-21:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (910) 940-00-58</span></div>
+          <div><span class="text-slate-500">Бренды:</span> BSE, Regulmoto, Avantis, Voge, Motoland</div>
+          <div class="text-orange-300 font-medium">Эндуро Avantis FX 250 / BSE RTC-300: от 169 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motopark-tula/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%20%D0%A2%D1%83%D0%BB%D0%B0" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%20%D0%A2%D1%83%D0%BB%D0%B0%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2058" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%20%D0%A2%D1%83%D0%BB%D0%B0%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2058" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79109400058?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%20(%D0%A2%D1%83%D0%BB%D0%B0)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotopark-tula%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Тюмень</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.9</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Pro-100moto</h2>
+        <p class="text-xs text-slate-400 mb-2">Центральный р-н · Березняковская ул., 4, стр. 2</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (pro-100moto.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 10:00-19:00, Сб-Вс 10:00-18:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (3452) 92-38-38</span></div>
+          <div><span class="text-slate-500">Бренды:</span> BRZ, Regulmoto, Hasky, Rockot</div>
+          <div class="text-orange-300 font-medium">Эндуро OXO Base 250 / Regulmoto CR-X 300: 125 000–250 000 ₽</div>
+          <a href="https://pro-100moto.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: pro-100moto.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/pro100moto-tmn/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Pro-100moto%20%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Pro-100moto%20%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C%20%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%204%2C%20%D1%81%D1%82%D1%80.%202" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Pro-100moto%20%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C%20%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BD%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%204%2C%20%D1%81%D1%82%D1%80.%202" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79088773838?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Pro-100moto%20(%D0%A2%D1%8E%D0%BC%D0%B5%D0%BD%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fpro100moto-tmn%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Ульяновск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Bike4you Ульяновск</h2>
+        <p class="text-xs text-slate-400 mb-2">Засвияжский р-н · Московское шоссе, 35</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (bike4you.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 09:00-19:00, Сб-Вс 10:00-18:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (927) 632-50-42</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Motoland, Kayo, Regulmoto, Wels</div>
+          <div class="text-orange-300 font-medium">Эндуро Motoland XT250 ST: от 144 000 ₽</div>
+          <a href="https://bike4you.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: bike4you.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/bike4you-ulyanovsk/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/Bike4you%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=Bike4you%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2035" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Bike4you%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2035" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79276325042?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20Bike4you%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20(%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fbike4you-ulyanovsk%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Уфа</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">Мото вектор</h2>
+        <p class="text-xs text-slate-400 mb-2">Октябрьский р-н · ул. Малая Гражданская, 35а к4</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (motovektor.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (917) 449-52-55</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, BSE, Regulmoto, Motoland</div>
+          <div class="text-orange-300 font-medium">Эндуро (Regulmoto Sport 300 и др.): от 148 000 ₽</div>
+          <a href="https://motovektor.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: motovektor.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/moto-vektor-ufa/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%20%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%A3%D1%84%D0%B0" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%A3%D1%84%D0%B0%20%D1%83%D0%BB.%20%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F%20%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2035%D0%B0%20%D0%BA4" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%A3%D1%84%D0%B0%20%D1%83%D0%BB.%20%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F%20%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2035%D0%B0%20%D0%BA4" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79174495255?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%20%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20(%D0%A3%D1%84%D0%B0)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmoto-vektor-ufa%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="no">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Хабаровск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.8</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">МотоХит27</h2>
+        <p class="text-xs text-slate-400 mb-2">Железнодорожный р-н · ул. Нововыборгская, 48</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono text-[11px]">Без отдельного сайта</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (914) 061-62-10</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Kayo, Ataki, Regulmoto, BSE</div>
+          <div class="text-orange-300 font-medium">Эндуро Kayo T2 Enduro: от 162 000 ₽</div>
+          
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/motohit27-khv/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%A5%D0%B8%D1%8227%20%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%A5%D0%B8%D1%8227%20%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F%2C%2048" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%82%D0%BE%D0%A5%D0%B8%D1%8227%20%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F%2C%2048" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79140616210?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%D0%A5%D0%B8%D1%8227%20(%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fmotohit27-khv%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Челябинск</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 4.6</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">FOX moto</h2>
+        <p class="text-xs text-slate-400 mb-2">Центральный р-н · ул. Татьяничевой, 16</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (foxmoto.ru)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Пн-Пт 10:00-19:00, Сб 10:00-17:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (351) 220-22-23</span></div>
+          <div><span class="text-slate-500">Бренды:</span> KTM, Husqvarna, Kove, Kayo</div>
+          <div class="text-orange-300 font-medium">Kove 450 Rally: от 590 000 ₽</div>
+          <a href="https://foxmoto.ru" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: foxmoto.ru</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/fox-moto-chel/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/FOX%20moto%20%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=FOX%20moto%20%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B8%D1%87%D0%B5%D0%B2%D0%BE%D0%B9%2C%2016" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=FOX%20moto%20%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B8%D1%87%D0%B5%D0%B2%D0%BE%D0%B9%2C%2016" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79227501800?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20FOX%20moto%20(%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Ffox-moto-chel%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="showcase-card bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-orange-500/50 transition-all" data-site="yes">
+      <div>
+        <div class="flex items-start justify-between gap-2 mb-2">
+          <span class="text-xs font-mono text-orange-400 uppercase font-bold">Ярославль</span>
+          <span class="text-xs font-mono text-emerald-400 font-bold">★ 5</span>
+        </div>
+        <h2 class="text-lg font-extrabold text-white leading-snug mb-1">SP Motors</h2>
+        <p class="text-xs text-slate-400 mb-2">Дзержинский р-н · Тутаевское шоссе, 2в</p>
+        <div class="mb-3 flex flex-wrap gap-1.5 items-center">
+          <span class="px-2 py-0.5 rounded bg-sky-500/15 border border-sky-500/30 text-sky-300 font-mono text-[11px]">Есть сайт (spmotors.su)</span>
+        </div>
+        <div class="text-xs text-slate-300 space-y-1 bg-slate-950/60 p-3 rounded-xl border border-slate-800/80 mb-3">
+          <div><span class="text-slate-500">График:</span> Ежедневно 10:00-19:00</div>
+          <div><span class="text-slate-500">Телефон:</span> <span class="font-mono text-white">+7 (965) 726-20-60</span></div>
+          <div><span class="text-slate-500">Бренды:</span> Voge, Loncin, AODES, Regulmoto</div>
+          <div class="text-orange-300 font-medium">Эндуро Voge 300 Rally / Regulmoto: от 165 000 ₽</div>
+          <a href="https://spmotors.su" target="_blank" rel="noopener" class="text-[11px] font-mono text-sky-400 hover:underline truncate block mt-1">Текущий сайт: spmotors.su</a>
+        </div>
+      </div>
+      <div class="space-y-2">
+        <a href="https://dist-nine-omega-o6mskw23t3.vercel.app/sp-motors-yar/" target="_blank" rel="noopener" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white text-xs font-bold transition-colors">
+          Открыть демо на Vercel ↗
+        </a>
+        <div class="flex items-center justify-between gap-1.5 text-[11px] font-mono">
+          <a href="https://2gis.ru/search/SP%20Motors%20%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">2ГИС</a>
+          <a href="https://yandex.ru/maps/?text=SP%20Motors%20%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C%20%D0%A2%D1%83%D1%82%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%202%D0%B2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Яндекс</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=SP%20Motors%20%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C%20%D0%A2%D1%83%D1%82%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%202%D0%B2" target="_blank" rel="noopener" class="flex-1 text-center py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">Google</a>
+          <a href="https://wa.me/79657262060?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83%20%D0%BD%D0%B0%20%D0%B4%D0%B5%D0%BC%D0%BE-%D1%81%D0%B0%D0%B9%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20SP%20Motors%20(%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C)%3A%20https%3A%2F%2Fdist-nine-omega-o6mskw23t3.vercel.app%2Fsp-motors-yar%2F" target="_blank" rel="noopener" title="WhatsApp" class="px-2.5 py-1.5 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center">
+            <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <footer class="mt-16 pt-8 border-t border-slate-800 text-center text-xs font-mono text-slate-500">
+    <p>Внутренний каталог sales/SHOWCASE.html. Публичный корень dist/index.html защищён нейтральной заглушкой и robots.txt.</p>
+  </footer>
+
+  <script>
+    function filterShowcase(mode, btn) {
+      document.querySelectorAll('.sc-btn').forEach(b => b.classList.remove('bg-white/10', 'text-white', 'font-bold'));
+      btn.classList.add('bg-white/10', 'text-white', 'font-bold');
+      document.querySelectorAll('.showcase-card').forEach(card => {
+        if (mode === 'all') {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.toggle('hidden', card.dataset.site !== mode);
+        }
+      });
+    }
+  </script>
+</body>
+</html>

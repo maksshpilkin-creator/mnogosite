@@ -1,0 +1,70 @@
+{
+  "slug": "motorbike-vlg",
+  "checked_at": "2026-11-11T16:22:29.523Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4",
+      "checked_at": "2026-11-11T16:22:29.523Z",
+      "excerpt": "Моторбайк, Волгоград, Краснооктябрьский р-н, ул. Лермонтова, 33. Рейтинг: 4.5 ★. Цены по источнику: Эндуро от 145 000 ₽, резина от 4 200 ₽, ТО от 1 500 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B1%D0%B0%D0%B9%D0%BA%20%D0%92%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%20%D1%83%D0%BB.%20%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%2C%2033",
+      "checked_at": "2026-11-11T16:22:29.523Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Волгоград)."
+    }
+  ],
+  "facts": {
+    "name": "Моторбайк",
+    "brand_display": "Мотор<span>байк</span>",
+    "city": "Волгоград",
+    "district": "Краснооктябрьский р-н",
+    "address": "ул. Лермонтова, 33",
+    "phone": "+7 (927) 510-03-74",
+    "phone_raw": "+79275100374",
+    "whatsapp": "79275100374",
+    "hours": "Пн-Сб 10:00-18:00, Вс 10:00-17:00",
+    "rating": 4.5,
+    "brands": "Kayo, Motoland, Zontes, Honda, Yamaha",
+    "focus": "Эндуро, дорожные, сервис ТО, шиномонтаж",
+    "price_range_note": "Эндуро от 145 000 ₽, резина от 4 200 ₽, ТО от 1 500 ₽",
+    "verified_source": "2GIS / motorbike.ru",
+    "has_website": true,
+    "existing_website": "motorbike.ru",
+    "hero_subtitle": "Эндуро, дорожные, сервис ТО, шиномонтаж<br> в Волгограде"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland Dakar 250",
+      "spec": "Эндуро и дорожные Kayo, Motoland, Zontes, Honda, Yamaha",
+      "price": "от 145 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear1",
+      "category": "gear",
+      "name": "Эндуро резина и расходники",
+      "spec": "Внедорожные покрышки, колодки, цепи, масла Motul",
+      "price": "резина от 4 200 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear2",
+      "category": "gear",
+      "name": "Сервис ТО и мотошиномонтаж",
+      "spec": "Техническое обслуживание и замена резины",
+      "price": "ТО от 1 500 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

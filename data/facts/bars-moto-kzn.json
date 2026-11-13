@@ -1,35 +1,47 @@
 {
   "slug": "bars-moto-kzn",
-  "checked_at": "2026-11-08T13:30:28.427Z",
+  "checked_at": "2026-11-11T16:22:29.517Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/%D0%91%D0%B0%D1%80%D1%81-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C",
-      "checked_at": "2026-11-08T13:30:28.427Z",
-      "excerpt": "Барс-мото, Казань, ул. Алафузова, 3Б. Рейтинг: 4.8 ★."
+      "checked_at": "2026-11-11T16:22:29.517Z",
+      "excerpt": "Барс-мото, Казань, Кировский р-н, ул. Алафузова, 3Б. Рейтинг: 4.8 ★. Цены по источнику: Питбайки от 90 000 ₽, Эндуро от 140 000 ₽, Квадро от 480 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%91%D0%B0%D1%80%D1%81-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%BB%D0%B0%D1%84%D1%83%D0%B7%D0%BE%D0%B2%D0%B0%2C%203%D0%91",
+      "checked_at": "2026-11-11T16:22:29.517Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Казань)."
     }
   ],
   "facts": {
     "name": "Барс-мото",
     "brand_display": "Барс-<span>мото</span>",
     "city": "Казань",
+    "district": "Кировский р-н",
     "address": "ул. Алафузова, 3Б",
     "phone": "+7 (843) 555-22-10",
     "phone_raw": "+78435552210",
     "whatsapp": "79875552210",
     "hours": "Пн-Сб 09:00-19:00",
     "rating": 4.8,
-    "focus": "Эндуро, квадроциклы, запчасти",
-    "hero_subtitle": "Эндуро, квадроциклы и запчасти<br> в Казани"
+    "brands": "Regulmoto, Motoland, Racer",
+    "focus": "Эндуро, запчасти, сервис",
+    "price_range_note": "Питбайки от 90 000 ₽, Эндуро от 140 000 ₽, Квадро от 480 000 ₽",
+    "verified_source": "2GIS Казань",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, запчасти, сервис<br> в Казани"
   },
   "catalog": [
     {
       "id": "enduro",
       "category": "enduro",
-      "name": "Motoland TT 250",
-      "spec": "250 см³ · 4-тактный · электростартер · внедорожный",
-      "price": "149 000 ₽",
+      "name": "Мотоциклы Motoland",
+      "spec": "Эндуро линейки Motoland · уточняйте наличие",
+      "price": "от 140 000 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,9 +49,9 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "Regulmoto Pilot 125",
-      "spec": "125 см³ · 4-тактный · дисковые тормоза",
-      "price": "88 500 ₽",
+      "name": "Питбайки Regulmoto",
+      "spec": "Питбайки для дачи, грунта и обучения",
+      "price": "от 90 000 ₽",
       "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -47,9 +59,9 @@
     {
       "id": "atv",
       "category": "atv",
-      "name": "Квадроцикл Motoland Allroad 200",
-      "spec": "200 см³ · вариатор · LED-оптика · фаркоп",
-      "price": "235 000 ₽",
+      "name": "Квадроциклы в наличии",
+      "spec": "Утилитарные и прогулочные квадроциклы",
+      "price": "от 480 000 ₽",
       "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"

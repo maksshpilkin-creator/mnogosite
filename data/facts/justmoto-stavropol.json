@@ -1,0 +1,70 @@
+{
+  "slug": "justmoto-stavropol",
+  "checked_at": "2026-11-11T16:22:29.527Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%94%D0%B6%D0%B0%D1%81%D1%82%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C",
+      "checked_at": "2026-11-11T16:22:29.527Z",
+      "excerpt": "ДжастМото, Ставрополь, Промышленный р-н, проспект Кулакова, 51. Рейтинг: 5.0 ★. Цены по источнику: Питбайки от 96 000 ₽, Эндуро от 175 000 ₽, экип от 3 800 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%94%D0%B6%D0%B0%D1%81%D1%82%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A1%D1%82%D0%B0%D0%B2%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%9A%D1%83%D0%BB%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%2C%2051",
+      "checked_at": "2026-11-11T16:22:29.527Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Ставрополь)."
+    }
+  ],
+  "facts": {
+    "name": "ДжастМото",
+    "brand_display": "Джаст<span>Мото</span>",
+    "city": "Ставрополь",
+    "district": "Промышленный р-н",
+    "address": "проспект Кулакова, 51",
+    "phone": "+7 (989) 973-48-74",
+    "phone_raw": "+79899734874",
+    "whatsapp": "79899734874",
+    "hours": "Ежедневно 10:00-20:00",
+    "rating": 5,
+    "brands": "ZUUMAV, FXMOTO, Kayo, Regulmoto",
+    "focus": "Эндуро, питбайки, предпродажка ТО-0",
+    "price_range_note": "Питбайки от 96 000 ₽, Эндуро от 175 000 ₽, экип от 3 800 ₽",
+    "verified_source": "2GIS / Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, питбайки, предпродажка ТО-0<br> в Ставрополе"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро ZUUMAV K8 300 / FXMOTO X7",
+      "spec": "Техника с предпродажкой ТО-0 в Ставрополе",
+      "price": "от 175 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки Kayo / Regulmoto",
+      "spec": "Подбор по росту и опыту райдера",
+      "price": "от 96 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Защитные панцири и шлемы",
+      "spec": "Снаряжение для безопасного катания",
+      "price": "от 3 800 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

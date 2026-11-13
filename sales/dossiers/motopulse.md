@@ -3,13 +3,17 @@
 ## 📌 Паспорт объекта
 - **Салон:** MotoPulse
 - **Город / Район:** Казань, Приволжский р-н
+- **Часовой пояс:** МСК (0)
 - **Адрес:** пр. Победы, 141
+- **Яндекс Карты:** [Открыть на Яндекс Картах](https://yandex.ru/maps/?text=MotoPulse%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BF%D1%80.%20%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B%2C%20141)
+- **2ГИС:** [Открыть в 2ГИС](https://2gis.ru/search/MotoPulse%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C)
+- **Google Maps:** [Открыть в Google Maps](https://www.google.com/maps/search/?api=1&query=MotoPulse%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%BF%D1%80.%20%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B%2C%20141)
 - **Телефон:** +7 (843) 205-33-19
 - **WhatsApp:** 79602053319
 - **Рейтинг 2ГИС:** 4.9 ★ (118 отзывов)
 - **Фокус:** Квадроциклы и питбайки
 - **Бренды:** CFMOTO, Kayo, Linhai
-- **Ссылка на демо:** `http://localhost:3000/dist/motopulse/index.html` (или GitHub Pages)
+- **Ссылка на демо:** `https://dist-nine-omega-o6mskw23t3.vercel.app/motopulse/`
 
 ---
 
@@ -37,7 +41,7 @@
 Здравствуйте! Это [Ваше имя], программист, только что созванивались по поводу мотосалона MotoPulse.
 
 Вот ссылка на готовый демо-сайт, собранный под ваш салон в Казань:
-👉 [ССЫЛКА_НА_ДЕМО]
+👉 https://dist-nine-omega-o6mskw23t3.vercel.app/motopulse/
 
 Что внутри:
 1. Каталог моделей (CFMOTO, Kayo, Linhai) с ценами и фильтрами

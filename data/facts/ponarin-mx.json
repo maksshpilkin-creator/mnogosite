@@ -1,35 +1,47 @@
 {
   "slug": "ponarin-mx",
-  "checked_at": "2026-11-08T13:30:28.428Z",
+  "checked_at": "2026-11-11T16:22:29.518Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/Ponarin%20MX%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6",
-      "checked_at": "2026-11-08T13:30:28.428Z",
-      "excerpt": "Ponarin MX, Воронеж, ул. Антонова-Овсеенко, 9В. Рейтинг: 5 ★."
+      "checked_at": "2026-11-11T16:22:29.518Z",
+      "excerpt": "Ponarin MX, Воронеж, Коминтерновский р-н, ул. Антонова-Овсеенко, 9В. Рейтинг: 5.0 ★. Цены по источнику: Питбайки от 80 000 ₽, JHL MX300 от 152 000 ₽, Z7 от 275 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=Ponarin%20MX%20%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%20%D1%83%D0%BB.%20%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0-%D0%9E%D0%B2%D1%81%D0%B5%D0%B5%D0%BD%D0%BA%D0%BE%2C%209%D0%92",
+      "checked_at": "2026-11-11T16:22:29.518Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Воронеж)."
     }
   ],
   "facts": {
     "name": "Ponarin MX",
     "brand_display": "Ponarin <span>MX</span>",
     "city": "Воронеж",
+    "district": "Коминтерновский р-н",
     "address": "ул. Антонова-Овсеенко, 9В",
     "phone": "+7 (960) 130-86-20",
     "phone_raw": "+79601308620",
     "whatsapp": "79601308620",
     "hours": "Ежедневно 10:00-19:00",
     "rating": 5,
-    "focus": "Спортивное эндуро и экипировка",
-    "hero_subtitle": "Спортивное эндуро и мотокросс<br> в Воронеже"
+    "brands": "JHL, Regulmoto, Progasi, Kayo",
+    "focus": "Эндуро, спорт-подготовка, экип",
+    "price_range_note": "Питбайки от 80 000 ₽, JHL MX300 от 152 000 ₽, Z7 от 275 000 ₽",
+    "verified_source": "2GIS / ponarinmx.ru",
+    "has_website": true,
+    "existing_website": "ponarinmx.ru",
+    "hero_subtitle": "Эндуро, спорт-подготовка, экип<br> в Воронеже"
   },
   "catalog": [
     {
       "id": "enduro1",
       "category": "enduro",
       "name": "JHL MX300",
-      "spec": "300 см³ ZS174MN · карбюратор FCR · регулировки KKE",
-      "price": "179 000 ₽",
+      "spec": "Эндуро со спорт-подготовкой салона",
+      "price": "от 152 000 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,9 +49,9 @@
     {
       "id": "enduro2",
       "category": "enduro",
-      "name": "JHL Z7 NC300S",
-      "spec": "300 см³ 4-клапанный · фрезерованные узлы CNC",
-      "price": "285 000 ₽",
+      "name": "JHL Z7",
+      "spec": "Мощная спортивная модель JHL для хард-эндуро",
+      "price": "от 275 000 ₽",
       "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -47,9 +59,9 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "Regulmoto Pilot 125",
-      "spec": "125 см³ · двигатель YX125 · дисковые тормоза",
-      "price": "84 900 ₽",
+      "name": "Питбайки Regulmoto / Kayo",
+      "spec": "Питбайки и мотоботы Gaerne в наличии",
+      "price": "питбайки от 80 000 ₽",
       "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"

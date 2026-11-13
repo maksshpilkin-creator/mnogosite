@@ -1,0 +1,70 @@
+{
+  "slug": "motonachinka-rzn",
+  "checked_at": "2026-11-11T16:22:29.525Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C",
+      "checked_at": "2026-11-11T16:22:29.525Z",
+      "excerpt": "Мотоначинка, Рязань, Октябрьский р-н, Куйбышевское шоссе, 47. Рейтинг: 4.9 ★. Цены по источнику: Питбайки от 92 000 ₽, Эндуро от 158 000 ₽, шлемы от 6 900 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D1%8C%20%D0%9A%D1%83%D0%B9%D0%B1%D1%8B%D1%88%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2047",
+      "checked_at": "2026-11-11T16:22:29.525Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Рязань)."
+    }
+  ],
+  "facts": {
+    "name": "Мотоначинка",
+    "brand_display": "Мотона<span>чинка</span>",
+    "city": "Рязань",
+    "district": "Октябрьский р-н",
+    "address": "Куйбышевское шоссе, 47",
+    "phone": "+7 (915) 624-22-36",
+    "phone_raw": "+79156242236",
+    "whatsapp": "79156242236",
+    "hours": "Ежедневно 09:00-19:00",
+    "rating": 4.9,
+    "brands": "Kayo, Regulmoto, Progasi, BSE, Voge",
+    "focus": "Эндуро, питбайки, тюнинг, сервис, экип",
+    "price_range_note": "Питбайки от 92 000 ₽, Эндуро от 158 000 ₽, шлемы от 6 900 ₽",
+    "verified_source": "2GIS / motonachinka.ru",
+    "has_website": true,
+    "existing_website": "motonachinka.ru",
+    "hero_subtitle": "Эндуро, питбайки, тюнинг, сервис, экип<br> в Рязани"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo T2 250 / Regulmoto CR-X 300",
+      "spec": "Модели Kayo, Regulmoto, Progasi, BSE, Voge",
+      "price": "от 158 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки и тюнинг (карбюраторы Nibbi)",
+      "spec": "Продажа питбайков и настройка в сервисе",
+      "price": "от 92 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Шлемы Just1 и экипировка",
+      "spec": "Кроссовые шлемы, защита и сервис",
+      "price": "шлемы от 6 900 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

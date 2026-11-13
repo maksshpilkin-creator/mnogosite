@@ -1,0 +1,70 @@
+{
+  "slug": "planeta-moto-tver",
+  "checked_at": "2026-11-11T16:22:29.526Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A2%D0%B2%D0%B5%D1%80%D1%8C",
+      "checked_at": "2026-11-11T16:22:29.526Z",
+      "excerpt": "Планета Мото, Тверь, Московский р-н, Волоколамское шоссе, 47Б. Рейтинг: 5.0 ★. Цены по источнику: Питбайки от 89 000 ₽, Эндуро от 149 000 ₽, ТО от 1 800 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A2%D0%B2%D0%B5%D1%80%D1%8C%20%D0%92%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%BC%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2047%D0%91",
+      "checked_at": "2026-11-11T16:22:29.526Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Тверь)."
+    }
+  ],
+  "facts": {
+    "name": "Планета Мото",
+    "brand_display": "Планета <span>Мото</span>",
+    "city": "Тверь",
+    "district": "Московский р-н",
+    "address": "Волоколамское шоссе, 47Б",
+    "phone": "+7 (910) 533-30-80",
+    "phone_raw": "+79105333080",
+    "whatsapp": "79105333080",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-17:00",
+    "rating": 5,
+    "brands": "BSE, Kayo, Regulmoto, Motoland",
+    "focus": "Кросс, эндуро, питбайки, сервис ТО",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 149 000 ₽, ТО от 1 800 ₽",
+    "verified_source": "2GIS / Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Кросс, эндуро, питбайки, сервис ТО<br> в Твери"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро BSE Z3 250",
+      "spec": "Кросс и эндуро BSE, Kayo, Regulmoto, Motoland",
+      "price": "от 149 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки Kayo Basic 125",
+      "spec": "Питбайки с предпродажной подготовкой",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Сервис ТО, колодки, прогрессия и экип",
+      "spec": "Обслуживание подвески, тормозов и расходники",
+      "price": "ТО от 1 800 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

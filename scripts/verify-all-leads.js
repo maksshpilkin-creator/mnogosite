@@ -81,7 +81,7 @@ for (const file of factFiles) {
     }
 
     // Check 11: Assets presence
-    const assets = ['hero-enduro.jpg', 'product-enduro.jpg', 'product-pitbike.jpg', 'product-atv.jpg', 'rider.jpg', 'showroom.jpg'];
+    const assets = ['hero-enduro.png', 'product-enduro.jpg', 'product-pitbike.jpg', 'product-atv.jpg', 'rider.jpg', 'showroom.jpg'];
     let allAssets = true;
     for (const a of assets) {
       if (!fs.existsSync(path.join(siteDir, 'assets', a))) allAssets = false;

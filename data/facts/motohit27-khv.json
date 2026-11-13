@@ -1,0 +1,70 @@
+{
+  "slug": "motohit27-khv",
+  "checked_at": "2026-11-11T16:22:29.532Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D0%A5%D0%B8%D1%8227%20%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA",
+      "checked_at": "2026-11-11T16:22:29.532Z",
+      "excerpt": "МотоХит27, Хабаровск, Железнодорожный р-н, ул. Нововыборгская, 48. Рейтинг: 4.8 ★. Цены по источнику: Питбайки от 97 000 ₽, Эндуро от 162 000 ₽, Квадро от 235 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%A5%D0%B8%D1%8227%20%D0%A5%D0%B0%D0%B1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B3%D1%81%D0%BA%D0%B0%D1%8F%2C%2048",
+      "checked_at": "2026-11-11T16:22:29.532Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Хабаровск)."
+    }
+  ],
+  "facts": {
+    "name": "МотоХит27",
+    "brand_display": "МотоХ<span>ит27</span>",
+    "city": "Хабаровск",
+    "district": "Железнодорожный р-н",
+    "address": "ул. Нововыборгская, 48",
+    "phone": "+7 (914) 061-62-10",
+    "phone_raw": "+79140616210",
+    "whatsapp": "79140616210",
+    "hours": "Ежедневно 10:00-19:00",
+    "rating": 4.8,
+    "brands": "Kayo, Ataki, Regulmoto, BSE",
+    "focus": "Эндуро, питбайки, квадроциклы, тест-драйв",
+    "price_range_note": "Питбайки от 97 000 ₽, Эндуро от 162 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS / Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, питбайки, квадроциклы, тест-драйв<br> в Хабаровске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo T2 Enduro",
+      "spec": "Техника Kayo, Ataki, Regulmoto, BSE · тест-драйв",
+      "price": "от 162 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки Ataki Prime 125",
+      "spec": "Компактная техника для новичков и подростков",
+      "price": "от 97 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроциклы 200cc",
+      "spec": "Квадроциклы для бездорожья и отдыха",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

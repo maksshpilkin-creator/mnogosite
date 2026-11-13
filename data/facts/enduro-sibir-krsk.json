@@ -1,0 +1,70 @@
+{
+  "slug": "enduro-sibir-krsk",
+  "checked_at": "2026-11-11T16:22:29.522Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%AD%D0%BD%D0%B4%D1%83%D1%80%D0%BE%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8C24%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA",
+      "checked_at": "2026-11-11T16:22:29.522Z",
+      "excerpt": "ЭндуроСибирь24, Красноярск, Октябрьский р-н, ул. Норильская, 2г. Рейтинг: 5.0 ★. Цены по источнику: Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, прокат от 2 500 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%AD%D0%BD%D0%B4%D1%83%D1%80%D0%BE%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D1%8C24%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D1%8F%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9D%D0%BE%D1%80%D0%B8%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%2C%202%D0%B3",
+      "checked_at": "2026-11-11T16:22:29.522Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Красноярск)."
+    }
+  ],
+  "facts": {
+    "name": "ЭндуроСибирь24",
+    "brand_display": "ЭндуроС<span>ибирь24</span>",
+    "city": "Красноярск",
+    "district": "Октябрьский р-н",
+    "address": "ул. Норильская, 2г",
+    "phone": "+7 (983) 070-89-89",
+    "phone_raw": "+79830708989",
+    "whatsapp": "79830708989",
+    "hours": "Ежедневно 10:00-20:00",
+    "rating": 5,
+    "brands": "Hasky, Regulmoto, Kayo, BSE",
+    "focus": "Эндуро, питбайки, прокат, экип",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, прокат от 2 500 ₽",
+    "verified_source": "2GIS / endurosibir24.ru",
+    "has_website": true,
+    "existing_website": "endurosibir24.ru",
+    "hero_subtitle": "Эндуро, питбайки, прокат, экип<br> в Красноярске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Hasky F7 300 / BSE Z5",
+      "spec": "Спортивные эндуро в Красноярске",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки Kayo / BSE",
+      "spec": "Питбайки для обучения и тренировок",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Прокат эндуро, мотоботы и шлемы",
+      "spec": "Прокат техники и подбор защитной экипировки",
+      "price": "прокат от 2 500 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

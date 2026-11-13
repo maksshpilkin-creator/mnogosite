@@ -1,45 +1,47 @@
 {
   "slug": "volga-drive-tlt",
-  "checked_at": "2026-11-08T13:30:28.430Z",
+  "checked_at": "2026-11-11T16:22:29.520Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/%D0%92%D0%BE%D0%BB%D0%B3%D0%B0%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%20%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8",
-      "checked_at": "2026-11-08T13:30:28.430Z",
-      "excerpt": "Волга Драйв, Тольятти, ул. Толстого, 3. Рейтинг: 4.9 ★."
+      "checked_at": "2026-11-11T16:22:29.520Z",
+      "excerpt": "Волга Драйв, Тольятти, Центральный р-н, ул. Толстого, 3. Рейтинг: 4.9 ★. Цены по источнику: Питбайки от 64 000 ₽, Эндуро от 135 000 ₽, Квадро от 220 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%92%D0%BE%D0%BB%D0%B3%D0%B0%20%D0%94%D1%80%D0%B0%D0%B9%D0%B2%20%D0%A2%D0%BE%D0%BB%D1%8C%D1%8F%D1%82%D1%82%D0%B8%20%D1%83%D0%BB.%20%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B3%D0%BE%2C%203",
+      "checked_at": "2026-11-11T16:22:29.520Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Тольятти)."
     }
   ],
   "facts": {
     "name": "Волга Драйв",
     "brand_display": "Волга <span>Драйв</span>",
     "city": "Тольятти",
+    "district": "Центральный р-н",
     "address": "ул. Толстого, 3",
     "phone": "+7 (931) 105-18-62",
     "phone_raw": "+79311051862",
     "whatsapp": "79311051862",
     "hours": "Ежедневно 10:00-19:00",
     "rating": 4.9,
-    "focus": "Питбайки, квадроциклы, лодки, дорожники",
-    "hero_subtitle": "Квадроциклы, питбайки и эндуро<br> в Тольятти"
+    "brands": "Kayo, Voge, Regulmoto, Linhai",
+    "focus": "Питбайки, квадроциклы, лодки",
+    "price_range_note": "Питбайки от 64 000 ₽, Эндуро от 135 000 ₽, Квадро от 220 000 ₽",
+    "verified_source": "2GIS / globaldrive.ru",
+    "has_website": true,
+    "existing_website": "globaldrive.ru",
+    "hero_subtitle": "Питбайки, квадроциклы, лодки<br> в Тольятти"
   },
   "catalog": [
     {
-      "id": "atv",
-      "category": "atv",
-      "name": "Квадроцикл Linhai D300 4x4",
-      "spec": "300 см³ · полный привод · кардан · фаркоп",
-      "price": "379 000 ₽",
-      "image": "assets/product-atv.jpg",
-      "status": "verified",
-      "source_id": "2gis"
-    },
-    {
       "id": "enduro",
       "category": "enduro",
-      "name": "Regulmoto Sport-003",
-      "spec": "250 см³ · надежный ZS172FMM · прочная рама",
-      "price": "175 000 ₽",
+      "name": "Эндуро и дорожники Voge / Regulmoto",
+      "spec": "Внедорожные и дорожные модели",
+      "price": "от 135 000 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -47,10 +49,20 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "Kayo Basic TT125",
-      "spec": "125 см³ · колеса 17/14 · электростартер",
-      "price": "94 990 ₽",
+      "name": "Детские и взрослые питбайки Kayo",
+      "spec": "Линейка питбайков под любой рост",
+      "price": "от 64 000 ₽",
       "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроциклы Linhai",
+      "spec": "Утилитарная техника для отдыха и хозяйства",
+      "price": "от 220 000 ₽",
+      "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"
     }

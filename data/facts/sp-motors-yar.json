@@ -1,0 +1,70 @@
+{
+  "slug": "sp-motors-yar",
+  "checked_at": "2026-11-11T16:22:29.524Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/SP%20Motors%20%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C",
+      "checked_at": "2026-11-11T16:22:29.524Z",
+      "excerpt": "SP Motors, Ярославль, Дзержинский р-н, Тутаевское шоссе, 2в. Рейтинг: 5.0 ★. Цены по источнику: Питбайки от 94 000 ₽, Эндуро от 165 000 ₽, Квадро от 390 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=SP%20Motors%20%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C%20%D0%A2%D1%83%D1%82%D0%B0%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%202%D0%B2",
+      "checked_at": "2026-11-11T16:22:29.524Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Ярославль)."
+    }
+  ],
+  "facts": {
+    "name": "SP Motors",
+    "brand_display": "SP <span>Motors</span>",
+    "city": "Ярославль",
+    "district": "Дзержинский р-н",
+    "address": "Тутаевское шоссе, 2в",
+    "phone": "+7 (965) 726-20-60",
+    "phone_raw": "+79657262060",
+    "whatsapp": "79657262060",
+    "hours": "Ежедневно 10:00-19:00",
+    "rating": 5,
+    "brands": "Voge, Loncin, AODES, Regulmoto",
+    "focus": "Квадроциклы, питбайки, эндуро, экип",
+    "price_range_note": "Питбайки от 94 000 ₽, Эндуро от 165 000 ₽, Квадро от 390 000 ₽",
+    "verified_source": "2GIS / spmotors.su",
+    "has_website": true,
+    "existing_website": "spmotors.su",
+    "hero_subtitle": "Квадроциклы, питбайки, эндуро, экип<br> в Ярославле"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Voge 300 Rally / Regulmoto",
+      "spec": "Бренды Voge, Loncin, AODES, Regulmoto",
+      "price": "от 165 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки и экипировка Leatt",
+      "spec": "Питбайки в наличии и экипировка Leatt",
+      "price": "питбайки от 94 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроциклы Loncin Xwolf 300",
+      "spec": "Полноразмерные и туристические квадроциклы",
+      "price": "от 390 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

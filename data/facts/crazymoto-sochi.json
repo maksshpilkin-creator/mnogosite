@@ -1,0 +1,70 @@
+{
+  "slug": "crazymoto-sochi",
+  "checked_at": "2026-11-11T16:22:29.528Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/CrazyMoto%20%D0%A1%D0%BE%D1%87%D0%B8",
+      "checked_at": "2026-11-11T16:22:29.528Z",
+      "excerpt": "CrazyMoto, Сочи, Адлерский р-н, ул. Авиационная, 19А. Рейтинг: 5.0 ★. Цены по источнику: Питбайки от 98 000 ₽, Эндуро от 185 000 ₽, прокат от 3 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=CrazyMoto%20%D0%A1%D0%BE%D1%87%D0%B8%20%D1%83%D0%BB.%20%D0%90%D0%B2%D0%B8%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%2C%2019%D0%90",
+      "checked_at": "2026-11-11T16:22:29.528Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Сочи)."
+    }
+  ],
+  "facts": {
+    "name": "CrazyMoto",
+    "brand_display": "Crazy<span>Moto</span>",
+    "city": "Сочи",
+    "district": "Адлерский р-н",
+    "address": "ул. Авиационная, 19А",
+    "phone": "+7 (918) 403-23-02",
+    "phone_raw": "+79184032302",
+    "whatsapp": "79184032302",
+    "hours": "Ежедневно 09:00-20:00",
+    "rating": 5,
+    "brands": "BSE, Kayo, Regulmoto, SYM",
+    "focus": "Эндуро, питбайки, прокат, сервис, экип",
+    "price_range_note": "Питбайки от 98 000 ₽, Эндуро от 185 000 ₽, прокат от 3 000 ₽",
+    "verified_source": "2GIS / crazymoto.pro",
+    "has_website": true,
+    "existing_website": "crazymoto.pro",
+    "hero_subtitle": "Эндуро, питбайки, прокат, сервис, экип<br> в Сочи"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo T4 300",
+      "spec": "Бренды BSE, Kayo, Regulmoto, SYM",
+      "price": "от 185 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки BSE PH10 125",
+      "spec": "Питбайки для тренировок и отдыха",
+      "price": "от 98 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Прокат, сервис, шлемы и мотоботы",
+      "spec": "Выезды, сервис и экипировка в Адлерском р-не",
+      "price": "прокат от 3 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

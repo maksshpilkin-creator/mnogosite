@@ -1,35 +1,47 @@
 {
   "slug": "motoraion-irk",
-  "checked_at": "2026-11-08T13:30:28.431Z",
+  "checked_at": "2026-11-11T16:22:29.521Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA",
-      "checked_at": "2026-11-08T13:30:28.431Z",
-      "excerpt": "Моторайон, Иркутск, ул. Рабочего Штаба, 136. Рейтинг: 4.9 ★."
+      "checked_at": "2026-11-11T16:22:29.521Z",
+      "excerpt": "Моторайон, Иркутск, Куйбышевский р-н, ул. Рабочего Штаба, 136. Рейтинг: 4.9 ★. Цены по источнику: Питбайки от 88 000 ₽, Эндуро от 149 000 ₽, экип от 3 500 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%20%D0%98%D1%80%D0%BA%D1%83%D1%82%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE%20%D0%A8%D1%82%D0%B0%D0%B1%D0%B0%2C%20136",
+      "checked_at": "2026-11-11T16:22:29.521Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Иркутск)."
     }
   ],
   "facts": {
     "name": "Моторайон",
-    "brand_display": "Мото<span>район</span>",
+    "brand_display": "Мотор<span>айон</span>",
     "city": "Иркутск",
+    "district": "Куйбышевский р-н",
     "address": "ул. Рабочего Штаба, 136",
     "phone": "+7 (914) 906-21-21",
     "phone_raw": "+79149062121",
     "whatsapp": "79149062121",
     "hours": "Пн-Пт 10:00-18:30, Сб 11:00-17:00",
     "rating": 4.9,
+    "brands": "Regulmoto, Kayo, Progasi",
     "focus": "Клубный салон, эндуро, сервис",
-    "hero_subtitle": "Эндуро, питбайки и клубный сервис<br> в Иркутске"
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 149 000 ₽, экип от 3 500 ₽",
+    "verified_source": "2GIS / motoraion.ru",
+    "has_website": true,
+    "existing_website": "motoraion.ru",
+    "hero_subtitle": "Клубный салон, эндуро, сервис<br> в Иркутске"
   },
   "catalog": [
     {
-      "id": "enduro1",
+      "id": "enduro",
       "category": "enduro",
-      "name": "Regulmoto Sport-003 Pro",
-      "spec": "300 см³ 174MN · водяное охлаждение",
-      "price": "219 000 ₽",
+      "name": "Эндуро Regulmoto Sport-003 / Kayo T4",
+      "spec": "Клубный салон: продажа и сервис эндуро",
+      "price": "от 149 000 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,19 +49,19 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "Kayo TT125",
-      "spec": "125 см³ · надежный двигатель YX125",
-      "price": "94 990 ₽",
+      "name": "Питбайки Progasi Smart / Kayo",
+      "spec": "Техника для начинающих райдеров",
+      "price": "от 88 000 ₽",
       "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
     },
     {
-      "id": "enduro2",
-      "category": "enduro",
-      "name": "Progasi Smart 150",
-      "spec": "150 см³ · легкий кроссовый мотоцикл",
-      "price": "119 900 ₽",
+      "id": "gear",
+      "category": "gear",
+      "name": "Экипировка, масла и сервис",
+      "spec": "Защитная экипировка и расходники для ТО",
+      "price": "от 3 500 ₽",
       "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"

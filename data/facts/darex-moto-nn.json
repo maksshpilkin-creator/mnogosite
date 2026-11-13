@@ -1,0 +1,70 @@
+{
+  "slug": "darex-moto-nn",
+  "checked_at": "2026-11-11T16:22:29.523Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Darex%20Moto%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4",
+      "checked_at": "2026-11-11T16:22:29.523Z",
+      "excerpt": "Darex Moto, Нижний Новгород, Канавинский р-н, Московское шоссе, 302/1Д. Рейтинг: 4.7 ★. Цены по источнику: Питбайки от 88 000 ₽, Эндуро от 160 000 ₽, защита от 4 500 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=Darex%20Moto%20%D0%9D%D0%B8%D0%B6%D0%BD%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%20302%2F1%D0%94",
+      "checked_at": "2026-11-11T16:22:29.523Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Нижний Новгород)."
+    }
+  ],
+  "facts": {
+    "name": "Darex Moto",
+    "brand_display": "Darex <span>Moto</span>",
+    "city": "Нижний Новгород",
+    "district": "Канавинский р-н",
+    "address": "Московское шоссе, 302/1Д",
+    "phone": "+7 (937) 587-27-41",
+    "phone_raw": "+79375872741",
+    "whatsapp": "79375872741",
+    "hours": "Ежедневно 10:00-20:00",
+    "rating": 4.7,
+    "brands": "Kayo, Regulmoto, BSE, Progasi",
+    "focus": "Эндуро, питбайки, квадроциклы, экип",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 160 000 ₽, защита от 4 500 ₽",
+    "verified_source": "2GIS / darexmoto.ru",
+    "has_website": true,
+    "existing_website": "darexmoto.ru",
+    "hero_subtitle": "Эндуро, питбайки, квадроциклы, экип<br> в Нижнем Новгороде"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Progasi Super Max 300 / Kayo K1 250",
+      "spec": "Техника Kayo, Regulmoto, BSE, Progasi",
+      "price": "от 160 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки и малокубатурная техника",
+      "spec": "Варианты для первого байка и подростков",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Черепахи и мотоботы",
+      "spec": "Полный комплект защитной экипировки",
+      "price": "от 4 500 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

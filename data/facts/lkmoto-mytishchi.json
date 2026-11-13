@@ -1,0 +1,70 @@
+{
+  "slug": "lkmoto-mytishchi",
+  "checked_at": "2026-11-11T16:22:29.531Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%9B%D0%9A%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9C%D1%8B%D1%82%D0%B8%D1%89%D0%B8",
+      "checked_at": "2026-11-11T16:22:29.531Z",
+      "excerpt": "ЛКМото, Мытищи, Мытищинский р-н, Ярмарочная ул., с4Б. Рейтинг: 5.0 ★. Цены по источнику: Питбайки от 96 000 ₽, Эндуро от 168 000 ₽, Kove от 599 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9B%D0%9A%D0%9C%D0%BE%D1%82%D0%BE%20%D0%9C%D1%8B%D1%82%D0%B8%D1%89%D0%B8%20%D0%AF%D1%80%D0%BC%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%20%D1%814%D0%91",
+      "checked_at": "2026-11-11T16:22:29.531Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Мытищи)."
+    }
+  ],
+  "facts": {
+    "name": "ЛКМото",
+    "brand_display": "ЛКМ<span>ото</span>",
+    "city": "Мытищи",
+    "district": "Мытищинский р-н",
+    "address": "Ярмарочная ул., с4Б",
+    "phone": "+7 (993) 275-87-01",
+    "phone_raw": "+79932758701",
+    "whatsapp": "79932758701",
+    "hours": "Ежедневно 10:00-19:00",
+    "rating": 5,
+    "brands": "Regulmoto, VMC, Zontes, Kove",
+    "focus": "Эндуро, питбайки, дорожники, экип, ТО",
+    "price_range_note": "Питбайки от 96 000 ₽, Эндуро от 168 000 ₽, Kove от 599 000 ₽",
+    "verified_source": "2GIS / lkmoto.ru",
+    "has_website": true,
+    "existing_website": "lkmoto.ru",
+    "hero_subtitle": "Эндуро, питбайки, дорожники, экип, ТО<br> в Мытищах"
+  },
+  "catalog": [
+    {
+      "id": "enduro1",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Sport 300",
+      "spec": "Бренды Regulmoto, VMC, Zontes · ТО и сервис",
+      "price": "от 168 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "enduro2",
+      "category": "enduro",
+      "name": "Kove 450 Rally",
+      "spec": "Раллийный мотоцикл и экипировка Leatt",
+      "price": "от 599 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки и дорожники",
+      "spec": "Питбайки в наличии в Мытищах",
+      "price": "от 96 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

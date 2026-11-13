@@ -1,35 +1,47 @@
 {
   "slug": "drivemoto-kzn",
-  "checked_at": "2026-11-08T13:30:28.427Z",
+  "checked_at": "2026-11-11T16:22:29.516Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/Drivemoto%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C",
-      "checked_at": "2026-11-08T13:30:28.427Z",
-      "excerpt": "Drivemoto, Казань, ул. Академика Арбузова, 5. Рейтинг: 4.5 ★."
+      "checked_at": "2026-11-11T16:22:29.516Z",
+      "excerpt": "Drivemoto, Казань, Советский р-н, ул. Академика Арбузова, 5. Рейтинг: 4.5 ★. Цены по источнику: Мото Progasi от 179 900 ₽, Квадро от 247 900 ₽, экип от 3 500 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=Drivemoto%20%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%20%D1%83%D0%BB.%20%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%90%D1%80%D0%B1%D1%83%D0%B7%D0%BE%D0%B2%D0%B0%2C%205",
+      "checked_at": "2026-11-11T16:22:29.516Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Казань)."
     }
   ],
   "facts": {
     "name": "Drivemoto",
     "brand_display": "Drive<span>moto</span>",
     "city": "Казань",
+    "district": "Советский р-н",
     "address": "ул. Академика Арбузова, 5",
     "phone": "+7 (919) 636-05-11",
     "phone_raw": "+79196360511",
     "whatsapp": "79196360511",
     "hours": "Пн-Пт 09:00-19:00, Сб 09:00-18:00",
     "rating": 4.5,
+    "brands": "Progasi, Avantis, CFMOTO",
     "focus": "Квадроциклы, эндуро, тюнинг",
-    "hero_subtitle": "Квадроциклы и эндуро<br> в Казани"
+    "price_range_note": "Мото Progasi от 179 900 ₽, Квадро от 247 900 ₽, экип от 3 500 ₽",
+    "verified_source": "2GIS / dmoto16.ru",
+    "has_website": true,
+    "existing_website": "dmoto16.ru",
+    "hero_subtitle": "Квадроциклы, эндуро, тюнинг<br> в Казани"
   },
   "catalog": [
     {
       "id": "enduro",
       "category": "enduro",
-      "name": "Progasi Super Max 300",
-      "spec": "300 см³ ZS175FMM · карбюратор Nibbi Racing · хром-молибден",
-      "price": "189 990 ₽",
+      "name": "Мотоциклы Progasi (Super Max 300 и др.)",
+      "spec": "Модели Progasi, Avantis, CFMOTO",
+      "price": "от 179 900 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,20 +49,20 @@
     {
       "id": "atv",
       "category": "atv",
-      "name": "Avantis Hunter 200 Big",
-      "spec": "200 см³ · масляное охлаждение · лебедка · спинка",
-      "price": "247 900 ₽",
-      "image": "assets/product-pitbike.jpg",
+      "name": "Квадроциклы (Avantis Hunter 200 и др.)",
+      "spec": "Внедорожные квадроциклы · подбор комплектации",
+      "price": "от 247 900 ₽",
+      "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"
     },
     {
-      "id": "pitbike",
-      "category": "pitbike",
-      "name": "Progasi Smart 125",
-      "spec": "125 см³ · LED-фара · электростартер",
-      "price": "99 900 ₽",
-      "image": "assets/product-atv.jpg",
+      "id": "gear",
+      "category": "gear",
+      "name": "Экипировка и тюнинг",
+      "spec": "Защитная экипировка и дооснащение техники",
+      "price": "от 3 500 ₽",
+      "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
     }

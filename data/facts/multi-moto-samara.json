@@ -1,35 +1,47 @@
 {
   "slug": "multi-moto-samara",
-  "checked_at": "2026-11-08T13:30:28.427Z",
+  "checked_at": "2026-11-11T16:22:29.517Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0",
-      "checked_at": "2026-11-08T13:30:28.427Z",
-      "excerpt": "Мульти-мото, Самара, ул. Алма-Атинская, 57 (2 этаж). Рейтинг: 4.3 ★."
+      "checked_at": "2026-11-11T16:22:29.517Z",
+      "excerpt": "Мульти-мото, Самара, Кировский р-н, ул. Алма-Атинская, 57 (2 этаж). Рейтинг: 4.3 ★. Цены по источнику: Питбайки от 98 000 ₽, Эндуро Kayo 190 000–270 000 ₽, ТО от 1 200 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0%20%D1%83%D0%BB.%20%D0%90%D0%BB%D0%BC%D0%B0-%D0%90%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%2057%20(2%20%D1%8D%D1%82%D0%B0%D0%B6)",
+      "checked_at": "2026-11-11T16:22:29.517Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Самара)."
     }
   ],
   "facts": {
     "name": "Мульти-мото",
     "brand_display": "Мульти-<span>мото</span>",
     "city": "Самара",
+    "district": "Кировский р-н",
     "address": "ул. Алма-Атинская, 57 (2 этаж)",
     "phone": "+7 (937) 066-66-23",
     "phone_raw": "+79370666623",
     "whatsapp": "79370666623",
     "hours": "Ежедневно 10:00-19:00",
     "rating": 4.3,
+    "brands": "Kayo, Zontes, Regulmoto",
     "focus": "Питбайки, дорожники, мотосервис",
-    "hero_subtitle": "Питбайки, эндуро и сервис<br> в Самаре"
+    "price_range_note": "Питбайки от 98 000 ₽, Эндуро Kayo 190 000–270 000 ₽, ТО от 1 200 ₽",
+    "verified_source": "2GIS / 163motors.ru",
+    "has_website": true,
+    "existing_website": "163motors.ru",
+    "hero_subtitle": "Питбайки, дорожники, мотосервис<br> в Самаре"
   },
   "catalog": [
     {
       "id": "enduro",
       "category": "enduro",
-      "name": "Kayo K2 250 Enduro",
-      "spec": "250 см³ · прочная стальная рама · электростартер",
-      "price": "169 990 ₽",
+      "name": "Эндуро Kayo K2 / T2 / T4",
+      "spec": "Полноразмерные эндуро и дорожники Zontes",
+      "price": "190 000–270 000 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,19 +49,19 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "Kayo Basic YX125",
-      "spec": "125 см³ · легкий вес 71 кг · дисковые тормоза",
-      "price": "94 990 ₽",
+      "name": "Питбайки Kayo",
+      "spec": "Питбайки для новичков и опытных райдеров",
+      "price": "от 98 000 ₽",
       "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
     },
     {
-      "id": "road",
-      "category": "enduro",
-      "name": "Zontes ZT350-X",
-      "spec": "348 см³ · инжектор Bosch · ABS Bosch · туринг",
-      "price": "429 000 ₽",
+      "id": "gear",
+      "category": "gear",
+      "name": "Экипировка и мотосервис ТО",
+      "spec": "Масла, расходники и регламентное ТО",
+      "price": "ТО от 1 200 ₽",
       "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"

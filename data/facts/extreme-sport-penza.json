@@ -1,0 +1,70 @@
+{
+  "slug": "extreme-sport-penza",
+  "checked_at": "2026-11-11T16:22:29.530Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/%D0%AD%D0%9A%D0%A1%D0%A2%D0%A0%D0%98%D0%9C%20Sport%20%D0%9F%D0%B5%D0%BD%D0%B7%D0%B0",
+      "checked_at": "2026-11-11T16:22:29.530Z",
+      "excerpt": "ЭКСТРИМ Sport, Пенза, Октябрьский р-н, ул. Ладожская, 38/2. Рейтинг: 4.8 ★. Цены по источнику: Питбайки от 94 000 ₽, Эндуро от 156 000 ₽, Квадро от 490 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%AD%D0%9A%D0%A1%D0%A2%D0%A0%D0%98%D0%9C%20Sport%20%D0%9F%D0%B5%D0%BD%D0%B7%D0%B0%20%D1%83%D0%BB.%20%D0%9B%D0%B0%D0%B4%D0%BE%D0%B6%D1%81%D0%BA%D0%B0%D1%8F%2C%2038%2F2",
+      "checked_at": "2026-11-11T16:22:29.530Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Пенза)."
+    }
+  ],
+  "facts": {
+    "name": "ЭКСТРИМ Sport",
+    "brand_display": "ЭКСТРИМ <span>Sport</span>",
+    "city": "Пенза",
+    "district": "Октябрьский р-н",
+    "address": "ул. Ладожская, 38/2",
+    "phone": "+7 (960) 321-99-14",
+    "phone_raw": "+79603219914",
+    "whatsapp": "79603219914",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-16:00",
+    "rating": 4.8,
+    "brands": "Stels, CFMOTO, Kayo, BSE",
+    "focus": "Квадроциклы, эндуро, питбайки, сервис",
+    "price_range_note": "Питбайки от 94 000 ₽, Эндуро от 156 000 ₽, Квадро от 490 000 ₽",
+    "verified_source": "2GIS / экстрим58.рф",
+    "has_website": true,
+    "existing_website": "экстрим58.рф",
+    "hero_subtitle": "Квадроциклы, эндуро, питбайки, сервис<br> в Пензе"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo T2 Enduro",
+      "spec": "Внедорожные модели Kayo и BSE",
+      "price": "от 156 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки и кроссовые шлемы",
+      "spec": "Техника для начинающих и подростков",
+      "price": "от 94 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроциклы Stels Guepard 650 / CFMOTO",
+      "spec": "Серьёзная техника 4х4 и сервис",
+      "price": "от 490 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

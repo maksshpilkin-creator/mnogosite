@@ -1,35 +1,47 @@
 {
   "slug": "rusich-moto",
-  "checked_at": "2026-11-08T13:30:28.424Z",
+  "checked_at": "2026-11-11T16:22:29.514Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%A0%D1%83%D1%81%D0%B8%D1%87%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA",
-      "checked_at": "2026-11-08T13:30:28.424Z",
-      "excerpt": "Мототехника Русич, Новосибирск, ул. Богдана Хмельницкого, 90/3. Рейтинг: 4.9 ★."
+      "checked_at": "2026-11-11T16:22:29.514Z",
+      "excerpt": "Мототехника Русич, Новосибирск, Калининский р-н, ул. Богдана Хмельницкого, 90/3. Рейтинг: 4.9 ★. Цены по источнику: Эндуро от 89 000 ₽ (125cc) до 118 800 ₽ (300cc), Квадро от 219 900 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%A0%D1%83%D1%81%D0%B8%D1%87%20%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%B0%20%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE%2C%2090%2F3",
+      "checked_at": "2026-11-11T16:22:29.514Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Новосибирск)."
     }
   ],
   "facts": {
     "name": "Мототехника Русич",
     "brand_display": "Мототехника <span>Русич</span>",
     "city": "Новосибирск",
+    "district": "Калининский р-н",
     "address": "ул. Богдана Хмельницкого, 90/3",
     "phone": "+7 (383) 271-20-40",
     "phone_raw": "+73832712040",
     "whatsapp": "79139152040",
     "hours": "Пн-Пт 08:00-17:00",
     "rating": 4.9,
-    "focus": "Эндуро, квадроциклы, вездеходы",
-    "hero_subtitle": "Эндуро и квадроциклы<br> в Новосибирске"
+    "brands": "TZR, Русич, Motoland",
+    "focus": "Эндуро, квадроциклы, тракторы",
+    "price_range_note": "Эндуро от 89 000 ₽ (125cc) до 118 800 ₽ (300cc), Квадро от 219 900 ₽",
+    "verified_source": "2GIS Новосибирск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, квадроциклы, тракторы<br> в Новосибирске"
   },
   "catalog": [
     {
       "id": "enduro",
       "category": "enduro",
-      "name": "TZR Enduro 250cc",
-      "spec": "250 см³ · 4-тактный · внедорожная резина",
-      "price": "113 800 ₽",
+      "name": "TZR Enduro 250 / 300",
+      "spec": "Внедорожные мотоциклы · уточняйте кубатуру",
+      "price": "от 89 000 до 118 800 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -37,9 +49,9 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "TZR Enduro 125cc",
-      "spec": "125 см³ · 4-тактный · лёгкий и резвый",
-      "price": "89 000 ₽",
+      "name": "TZR Enduro 125",
+      "spec": "Лёгкий внедорожный мотоцикл 125 см³",
+      "price": "от 89 000 ₽",
       "image": "assets/product-pitbike.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -47,9 +59,9 @@
     {
       "id": "atv",
       "category": "atv",
-      "name": "Квадроцикл TZR Hunter 200",
-      "spec": "200 см³ · вариатор · багажные платформы",
-      "price": "219 900 ₽",
+      "name": "Квадроциклы TZR Hunter 200 / Defender 300",
+      "spec": "Утилитарные модели для бездорожья",
+      "price": "от 219 900 ₽",
       "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"

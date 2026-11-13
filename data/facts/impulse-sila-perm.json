@@ -1,45 +1,47 @@
 {
   "slug": "impulse-sila-perm",
-  "checked_at": "2026-11-08T13:30:28.429Z",
+  "checked_at": "2026-11-11T16:22:29.518Z",
   "identity_status": "verified",
   "sources": [
     {
       "id": "2gis",
       "url": "https://2gis.ru/search/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%20%D0%A1%D0%B8%D0%BB%D1%8B%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C",
-      "checked_at": "2026-11-08T13:30:28.429Z",
-      "excerpt": "Импульс Силы, Пермь, ул. Спешилова, 107. Рейтинг: 4.9 ★."
+      "checked_at": "2026-11-11T16:22:29.518Z",
+      "excerpt": "Импульс Силы, Пермь, Ленинский р-н, ул. Спешилова, 107. Рейтинг: 4.9 ★. Цены по источнику: Питбайки от 95 000 ₽, Эндуро от 165 000 ₽, Квадро CFMOTO от 750 000 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%20%D0%A1%D0%B8%D0%BB%D1%8B%20%D0%9F%D0%B5%D1%80%D0%BC%D1%8C%20%D1%83%D0%BB.%20%D0%A1%D0%BF%D0%B5%D1%88%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%2C%20107",
+      "checked_at": "2026-11-11T16:22:29.518Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Пермь)."
     }
   ],
   "facts": {
     "name": "Импульс Силы",
     "brand_display": "Импульс <span>Силы</span>",
     "city": "Пермь",
+    "district": "Ленинский р-н",
     "address": "ул. Спешилова, 107",
     "phone": "+7 (342) 248-08-22",
     "phone_raw": "+73422480822",
     "whatsapp": "79028014822",
     "hours": "Ежедневно 10:00-20:00",
     "rating": 4.9,
-    "focus": "Официальный дилер CFMOTO, квадро, эндуро",
-    "hero_subtitle": "Квадроциклы CFMOTO и эндуро<br> в Перми"
+    "brands": "CFMOTO, Kayo, Progasi, Regulmoto",
+    "focus": "Официальный дилер, квадро, эндуро",
+    "price_range_note": "Питбайки от 95 000 ₽, Эндуро от 165 000 ₽, Квадро CFMOTO от 750 000 ₽",
+    "verified_source": "2GIS / impulse-s.ru",
+    "has_website": true,
+    "existing_website": "impulse-s.ru",
+    "hero_subtitle": "Официальный дилер, квадро, эндуро<br> в Перми"
   },
   "catalog": [
     {
-      "id": "atv",
-      "category": "atv",
-      "name": "CFMOTO CFORCE 400L EPS",
-      "spec": "400 см³ · электроусилитель EPS · 4WD · лебедка",
-      "price": "765 000 ₽",
-      "image": "assets/product-atv.jpg",
-      "status": "verified",
-      "source_id": "2gis"
-    },
-    {
       "id": "enduro",
       "category": "enduro",
-      "name": "Progasi Super Max 250",
-      "spec": "250 см³ · спортивная подвеска · защита картера",
-      "price": "169 900 ₽",
+      "name": "Эндуро Progasi Super Max / Regulmoto",
+      "spec": "Техника от официального дилера в Перми",
+      "price": "от 165 000 ₽",
       "image": "assets/product-enduro.jpg",
       "status": "verified",
       "source_id": "2gis"
@@ -47,10 +49,20 @@
     {
       "id": "pitbike",
       "category": "pitbike",
-      "name": "Kayo Basic TT125",
-      "spec": "125 см³ · надежный YX125 · электростартер",
-      "price": "94 990 ₽",
+      "name": "Питбайки Kayo Basic TT125",
+      "spec": "Популярные питбайки Kayo в наличии",
+      "price": "от 95 000 ₽",
       "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроциклы CFMOTO CFORCE",
+      "spec": "Официальный дилер CFMOTO · сервис и гарантия",
+      "price": "от 750 000 ₽",
+      "image": "assets/product-atv.jpg",
       "status": "verified",
       "source_id": "2gis"
     }

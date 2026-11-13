@@ -1,0 +1,70 @@
+{
+  "slug": "bike4you-ulyanovsk",
+  "checked_at": "2026-11-11T16:22:29.529Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/search/Bike4you%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA",
+      "checked_at": "2026-11-11T16:22:29.529Z",
+      "excerpt": "Bike4you Ульяновск, Ульяновск, Засвияжский р-н, Московское шоссе, 35. Рейтинг: 4.8 ★. Цены по источнику: Питбайки от 89 900 ₽, Эндуро от 144 000 ₽, экип от 2 900 ₽."
+    },
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/?text=Bike4you%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%20%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2035",
+      "checked_at": "2026-11-11T16:22:29.529Z",
+      "excerpt": "Карточка организации на Яндекс Картах (Ульяновск)."
+    }
+  ],
+  "facts": {
+    "name": "Bike4you Ульяновск",
+    "brand_display": "Bike4you <span>Ульяновск</span>",
+    "city": "Ульяновск",
+    "district": "Засвияжский р-н",
+    "address": "Московское шоссе, 35",
+    "phone": "+7 (927) 632-50-42",
+    "phone_raw": "+79276325042",
+    "whatsapp": "79276325042",
+    "hours": "Пн-Пт 09:00-19:00, Сб-Вс 10:00-18:00",
+    "rating": 4.8,
+    "brands": "Motoland, Kayo, Regulmoto, Wels",
+    "focus": "Эндуро, питбайки, мопеды, запчасти",
+    "price_range_note": "Питбайки от 89 900 ₽, Эндуро от 144 000 ₽, экип от 2 900 ₽",
+    "verified_source": "2GIS / bike4you.ru",
+    "has_website": true,
+    "existing_website": "bike4you.ru",
+    "hero_subtitle": "Эндуро, питбайки, мопеды, запчасти<br> в Ульяновске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 ST",
+      "spec": "Техника Motoland, Kayo, Regulmoto, Wels",
+      "price": "от 144 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайки Kayo Basic 125",
+      "spec": "Популярные питбайки и мопеды",
+      "price": "от 89 900 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "gear",
+      "category": "gear",
+      "name": "Черепахи, перчатки и запчасти",
+      "spec": "Экипировка и расходники для ТО",
+      "price": "экип от 2 900 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}
