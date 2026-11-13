@@ -48,11 +48,11 @@ const cityOffsets = {
   'Хабаровск': 7
 };
 
-// Sort leads by offset (earliest timezone first for practical morning calling), then by city
+// Sort leads: who is closer to MSK (UTC+3) is higher up (0 first, then +1, +2, +3, +4, +5, +7)
 leads.sort((a, b) => {
   const offA = cityOffsets[a.facts.city] || 0;
   const offB = cityOffsets[b.facts.city] || 0;
-  if (offB !== offA) return offB - offA; // +7 first, then +5, +4, +2, +1, +0
+  if (offA !== offB) return offA - offB;
   return a.facts.city.localeCompare(b.facts.city, 'ru');
 });
 
@@ -70,7 +70,7 @@ const cardsHtml = leads.map((lead, idx) => {
                                     'bg-sky-500/20 text-sky-300 border-sky-500/30';
 
   const modelsSample = lead.catalog.map(c => c.name).slice(0, 2).join(', ');
-  const demoUrl = `https://dist-nine-omega-o6mskw23t3.vercel.app/${lead.slug}/`;
+  const demoUrl = `https://makssaas.gitverse.site/motosalons/${lead.slug}/`;
   const yandexUrl = `https://yandex.ru/maps/?text=${encodeURIComponent(f.name + ' ' + f.city + ' ' + f.address)}`;
   const dgisUrl = `https://2gis.ru/search/${encodeURIComponent(f.name + ' ' + f.city)}`;
   const googleUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f.name + ' ' + f.city + ' ' + f.address)}`;
@@ -184,7 +184,7 @@ const fullHtml = `<!DOCTYPE html>
         🔥 ВОРКСТЕЙШН ПРОДАЖ · МОТОСАЛОНЫ РФ
       </div>
       <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Станция обзвона: 39 проверенных салонов</h1>
-      <p class="text-xs text-slate-400 mt-0.5">Реальные телефоны, часовые пояса от МСК, готовые ссылки на Vercel и скрипты звонка.</p>
+      <p class="text-xs text-slate-400 mt-0.5">Реальные телефоны, часовые пояса от МСК, готовые ссылки на GitVerse и скрипты звонка.</p>
     </div>
 
     <!-- Quick Stats & Clock -->
@@ -440,7 +440,7 @@ const fullHtml = `<!DOCTYPE html>
     function copyWhatsAppMessage(slug) {
       const lead = leadsData.find(l => l.slug === slug);
       if (!lead) return;
-      const demoUrl = 'https://dist-nine-omega-o6mskw23t3.vercel.app/' + slug + '/';
+      const demoUrl = 'https://makssaas.gitverse.site/motosalons/' + slug + '/';
       const text = lead.hasWebsite
         ? 'Здравствуйте! Это Максим, только что созванивались по поводу мотосалона ' + lead.name + ' (' + lead.city + ').\\n\\n' +
           'Как и договаривались, скидываю бесплатный концепт обновления сайта под ваш салон (удобный мобильный экран, сравнимо с ' + (lead.existingWebsite || 'текущим сайтом') + '):\\n👉 ' + demoUrl + '\\n\\n' +
