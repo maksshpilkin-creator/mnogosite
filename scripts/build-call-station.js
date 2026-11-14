@@ -229,7 +229,7 @@ const fullHtml = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Станция обзвона: 39 мотосалонов (CRM)</title>
+  <title>Станция обзвона: ${leads.length} мотосалонов (CRM)</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -255,7 +255,7 @@ const fullHtml = `<!DOCTYPE html>
       <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded bg-orange-500/10 border border-orange-500/20 text-orange-400 font-mono text-xs uppercase mb-1.5">
         🔥 ВОРКСТЕЙШН ПРОДАЖ · МОТОСАЛОНЫ РФ
       </div>
-      <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Станция обзвона: 39 проверенных салонов</h1>
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Станция обзвона: ${leads.length} проверенных салонов</h1>
       <p class="text-xs text-slate-400 mt-0.5">Реальные телефоны, часовые пояса от МСК, готовые ссылки на GitVerse и скрипты звонка.</p>
     </div>
 
