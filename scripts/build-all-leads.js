@@ -565,7 +565,10 @@ ${cardsHtml}
 // 1. robots.txt disallowing indexing
 fs.writeFileSync(path.join(distDir, 'robots.txt'), 'User-agent: *\nDisallow: /\n', 'utf8');
 
-// 2. Neutral noindex root index.html so scraping root doesn't leak all client phone numbers & sales data
+// 2. .nojekyll to disable Jekyll on GitVerse/GitHub Pages
+fs.writeFileSync(path.join(distDir, '.nojekyll'), '', 'utf8');
+
+// 3. Neutral noindex root index.html so scraping root doesn't leak all client phone numbers & sales data
 const neutralIndexHtml = `<!DOCTYPE html>
 <html lang="ru">
 <head>
