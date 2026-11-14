@@ -1,0 +1,64 @@
+{
+  "slug": "shb-moto-oskol",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/staryoskol/firm/70000001021498124",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "ШБ-МОТО, Старый Оскол, ул. 1-й Конной Армии, 86. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "ШБ-МОТО",
+    "brand_display": "ШБ-<span>МОТО</span>",
+    "city": "Старый Оскол",
+    "district": "Северо-Восточный р-н",
+    "address": "ул. 1-й Конной Армии, 86",
+    "phone": "+7 (903) 642-39-88",
+    "phone_raw": "+79036423988",
+    "whatsapp": "79036423988",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-16:00",
+    "rating": 4.8,
+    "brands": "Kayo, Regulmoto, BSE, Progasi",
+    "focus": "Боевые эндуро, питбайки, запчасти, сервис FIL&CO",
+    "price_range_note": "Питбайки от 87 000 ₽, Эндуро от 153 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "2GIS Старый Оскол",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Боевой мотомагазин и сервис<br> в Старом Осколе"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Progasi Super Max 250",
+      "spec": "250 см³, сиденье с нескользящим покрытием, LED балка",
+      "price": "от 153 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Evolution 125",
+      "spec": "125 см³, алюминиевый маятник, карбюратор Nibbi",
+      "price": "от 87 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 200",
+      "spec": "200 см³, надежный утилитарный квадроцикл с фаркопом",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

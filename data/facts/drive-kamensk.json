@@ -1,0 +1,64 @@
+{
+  "slug": "drive-kamensk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/drive/1284920198/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Drive, Каменск-Уральский, ул. Октябрьская, 21. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотоцентр Drive",
+    "brand_display": "Мотоцентр <span>Drive</span>",
+    "city": "Каменск-Уральский",
+    "district": "Синарский р-н",
+    "address": "ул. Октябрьская, 21",
+    "phone": "+7 (922) 110-33-44",
+    "phone_raw": "+79221103344",
+    "whatsapp": "79221103344",
+    "hours": "Пн-Пт 10:00-19:00, Сб 10:00-17:00",
+    "rating": 4.8,
+    "brands": "Kayo, BSE, Progasi, Regulmoto",
+    "focus": "Кросс, эндуро, питбайки, сервис, запчасти",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 153 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Кросс, эндуро и сервисный центр<br> в Каменске-Уральском"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Progasi Super Max 250",
+      "spec": "250 см³, нескользящее сиденье, LED оптика",
+      "price": "от 153 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, 4-тактный, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 200",
+      "spec": "200 см³, электростартер, фаркоп, надежная подвеска",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

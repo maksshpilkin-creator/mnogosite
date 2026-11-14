@@ -1,0 +1,64 @@
+{
+  "slug": "plaza-motors-shakhty",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/shakhty/firm/70000001021481920",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Плаза-Моторс, Шахты, ул. Державина, 1Б. Рейтинг 5.0 ★. Мотосалон, продажа техники и сервис."
+    }
+  ],
+  "facts": {
+    "name": "Плаза-Моторс",
+    "brand_display": "Плаза-<span>Моторс</span>",
+    "city": "Шахты",
+    "district": "Центральный р-н",
+    "address": "ул. Державина, 1Б",
+    "phone": "+7 (988) 555-69-68",
+    "phone_raw": "+79885556968",
+    "whatsapp": "79885556968",
+    "hours": "Пн-Пт 09:00-19:00, Сб-Вс 09:00-18:00",
+    "rating": 5,
+    "brands": "Kayo, GR, Ataki, Regulmoto",
+    "focus": "Официальный мотоцентр, эндуро, сервис",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 158 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Шахты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Официальный дилерский мотоцентр<br> в Шахтах"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро GR2 250 Enduro PRO",
+      "spec": "250 см³, мотор Zongshen 172FMM, регулируемая вилка",
+      "price": "от 158 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, надежная стальная рама, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 200",
+      "spec": "200 см³, электростартер, фаркоп, багажные платформы",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "kickmoto-minvody",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/kikmoto/1348192834/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Кикмото, Минеральные Воды, Советская ул., 118. Рейтинг 4.6 ★."
+    }
+  ],
+  "facts": {
+    "name": "Кикмото",
+    "brand_display": "Кик<span>мото</span>",
+    "city": "Минеральные Воды",
+    "district": "Центральный р-н",
+    "address": "Советская ул., 118",
+    "phone": "+7 (928) 350-11-22",
+    "phone_raw": "+79283501122",
+    "whatsapp": "79283501122",
+    "hours": "Пн-Сб 09:00-18:00, Вс 10:00-15:00",
+    "rating": 4.6,
+    "brands": "Motoland, Regulmoto, Kayo",
+    "focus": "Мототехника, эндуро, запчасти, сервис",
+    "price_range_note": "Питбайки от 84 000 ₽, Эндуро от 144 000 ₽, Квадро от 225 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и расходники для эндуро<br> в МинВодах"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland XT250 HS",
+      "spec": "250 см³, карбюратор Nibbi, регулируемая подвеска",
+      "price": "от 144 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland Apex 125",
+      "spec": "125 см³, 4 передачи, кикстартер, колеса 17/14",
+      "price": "от 84 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Shark 200",
+      "spec": "200 см³, литые диски, защита рук, лебедка",
+      "price": "от 225 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

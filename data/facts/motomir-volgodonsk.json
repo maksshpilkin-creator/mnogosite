@@ -1,0 +1,64 @@
+{
+  "slug": "motomir-volgodonsk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/motomir/1384918239/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "МотоМир, Волгодонск, ул. Гагарина, 59Б. Рейтинг 4.6 ★."
+    }
+  ],
+  "facts": {
+    "name": "МотоМир",
+    "brand_display": "Мото<span>Мир</span>",
+    "city": "Волгодонск",
+    "district": "Новый город",
+    "address": "ул. Гагарина, 59Б",
+    "phone": "+7 (8639) 25-37-77",
+    "phone_raw": "+78639253777",
+    "whatsapp": "79282537777",
+    "hours": "Пн-Сб 09:00-18:00, Вс 09:00-16:00",
+    "rating": 4.6,
+    "brands": "Rockot, Motoland, Racer, Regulmoto",
+    "focus": "Мотоциклы, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 83 000 ₽, Эндуро от 142 000 ₽, Квадро от 220 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и склад запчастей<br> в Волгодонске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 ST",
+      "spec": "250 см³, дисковые тормоза, усиленная рама, фара",
+      "price": "от 142 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland Apex 125",
+      "spec": "125 см³, 4 передачи, кикстартер, колеса 17/14",
+      "price": "от 83 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, вариатор, LED фары, надежная подвеска",
+      "price": "от 220 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "tvoy-ekstrim-yoshkarola",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/yoshkarola/firm/70000001021482065",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Твой Экстрим, Йошкар-Ола. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Твой Экстрим",
+    "brand_display": "Твой <span>Экстрим</span>",
+    "city": "Йошкар-Ола",
+    "district": "Центральный р-н",
+    "address": "Ленинский проспект, 12",
+    "phone": "+7 (927) 880-11-22",
+    "phone_raw": "+79278801122",
+    "whatsapp": "79278801122",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-16:00",
+    "rating": 4.8,
+    "brands": "Kayo, Regulmoto, Motoland, Progasi",
+    "focus": "Питбайки, квадроциклы, снегоходы, эндуро, сервис",
+    "price_range_note": "Питбайки от 87 000 ₽, Эндуро от 150 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Йошкар-Ола",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотоцентр и техника для экстрима<br> в Йошкар-Оле"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., короткоходная ручка газа, фара",
+      "price": "от 150 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, надежная стальная рама, колеса 17/14",
+      "price": "от 87 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляное охлаждение, лебедка",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

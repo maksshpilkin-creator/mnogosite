@@ -1,0 +1,64 @@
+{
+  "slug": "podmoto-podolsk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/podolsk/search/Подмото",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Подмото, Подольск, Профсоюзная ул., 1, стр. 1. Рейтинг: 4.8 ★. Мотосалон, продажа эндуро, питбайков и сервис."
+    }
+  ],
+  "facts": {
+    "name": "Подмото",
+    "brand_display": "Под<span>мото</span>",
+    "city": "Подольск",
+    "district": "Северный р-н",
+    "address": "Профсоюзная ул., 1, стр. 1",
+    "phone": "+7 (925) 514-41-11",
+    "phone_raw": "+79255144111",
+    "whatsapp": "79255144111",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-17:00",
+    "rating": 4.8,
+    "brands": "Kayo, Regulmoto, BSE, Motoland",
+    "focus": "Эндуро, питбайки, запчасти, ТО",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 149 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Подольск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Эндуро, питбайки и сервис<br> в Подольске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., регулируемая подвеска, фара",
+      "price": "от 149 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, 4-тактный, колеса 17/14, защита картера",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляный радиатор, фаркоп",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

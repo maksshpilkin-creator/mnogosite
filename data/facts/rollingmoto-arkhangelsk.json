@@ -1,0 +1,64 @@
+{
+  "slug": "rollingmoto-arkhangelsk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/arkhangelsk/firm/70000001021481999",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Роллинг Мото Архангельск, ул. Тимме, 28. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Роллинг Мото",
+    "brand_display": "Роллинг <span>Мото</span>",
+    "city": "Архангельск",
+    "district": "Октябрьский р-н",
+    "address": "ул. Тимме, 28",
+    "phone": "+7 (960) 013-01-30",
+    "phone_raw": "+79600130130",
+    "whatsapp": "79600130130",
+    "hours": "Пн-Пт 11:00-19:00, Сб 11:00-18:00",
+    "rating": 4.8,
+    "brands": "Kayo, GR, Ataki, Regulmoto",
+    "focus": "Эндуро, питбайки, экипировка Rolling Moto, сервис",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 156 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Архангельск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Официальный мотосалон и экипировка<br> в Архангельске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро GR1 F250A Enduro",
+      "spec": "250 см³, мотор Zongshen CB250, колеса 21/18",
+      "price": "от 156 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, усиленная стальная рама, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 200",
+      "spec": "200 см³, надежный утилитарник с фаркопом",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

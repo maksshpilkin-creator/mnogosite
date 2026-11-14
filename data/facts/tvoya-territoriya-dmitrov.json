@@ -1,0 +1,64 @@
+{
+  "slug": "tvoya-territoriya-dmitrov",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/dmitrov/firm/70000001021482918",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Твоя Территория, Дмитров, ул. Березовец, 1. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Твоя Территория",
+    "brand_display": "Твоя <span>Территория</span>",
+    "city": "Дмитров",
+    "district": "Центральный р-н",
+    "address": "ул. Березовец, 1",
+    "phone": "+7 (496) 224-14-00",
+    "phone_raw": "+74962241400",
+    "whatsapp": "79057200990",
+    "hours": "Пн-Вс 09:00-19:00",
+    "rating": 4.8,
+    "brands": "Yamaha, Motoland, Regulmoto, Kayo",
+    "focus": "Мотоциклы, квадроциклы, сервис, предпродажка",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 152 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Дмитров",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотоцентр и техника для активного отдыха<br> в Дмитрове"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland Dakar 250",
+      "spec": "250 см³, ПТС, дорожная резина/эндуро, LED фара",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Progasi Smart 125",
+      "spec": "125 см³, итальянский дизайн, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, электролебедка, фаркоп, масляный радиатор",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

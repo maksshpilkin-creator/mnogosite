@@ -1,0 +1,64 @@
+{
+  "slug": "master-moto-neftekamsk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/master_moto/1194829188/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мастер Мото, Нефтекамск, Березовское шоссе, 36. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мастер Мото",
+    "brand_display": "Мастер <span>Мото</span>",
+    "city": "Нефтекамск",
+    "district": "Восточный р-н",
+    "address": "Березовское шоссе, 36",
+    "phone": "+7 (937) 484-81-02",
+    "phone_raw": "+79374848102",
+    "whatsapp": "79374848102",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-17:00",
+    "rating": 4.9,
+    "brands": "Kayo, Regulmoto, BSE, Ataki, Motoland",
+    "focus": "Эндуро, питбайки, квадроциклы, экипировка, сервис",
+    "price_range_note": "Питбайки от 87 000 ₽, Эндуро от 150 000 ₽, Квадро от 239 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и центр эндуро техники<br> в Нефтекамске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo K1 250 MX",
+      "spec": "250 см³, надежный двигатель 169FMM, короткоходная ручка газа",
+      "price": "от 150 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, усиленная стальная рама, колеса 17/14",
+      "price": "от 87 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляное охлаждение, лебедка",
+      "price": "от 239 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

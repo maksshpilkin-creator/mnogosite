@@ -1,0 +1,64 @@
+{
+  "slug": "avtomoto-bratsk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/bratsk/firm/70000001021482166",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "АвтоМото, Братск, Коммунальная ул., 6. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "АвтоМото",
+    "brand_display": "Авто<span>Мото</span>",
+    "city": "Братск",
+    "district": "Центральный р-н",
+    "address": "Коммунальная ул., 6",
+    "phone": "+7 (3953) 35-02-00",
+    "phone_raw": "+73953350200",
+    "whatsapp": "79143502000",
+    "hours": "Пн-Сб 09:00-18:00, Вс 10:00-16:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Motoland, Kayo, BSE",
+    "focus": "Сибирский эндуро, питбайки, квадроциклы, экипировка",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Братск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и техника для сибирского бездорожья<br> в Братске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 ST",
+      "spec": "250 см³, усиленные перья вилки, внедорожный протектор",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, усиленная стальная рама, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляное охлаждение, лебедка",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

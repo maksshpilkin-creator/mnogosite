@@ -1,0 +1,64 @@
+{
+  "slug": "avto-moto-murom",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/avto_moto/1094829104/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Авто мото, Муром, ул. Куликова, 16А. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Авто мото",
+    "brand_display": "Авто <span>мото</span>",
+    "city": "Муром",
+    "district": "Центральный р-н",
+    "address": "ул. Куликова, 16А",
+    "phone": "+7 (920) 903-51-23",
+    "phone_raw": "+79209035123",
+    "whatsapp": "79209035123",
+    "hours": "Пн-Вс 08:00-20:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Motoland, Racer, Kayo",
+    "focus": "Мототехника, эндуро, питбайки, запчасти",
+    "price_range_note": "Питбайки от 83 000 ₽, Эндуро от 140 000 ₽, Квадро от 215 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и запчасти в наличии<br> в Муроме"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland CRF250",
+      "spec": "250 см³, надежное воздушное охлаждение, дисковые тормоза",
+      "price": "от 140 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Regulmoto Seven 125",
+      "spec": "125 см³, электростартер, фары, колеса 17/14",
+      "price": "от 83 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 150",
+      "spec": "150 см³, вариатор, защита рук, фаркоп",
+      "price": "от 215 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "motohacker-balakovo",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/motokhaker/1049281948/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мотохакер, Балаково, Каховская ул., 9А. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотохакер",
+    "brand_display": "Мото<span>хакер</span>",
+    "city": "Балаково",
+    "district": "Центральный р-н",
+    "address": "Каховская ул., 9А",
+    "phone": "+7 (927) 144-44-90",
+    "phone_raw": "+79271444490",
+    "whatsapp": "79271444490",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-16:00",
+    "rating": 4.9,
+    "brands": "Kayo, Regulmoto, Motoland, BSE",
+    "focus": "Мототехника, питбайки, экипировка, запчасти",
+    "price_range_note": "Питбайки от 85 000 ₽, Эндуро от 146 000 ₽, Квадро от 230 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и центр экипировки<br> в Балаково"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 HS",
+      "spec": "250 см³, мотор 172FMM, регулируемая подвеска",
+      "price": "от 146 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Regulmoto Seven 125",
+      "spec": "125 см³, электростартер, фары, колеса 17/14",
+      "price": "от 85 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, вариатор F-N-R, LED оптика, багажники",
+      "price": "от 230 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

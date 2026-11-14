@@ -1,0 +1,64 @@
+{
+  "slug": "motovelo-kolomna",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/kolomna/search/Мото-вело",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мото-вело, Коломна, ул. Октябрьской революции, 314. Рейтинг 4.6 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мото-вело",
+    "brand_display": "Мото-<span>вело</span>",
+    "city": "Коломна",
+    "district": "Центральный р-н",
+    "address": "ул. Октябрьской революции, 314",
+    "phone": "+7 (915) 220-10-20",
+    "phone_raw": "+79152201020",
+    "whatsapp": "79152201020",
+    "hours": "Пн-Сб 09:00-19:00, Вс 09:00-17:00",
+    "rating": 4.6,
+    "brands": "BSE, Kayo, Racer, Motoland",
+    "focus": "Питбайки, эндуро, экипировка, сервис",
+    "price_range_note": "Питбайки от 85 000 ₽, Эндуро от 144 000 ₽, Квадро от 225 000 ₽",
+    "verified_source": "2GIS Коломна",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мототехника, питбайки и сервис<br> в Коломне"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл BSE Z3 250",
+      "spec": "250 см³, прочная стальная рама, защита двигателя",
+      "price": "от 144 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, 4-тактный мотор, дисковые тормоза",
+      "price": "от 85 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 180",
+      "spec": "180 см³, полуавтомат, защита рук, фаркоп",
+      "price": "от 225 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

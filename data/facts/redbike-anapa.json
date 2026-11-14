@@ -1,0 +1,64 @@
+{
+  "slug": "redbike-anapa",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/anapa/firm/70000001021481966",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Redbike, Анапа, ул. Чехова, 77/1. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Redbike",
+    "brand_display": "Red<span>bike</span>",
+    "city": "Анапа",
+    "district": "Южный р-н",
+    "address": "ул. Чехова, 77/1",
+    "phone": "+7 (988) 340-10-10",
+    "phone_raw": "+79883401010",
+    "whatsapp": "79883401010",
+    "hours": "Пн-Вс 09:00-19:00",
+    "rating": 4.9,
+    "brands": "Kayo, Regulmoto, BSE, Progasi",
+    "focus": "Эндуро, питбайки, квадроциклы, экипировка",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Анапа",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и прокат эндуро<br> в Анапе"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Progasi Super Max 250",
+      "spec": "250 см³, сиденье с нескользящим покрытием, LED оптика",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, надежная сборка, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, лебедка, фаркоп",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

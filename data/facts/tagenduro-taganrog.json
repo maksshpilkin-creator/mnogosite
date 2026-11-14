@@ -1,0 +1,64 @@
+{
+  "slug": "tagenduro-taganrog",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/tagenduro/1249201948/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Tagenduro, Таганрог, ул. Лесная Биржа, 6К. Рейтинг 4.9 ★. Эндуро сервис, продажа мототехники."
+    }
+  ],
+  "facts": {
+    "name": "Tagenduro",
+    "brand_display": "Tag<span>enduro</span>",
+    "city": "Таганрог",
+    "district": "Приморский р-н",
+    "address": "ул. Лесная Биржа, 6К",
+    "phone": "+7 (928) 132-23-11",
+    "phone_raw": "+79281322311",
+    "whatsapp": "79281322311",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-16:00",
+    "rating": 4.9,
+    "brands": "Regulmoto, Kayo, BSE, Progasi",
+    "focus": "Эндуро, питбайки, тюнинг, выезды, сервис",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 152 000 ₽, Квадро от 239 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Центр эндуро-культуры и сервис<br> в Таганроге"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto ZR 250",
+      "spec": "250 см³, водяное охлаждение, 26 л.с., алюминиевые обода",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE DX 125",
+      "spec": "125 см³, усиленные обода, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляный радиатор, лебедка",
+      "price": "от 239 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

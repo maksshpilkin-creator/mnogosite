@@ -1,0 +1,64 @@
+{
+  "slug": "moto-moto-kovrov",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/moto_moto/1184918230/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мото-мото, Ковров, Комсомольская ул., 116. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мото-мото",
+    "brand_display": "Мото-<span>мото</span>",
+    "city": "Ковров",
+    "district": "Центральный р-н",
+    "address": "Комсомольская ул., 116",
+    "phone": "+7 (49232) 9-90-55",
+    "phone_raw": "+74923299055",
+    "whatsapp": "79209109055",
+    "hours": "Пн-Сб 09:00-19:00, Вс 09:00-17:00",
+    "rating": 4.8,
+    "brands": "Kayo, Motoland, Regulmoto, BSE",
+    "focus": "Кросс, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 84 000 ₽, Эндуро от 143 000 ₽, Квадро от 220 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и склад мотозапчастей<br> в Коврове"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland XR250 Enduro",
+      "spec": "250 см³, дисковые тормоза, защита перьев, электростартер",
+      "price": "от 143 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, усиленная рама, колеса 17/14",
+      "price": "от 84 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland 125 Wild",
+      "spec": "125 см³, 3 передачи вперед + назад, пульт ДУ",
+      "price": "от 220 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

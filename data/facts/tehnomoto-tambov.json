@@ -1,0 +1,64 @@
+{
+  "slug": "tehnomoto-tambov",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/tekhno_moto/1492019482/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Техно Мото, Тамбов, Мичуринская ул., 295. Рейтинг 4.9 ★. Продажа мототехники и сервис."
+    }
+  ],
+  "facts": {
+    "name": "Техно Мото",
+    "brand_display": "Техно <span>Мото</span>",
+    "city": "Тамбов",
+    "district": "Октябрьский р-н",
+    "address": "Мичуринская ул., 295",
+    "phone": "+7 (910) 653-51-01",
+    "phone_raw": "+79106535101",
+    "whatsapp": "79106535101",
+    "hours": "Пн-Сб 09:00-18:00, Вс 09:00-16:00",
+    "rating": 4.9,
+    "brands": "Motoland, Regulmoto, Kayo, Progasi",
+    "focus": "Квадроциклы, эндуро, питбайки, экипировка",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 149 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мототехника, квадроциклы и сервис<br> в Тамбове"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland CRF250",
+      "spec": "250 см³, дисковые гидравлические тормоза, электростартер",
+      "price": "от 149 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland Apex 125",
+      "spec": "125 см³, спортивный глушитель, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland 200 Allroad",
+      "spec": "200 см³, вариатор F-N-R, LED оптика, лебедка",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

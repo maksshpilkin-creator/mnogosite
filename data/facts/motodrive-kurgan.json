@@ -1,0 +1,64 @@
+{
+  "slug": "motodrive-kurgan",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/kurgan/firm/70000001021482133",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "MotoDrive, Курган, ул. Бурова-Петрова, 120Т. Рейтинг 4.5 ★."
+    }
+  ],
+  "facts": {
+    "name": "MotoDrive",
+    "brand_display": "Moto<span>Drive</span>",
+    "city": "Курган",
+    "district": "Северный р-н",
+    "address": "ул. Бурова-Петрова, 120Т",
+    "phone": "+7 (965) 865-74-22",
+    "phone_raw": "+79658657422",
+    "whatsapp": "79658657422",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-17:00",
+    "rating": 4.5,
+    "brands": "Kayo, GR, Ataki, Regulmoto",
+    "focus": "Эндуро, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 87 000 ₽, Эндуро от 152 000 ₽, Квадро от 239 000 ₽",
+    "verified_source": "2GIS Курган",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и центр запчастей<br> в Кургане"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo K1 250 MX",
+      "spec": "250 см³, мотор 169FMM, короткоходная ручка газа",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Ataki Start 125",
+      "spec": "125 см³, дисковые тормоза, колеса 17/14",
+      "price": "от 87 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 200",
+      "spec": "200 см³, электростартер, фаркоп, надежная подвеска",
+      "price": "от 239 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

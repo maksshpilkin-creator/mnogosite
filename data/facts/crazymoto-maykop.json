@@ -1,0 +1,64 @@
+{
+  "slug": "crazymoto-maykop",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/maykop/firm/70000001021481955",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "КрейзиМото, Майкоп, Батарейная ул., 4. Рейтинг 5.0 ★."
+    }
+  ],
+  "facts": {
+    "name": "КрейзиМото",
+    "brand_display": "Крейзи<span>Мото</span>",
+    "city": "Майкоп",
+    "district": "Центральный р-н",
+    "address": "Батарейная ул., 4",
+    "phone": "+7 (918) 420-50-60",
+    "phone_raw": "+79184205060",
+    "whatsapp": "79184205060",
+    "hours": "Пн-Сб 09:00-18:00, Вс 10:00-16:00",
+    "rating": 5,
+    "brands": "Kayo, Regulmoto, Motoland, BSE",
+    "focus": "Горный эндуро, питбайки, квадроциклы, сервис",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 152 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "2GIS Майкоп",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Горный эндуро и мототехника<br> в Майкопе"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., короткоходная ручка газа, фара",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, 4T двигатель, прочная рама, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, внедорожная резина, масляный радиатор",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

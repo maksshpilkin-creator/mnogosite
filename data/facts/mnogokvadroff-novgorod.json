@@ -1,0 +1,64 @@
+{
+  "slug": "mnogokvadroff-novgorod",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/novgorod/firm/70000001021481988",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "МногоКвадроФФ53, Великий Новгород, Северная ул., 2 к1. Рейтинг 4.7 ★."
+    }
+  ],
+  "facts": {
+    "name": "МногоКвадроФФ53",
+    "brand_display": "МногоКвадро<span>ФФ53</span>",
+    "city": "Великий Новгород",
+    "district": "Северный р-н",
+    "address": "Северная ул., 2 к1",
+    "phone": "+7 (911) 600-53-53",
+    "phone_raw": "+79116005353",
+    "whatsapp": "79116005353",
+    "hours": "Пн-Пт 09:00-19:00, Сб 10:00-16:00",
+    "rating": 4.7,
+    "brands": "Avantis, Regulmoto, Kayo, Motoland",
+    "focus": "Квадроциклы, питбайки, эндуро, тюнинг, сервис",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 148 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Великий Новгород",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Внедорожная мототехника и сервис<br> в Великом Новгороде"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland TT 250",
+      "spec": "250 см³, электростартер, дорожные шины/эндуро, фара",
+      "price": "от 148 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Regulmoto Seven 125",
+      "spec": "125 см³, электростартер, фары, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, вариатор F-N-R, LED оптика, багажники",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

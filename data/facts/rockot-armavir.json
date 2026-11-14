@@ -1,0 +1,64 @@
+{
+  "slug": "rockot-armavir",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/armavir/firm/70000001021481944",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мотосалон Rockot, Армавир, ул. Ефремова, 229А. Рейтинг 5.0 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотосалон Rockot",
+    "brand_display": "Мотосалон <span>Rockot</span>",
+    "city": "Армавир",
+    "district": "Центральный р-н",
+    "address": "ул. Ефремова, 229А",
+    "phone": "+7 (918) 333-22-11",
+    "phone_raw": "+79183332211",
+    "whatsapp": "79183332211",
+    "hours": "Пн-Сб 09:00-19:00, Вс 09:00-17:00",
+    "rating": 5,
+    "brands": "Rockot, Regulmoto, Kayo, BSE",
+    "focus": "Эндуро, питбайки, квадроциклы, экипировка",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 150 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Армавир",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Фирменный салон мототехники<br> в Армавире"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Rockot R5X 250",
+      "spec": "250 см³, мотор 172FMM, регулируемая подвеска FastAce",
+      "price": "от 150 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Rockot Basic 125",
+      "spec": "125 см³, усиленная стальная рама, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Rockot Hunter 200",
+      "spec": "200 см³, дисковые тормоза, спинка пассажира, лебедка",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

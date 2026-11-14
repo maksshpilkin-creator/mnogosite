@@ -1,0 +1,64 @@
+{
+  "slug": "azimut74-miass",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/miass/firm/70000001021482122",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Азимут 74, Миасс, ул. Богдана Хмельницкого, 62Б. Рейтинг 4.6 ★."
+    }
+  ],
+  "facts": {
+    "name": "Азимут 74",
+    "brand_display": "Азимут <span>74</span>",
+    "city": "Миасс",
+    "district": "Машгородок",
+    "address": "ул. Богдана Хмельницкого, 62Б",
+    "phone": "+7 (922) 019-11-22",
+    "phone_raw": "+79220191122",
+    "whatsapp": "79220191122",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-16:00",
+    "rating": 4.6,
+    "brands": "Regulmoto, Rockot, Kayo, BSE",
+    "focus": "Внедорожная мототехника, эндуро, экипировка",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 149 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Миасс",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Внедорожная мототехника и экипировка<br> в Миассе"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., короткоходная ручка газа, фара",
+      "price": "от 149 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, усиленная рама, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляный радиатор, лебедка",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

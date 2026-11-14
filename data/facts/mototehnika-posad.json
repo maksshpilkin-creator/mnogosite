@@ -1,0 +1,64 @@
+{
+  "slug": "mototehnika-posad",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/mototekhnika/1148193821/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мототехника, Сергиев Посад, Новоугличское шоссе, 73 к3. Рейтинг 4.6 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мототехника",
+    "brand_display": "Мото<span>техника</span>",
+    "city": "Сергиев Посад",
+    "district": "Северный р-н",
+    "address": "Новоугличское шоссе, 73, корп. 3",
+    "phone": "+7 (926) 550-12-34",
+    "phone_raw": "+79265501234",
+    "whatsapp": "79265501234",
+    "hours": "Пн-Вс 09:00-19:00",
+    "rating": 4.6,
+    "brands": "Regulmoto, Motoland, Kayo",
+    "focus": "Эндуро, квадроциклы, сервисное обслуживание",
+    "price_range_note": "Питбайки от 87 000 ₽, Эндуро от 146 000 ₽, Квадро от 230 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и внедорожная техника<br> в Сергиевом Посаде"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Legend 250",
+      "spec": "250 см³, электростартер, фара, колеса 21/18",
+      "price": "от 146 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125 EM",
+      "spec": "125 см³, электрозапуск, дисковые тормоза",
+      "price": "от 87 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Shark 200",
+      "spec": "200 см³, вариатор, литые диски, защита рук",
+      "price": "от 230 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

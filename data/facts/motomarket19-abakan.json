@@ -1,0 +1,64 @@
+{
+  "slug": "motomarket19-abakan",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/abakan/firm/70000001021482155",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мотомаркет19, Абакан, ул. Богдана Хмельницкого, 6А. Рейтинг 5.0 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотомаркет19",
+    "brand_display": "Мотомаркет<span>19</span>",
+    "city": "Абакан",
+    "district": "Центральный р-н",
+    "address": "ул. Богдана Хмельницкого, 6А",
+    "phone": "+7 (923) 390-19-19",
+    "phone_raw": "+79233901919",
+    "whatsapp": "79233901919",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-18:00",
+    "rating": 5,
+    "brands": "Regulmoto, JHL, Avantis, Kayo, GR, FXMOTO",
+    "focus": "Официальный дилер, эндуро, питбайки, сервис",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, Квадро от 250 000 ₽",
+    "verified_source": "2GIS Абакан",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Официальный дилерский мотоцентр<br> в Абакане (Хакасия)"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., короткоходная ручка газа, фара",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, усиленная стальная рама, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Regulmoto Hunter 200",
+      "spec": "200 см³, электростартер, цифровой спидометр",
+      "price": "от 250 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

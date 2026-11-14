@@ -1,0 +1,64 @@
+{
+  "slug": "moto-drive-salavat",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/salavat/firm/70000001021482099",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мото-Драйв, Салават, Первомайская ул., 51. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мото-Драйв",
+    "brand_display": "Мото-<span>Драйв</span>",
+    "city": "Салават",
+    "district": "Центральный р-н",
+    "address": "Первомайская ул., 51",
+    "phone": "+7 (917) 440-12-34",
+    "phone_raw": "+79174401234",
+    "whatsapp": "79174401234",
+    "hours": "Пн-Сб 09:00-18:00, Вс 10:00-16:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Motoland, Racer, Kayo",
+    "focus": "Мототехника, эндуро, питбайки, расходники",
+    "price_range_note": "Питбайки от 84 000 ₽, Эндуро от 144 000 ₽, Квадро от 220 000 ₽",
+    "verified_source": "2GIS Салават",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и расходники для райдеров<br> в Салавате"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Sport 250",
+      "spec": "250 см³, фара, зеркала, ПТС, электростартер",
+      "price": "от 144 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Regulmoto Seven 125",
+      "spec": "125 см³, электростартер, фары, колеса 17/14",
+      "price": "от 84 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, вариатор, LED фары, надежная подвеска",
+      "price": "от 220 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "moto-racer-odintsovo",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/moto_reyser/1294820192/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мото Рейсер, Одинцово, Озёрная ул., 115. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мото Рейсер",
+    "brand_display": "Мото <span>Рейсер</span>",
+    "city": "Одинцово",
+    "district": "Западный р-н",
+    "address": "Озёрная ул., 115",
+    "phone": "+7 (495) 780-45-45",
+    "phone_raw": "+74957804545",
+    "whatsapp": "79257804545",
+    "hours": "Пн-Вс 10:00-20:00",
+    "rating": 4.8,
+    "brands": "Racer, Motoland, Regulmoto, Kayo",
+    "focus": "Эндуро, мотокросс, квадроциклы, экипировка",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и экипировочный центр<br> в Одинцово"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Racer Panther 250",
+      "spec": "250 см³, дисковые тормоза, электростартер, ПТС",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE PH10 125",
+      "spec": "125 см³, колеса 17/14, короткоходная ручка газа",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, электролебедка, масляное охлаждение",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

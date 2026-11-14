@@ -1,0 +1,64 @@
+{
+  "slug": "motomarket-syktyvkar",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/syktyvkar/firm/70000001021482021",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "МотоМаркет, Сыктывкар, ул. Морозова, 209. Рейтинг 5.0 ★."
+    }
+  ],
+  "facts": {
+    "name": "МотоМаркет",
+    "brand_display": "Мото<span>Маркет</span>",
+    "city": "Сыктывкар",
+    "district": "Центральный р-н",
+    "address": "ул. Морозова, 209",
+    "phone": "+7 (8212) 56-46-69",
+    "phone_raw": "+78212564669",
+    "whatsapp": "79042080707",
+    "hours": "Пн-Пт 09:00-19:00, Сб 09:00-17:00, Вс 10:00-16:00",
+    "rating": 5,
+    "brands": "Kayo, Regulmoto, Motoland, BSE",
+    "focus": "Мотоциклы, квадроциклы, питбайки, снегоходы, сервис",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 152 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "2GIS Сыктывкар",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон №1 и сервисный центр<br> в Сыктывкаре"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 HS",
+      "spec": "250 см³, двигатель 172FMM, регулируемая подвеска",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, надежная стальная рама, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Regulmoto Hummer 200",
+      "spec": "200 см³, вариатор, литые диски, спинка пассажира",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "mototehcentr-murmansk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/murmansk/firm/70000001021482010",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "МотоТехЦентр, Мурманск, ул. Свердлова, 9Б. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "МотоТехЦентр",
+    "brand_display": "МотоТех<span>Центр</span>",
+    "city": "Мурманск",
+    "district": "Ленинский р-н",
+    "address": "ул. Свердлова, 9Б",
+    "phone": "+7 (8152) 70-44-40",
+    "phone_raw": "+78152704440",
+    "whatsapp": "79113004440",
+    "hours": "Пн-Пт 10:00-19:00, Сб 10:00-17:00",
+    "rating": 4.8,
+    "brands": "Kayo, Regulmoto, BSE, Motoland",
+    "focus": "Эндуро, питбайки, снегоходы, сервис в Арктике",
+    "price_range_note": "Питбайки от 89 000 ₽, Эндуро от 155 000 ₽, Квадро от 249 000 ₽",
+    "verified_source": "2GIS Мурманск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мототехника, снегоходы и сервис<br> в Мурманске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., короткоходная ручка газа, фара",
+      "price": "от 155 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, стальная рама, колеса 17/14",
+      "price": "от 89 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляный радиатор, лебедка",
+      "price": "от 249 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

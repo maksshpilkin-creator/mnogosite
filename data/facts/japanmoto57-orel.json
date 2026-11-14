@@ -1,0 +1,64 @@
+{
+  "slug": "japanmoto57-orel",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/japan_moto_57/1384920194/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Japan Moto 57, Орёл, ул. Гайдара, 52. Рейтинг 4.9 ★. Продажа мототехники и запчастей."
+    }
+  ],
+  "facts": {
+    "name": "Japan Moto 57",
+    "brand_display": "Japan Moto <span>57</span>",
+    "city": "Орёл",
+    "district": "Северный р-н",
+    "address": "ул. Гайдара, 52",
+    "phone": "+7 (910) 266-24-49",
+    "phone_raw": "+79102662449",
+    "whatsapp": "79102662449",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-16:00",
+    "rating": 4.9,
+    "brands": "Kayo, Regulmoto, Motoland, BSE",
+    "focus": "Эндуро, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 85 000 ₽, Эндуро от 148 000 ₽, Квадро от 230 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Продажа мототехники и запчастей<br> в Орле"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Athlete 250",
+      "spec": "250 см³, мотор 172FMM, регулируемая подвеска",
+      "price": "от 148 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, колеса 17/14, 4-тактный двигатель",
+      "price": "от 85 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 180",
+      "spec": "180 см³, вариатор, дисковые тормоза, фаркоп",
+      "price": "от 230 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

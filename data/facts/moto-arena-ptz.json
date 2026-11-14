@@ -1,0 +1,64 @@
+{
+  "slug": "moto-arena-ptz",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/petrozavodsk/firm/70000001021481977",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мото-Арена, Петрозаводск, Балтийская ул., 6. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мото-Арена",
+    "brand_display": "Мото-<span>Арена</span>",
+    "city": "Петрозаводск",
+    "district": "Кукковка",
+    "address": "ул. Балтийская, 6",
+    "phone": "+7 (8142) 22-02-22",
+    "phone_raw": "+78142220222",
+    "whatsapp": "79114002222",
+    "hours": "Пн-Пт 10:00-19:00, Сб-Вс 10:00-17:00",
+    "rating": 4.8,
+    "brands": "Kayo, Regulmoto, CFMOTO, BSE",
+    "focus": "Мотоциклы, квадроциклы, снегоходы, экипировка",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 152 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Петрозаводск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и центр экипировки<br> в Петрозаводске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Sport 003",
+      "spec": "250 см³, 21 л.с., короткоходная ручка газа, фара",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, 4-тактный, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Regulmoto Hummer 200",
+      "spec": "200 см³, вариатор, литые диски, спинка пассажира",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

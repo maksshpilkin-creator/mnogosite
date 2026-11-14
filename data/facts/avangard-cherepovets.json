@@ -1,0 +1,64 @@
+{
+  "slug": "avangard-cherepovets",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/cherepovets/firm/70000001021482032",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мотосалон Авангард, Череповец, Кирилловское шоссе, 61А. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотосалон Авангард",
+    "brand_display": "Салон <span>Авангард</span>",
+    "city": "Череповец",
+    "district": "Северный р-н",
+    "address": "Кирилловское шоссе, 61А",
+    "phone": "+7 (8202) 67-66-48",
+    "phone_raw": "+78202676648",
+    "whatsapp": "79217236648",
+    "hours": "Пн-Пт 09:00-19:00, Сб 10:00-17:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Motoland, Kayo, Racer",
+    "focus": "Мототехника, квадроциклы, экипировка, сервис",
+    "price_range_note": "Питбайки от 85 000 ₽, Эндуро от 146 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Череповец",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Техника для активного отдыха и сервис<br> в Череповце"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Regulmoto Sport 250",
+      "spec": "250 см³, фара, зеркала, ПТС, электростартер",
+      "price": "от 146 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland Apex 125",
+      "spec": "125 см³, 4 скорости, кикстартер, складные рычаги",
+      "price": "от 85 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, вариатор F-N-R, LED оптика, багажники",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

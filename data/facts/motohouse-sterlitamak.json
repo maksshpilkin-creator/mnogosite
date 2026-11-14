@@ -1,0 +1,64 @@
+{
+  "slug": "motohouse-sterlitamak",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/sterlitamak/firm/70000001021482088",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "MotoHouse, Стерлитамак, Стерлибашевский тракт, 30г. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "MotoHouse",
+    "brand_display": "Moto<span>House</span>",
+    "city": "Стерлитамак",
+    "district": "Западный р-н",
+    "address": "Стерлибашевский тракт, 30г",
+    "phone": "+7 (987) 107-70-00",
+    "phone_raw": "+79871077000",
+    "whatsapp": "79871077000",
+    "hours": "Пн-Сб 10:00-19:00, Вс 10:00-17:00",
+    "rating": 4.9,
+    "brands": "Motoland, Regulmoto, BSE, Kayo",
+    "focus": "Эндуро, кросс, питбайки, экипировка, сервис",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 149 000 ₽, Квадро от 235 000 ₽",
+    "verified_source": "2GIS Стерлитамак",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и сервисный центр<br> в Стерлитамаке"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland XT250 ST",
+      "spec": "250 см³, усиленные перья вилки, внедорожный протектор",
+      "price": "от 149 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, усиленная стальная рама, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, вариатор, масляное охлаждение, лебедка",
+      "price": "от 235 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

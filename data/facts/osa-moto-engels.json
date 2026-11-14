@@ -1,0 +1,64 @@
+{
+  "slug": "osa-moto-engels",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/osa/1284920194/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мотосалон Оса, Энгельс, ул. Нестерова, 103. Рейтинг 4.9 ★."
+    }
+  ],
+  "facts": {
+    "name": "Мотосалон Оса",
+    "brand_display": "Мотосалон <span>Оса</span>",
+    "city": "Энгельс",
+    "district": "Центральный р-н",
+    "address": "ул. Нестерова, 103",
+    "phone": "+7 (917) 207-11-21",
+    "phone_raw": "+79172071121",
+    "whatsapp": "79172071121",
+    "hours": "Пн-Сб 09:00-19:00, Вс 10:00-17:00",
+    "rating": 4.9,
+    "brands": "Voge, Loncin, BSE, Kayo, Progasi, Regulmoto",
+    "focus": "Официальный дилер, эндуро, экипировка, сервис",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 152 000 ₽, Квадро от 240 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Официальный мотосалон и сервис<br> в Энгельсе"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Progasi Super Max 250",
+      "spec": "250 см³, сиденье с нескользящим покрытием, LED оптика",
+      "price": "от 152 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, 4-тактный двигатель, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track 200",
+      "spec": "200 см³, электролебедка, масляное охлаждение",
+      "price": "от 240 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "triamoto-dzerzhinsk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/dzerzhinsk/firm/70000001021482054",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Триамото, Дзержинск, ул. Маяковского, 35. Рейтинг 4.5 ★."
+    }
+  ],
+  "facts": {
+    "name": "Триамото",
+    "brand_display": "Триа<span>мото</span>",
+    "city": "Дзержинск",
+    "district": "Центральный р-н",
+    "address": "ул. Маяковского, 35",
+    "phone": "+7 (915) 940-15-55",
+    "phone_raw": "+79159401555",
+    "whatsapp": "79159401555",
+    "hours": "Пн-Пт 09:00-18:00, Сб 10:00-15:00",
+    "rating": 4.5,
+    "brands": "FXmoto, Zuumav, Regulmoto, BSE",
+    "focus": "Эндуро, кросс, питбайки, двигатели, запчасти",
+    "price_range_note": "Питбайки от 85 000 ₽, Эндуро от 147 000 ₽, Квадро от 230 000 ₽",
+    "verified_source": "2GIS Дзержинск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Специализированный эндуро салон<br> в Дзержинске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро BSE Z3 250",
+      "spec": "250 см³, хром-молибденовая рама, регулировки вилки",
+      "price": "от 147 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE MX 125",
+      "spec": "125 см³, 4-тактный, колеса 17/14",
+      "price": "от 85 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Regulmoto Athlete 200",
+      "spec": "200 см³, вариатор, лебедка, спинка пассажира",
+      "price": "от 230 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

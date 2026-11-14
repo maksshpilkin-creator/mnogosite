@@ -1,0 +1,64 @@
+{
+  "slug": "t-moto-biysk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/biysk/firm/70000001021482144",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Т-мото, Бийск, Шубенский пер., 77/1. Рейтинг 4.8 ★."
+    }
+  ],
+  "facts": {
+    "name": "Т-мото",
+    "brand_display": "Т-<span>мото</span>",
+    "city": "Бийск",
+    "district": "Заречье",
+    "address": "Шубенский пер., 77/1",
+    "phone": "+7 (905) 980-11-22",
+    "phone_raw": "+79059801122",
+    "whatsapp": "79059801122",
+    "hours": "Пн-Сб 09:00-18:00, Вс 10:00-16:00",
+    "rating": 4.8,
+    "brands": "Regulmoto, Motoland, Kayo, Racer",
+    "focus": "Эндуро для Алтая, питбайки, квадроциклы, экипировка",
+    "price_range_note": "Питбайки от 88 000 ₽, Эндуро от 154 000 ₽, Квадро от 245 000 ₽",
+    "verified_source": "2GIS Бийск",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Горный эндуро и мототехника для Алтая<br> в Бийске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Regulmoto ZR 250",
+      "spec": "250 см³, водяное охлаждение, 26 л.с., алюминиевые обода",
+      "price": "от 154 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Kayo Basic TT125",
+      "spec": "125 см³, 4-тактный двигатель, колеса 17/14",
+      "price": "от 88 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Wild Track PRO",
+      "spec": "200 см³, масляный радиатор, электролебедка",
+      "price": "от 245 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

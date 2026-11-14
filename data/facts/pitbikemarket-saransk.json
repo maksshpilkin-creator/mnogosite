@@ -1,0 +1,64 @@
+{
+  "slug": "pitbikemarket-saransk",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/pitbaykmarket/1194829184/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Питбайкмаркет, Саранск, Строительная ул., 30. Рейтинг 4.6 ★."
+    }
+  ],
+  "facts": {
+    "name": "Питбайкмаркет",
+    "brand_display": "Питбайк<span>маркет</span>",
+    "city": "Саранск",
+    "district": "Пролетарский р-н",
+    "address": "Строительная ул., 30",
+    "phone": "+7 (8342) 22-90-96",
+    "phone_raw": "+78342229096",
+    "whatsapp": "79272229096",
+    "hours": "Пн-Пт 09:00-18:00, Сб 09:00-16:00",
+    "rating": 4.6,
+    "brands": "Kayo, Kove, BSE, Motoland",
+    "focus": "Питбайки, кросс, эндуро, экипировка, сервис",
+    "price_range_note": "Питбайки от 86 000 ₽, Эндуро от 148 000 ₽, Квадро от 230 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и склад питбайков<br> в Саранске"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Kayo K1 250 MX",
+      "spec": "250 см³, мотор 169FMM, короткоходная ручка газа",
+      "price": "от 148 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк BSE PH 125",
+      "spec": "125 см³, японский карбюратор, колеса 17/14",
+      "price": "от 86 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Kayo Bull 180",
+      "spec": "180 см³, масляный радиатор, фаркоп, багажники",
+      "price": "от 230 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

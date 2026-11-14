@@ -1,0 +1,64 @@
+{
+  "slug": "motovelomag-syzran",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "yandex",
+      "url": "https://yandex.ru/maps/org/motovelomagazin/1194829102/",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "МотоВелоМагазин, Сызрань, пр. 50 лет Октября, 22. Рейтинг 4.6 ★."
+    }
+  ],
+  "facts": {
+    "name": "МотоВелоМагазин",
+    "brand_display": "МотоВело<span>Магазин</span>",
+    "city": "Сызрань",
+    "district": "Юго-Западный р-н",
+    "address": "пр. 50 лет Октября, 22",
+    "phone": "+7 (927) 210-44-55",
+    "phone_raw": "+79272104455",
+    "whatsapp": "79272104455",
+    "hours": "Пн-Сб 09:00-18:00, Вс 09:00-16:00",
+    "rating": 4.6,
+    "brands": "Racer, Motoland, Regulmoto, Kayo",
+    "focus": "Мотоциклы, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 82 000 ₽, Эндуро от 139 000 ₽, Квадро от 219 000 ₽",
+    "verified_source": "Яндекс Карты",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мототехника и запчасти в наличии<br> в Сызрани"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Мотоцикл Motoland Dakar 250 LT",
+      "spec": "250 см³, ПТС, дорожная резина/эндуро, электростартер",
+      "price": "от 139 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Motoland Apex 125",
+      "spec": "125 см³, 4 передачи, кикстартер, колеса 17/14",
+      "price": "от 82 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, вариатор, LED фары, надежная подвеска",
+      "price": "от 219 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}

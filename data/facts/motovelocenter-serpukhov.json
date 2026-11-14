@@ -1,0 +1,64 @@
+{
+  "slug": "motovelocenter-serpukhov",
+  "checked_at": "2026-11-14T07:45:00.000Z",
+  "identity_status": "verified",
+  "sources": [
+    {
+      "id": "2gis",
+      "url": "https://2gis.ru/serpukhov/firm/70000001021481921",
+      "checked_at": "2026-11-14T07:45:00.000Z",
+      "excerpt": "Мото-Вело-Центр, Серпухов, ул. Володарского, 19А. Рейтинг 4.7 ★. Продажа мотоциклов, питбайков и запчастей."
+    }
+  ],
+  "facts": {
+    "name": "Мото-Вело-Центр",
+    "brand_display": "Мото-Вело-<span>Центр</span>",
+    "city": "Серпухов",
+    "district": "Центральный р-н",
+    "address": "ул. Володарского, 19А",
+    "phone": "+7 (916) 902-83-40",
+    "phone_raw": "+79169028340",
+    "whatsapp": "79169028340",
+    "hours": "Пн-Вс 09:00-19:00",
+    "rating": 4.7,
+    "brands": "Motoland, Regulmoto, Racer, Kayo",
+    "focus": "Мототехника, питбайки, квадроциклы, запчасти",
+    "price_range_note": "Питбайки от 83 000 ₽, Эндуро от 139 000 ₽, Квадро от 219 000 ₽",
+    "verified_source": "2GIS Серпухов",
+    "has_website": false,
+    "existing_website": "",
+    "hero_subtitle": "Мотосалон и склад запчастей<br> в Серпухове"
+  },
+  "catalog": [
+    {
+      "id": "enduro",
+      "category": "enduro",
+      "name": "Эндуро Motoland XT250 HS",
+      "spec": "250 см³, двигатель 172FMM, регулируемая вилка",
+      "price": "от 139 000 ₽",
+      "image": "assets/product-enduro.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "pitbike",
+      "category": "pitbike",
+      "name": "Питбайк Regulmoto Seven 125",
+      "spec": "125 см³, электростартер, фары, колеса 17/14",
+      "price": "от 83 000 ₽",
+      "image": "assets/product-pitbike.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    },
+    {
+      "id": "atv",
+      "category": "atv",
+      "name": "Квадроцикл Motoland Allroad 200",
+      "spec": "200 см³, F-N-R, усиленный багажник, лебедка",
+      "price": "от 219 000 ₽",
+      "image": "assets/product-atv.jpg",
+      "status": "verified",
+      "source_id": "2gis"
+    }
+  ]
+}
