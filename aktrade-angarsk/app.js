@@ -3,38 +3,38 @@
   const products = {
   "enduro": {
     "name": "Мотоцикл Regulmoto Sport 003",
-    "price": "от 148 000 ₽",
-    "spec": "250 см³, 21 л.с., регулируемая подвеска",
+    "price": "от 149 000 ₽",
+    "spec": "250 см³, 21 л.с., регулируемая подвеска, фара",
     "image": "assets/product-enduro.jpg",
     "category": "enduro"
   },
   "pitbike": {
     "name": "Питбайк Kayo Basic TT125",
     "price": "от 86 000 ₽",
-    "spec": "125 см³, колеса 17/14, защита картера",
+    "spec": "125 см³, 4-тактный, колеса 17/14, защита картера",
     "image": "assets/product-pitbike.jpg",
     "category": "pitbike"
   },
   "atv": {
-    "name": "Квадроцикл Motoland Allroad 200",
-    "price": "от 235 000 ₽",
-    "spec": "200 см³, вариатор, лебедка, багажники",
+    "name": "Квадроцикл Motoland Wild Track 200",
+    "price": "от 239 000 ₽",
+    "spec": "200 см³, вариатор, масляный радиатор, фаркоп",
     "image": "assets/product-atv.jpg",
     "category": "atv"
   }
 };
   const salon = {
-  "name": "Пони Моторс",
-  "city": "Ногинск",
-  "district": "Горьковское шоссе",
-  "address": "Горьковское шоссе, 51-й км, ТД Подмосковье",
-  "phone": "+7 (926) 335-52-62",
-  "phoneRaw": "+79263355262",
-  "whatsapp": "79263355262",
-  "hours": "Пн-Вс 09:00-19:00",
-  "rating": 4.6,
-  "mapUrl": "https://2gis.ru/noginsk/search/Пони%20Моторс",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9F%D0%BE%D0%BD%D0%B8%20%D0%9C%D0%BE%D1%82%D0%BE%D1%80%D1%81%20%D0%9D%D0%BE%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%20%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2051-%D0%B9%20%D0%BA%D0%BC%2C%20%D0%A2%D0%94%20%D0%9F%D0%BE%D0%B4%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%8C%D0%B5"
+  "name": "АкТрейд",
+  "city": "Ангарск",
+  "district": "Центральный р-н",
+  "address": "ул. Чайковского, 1А",
+  "phone": "+7 (939) 818-34-88",
+  "phoneRaw": "+79398183488",
+  "whatsapp": "79398183488",
+  "hours": "Пн-Вс 09:00-20:00",
+  "rating": 4.8,
+  "mapUrl": "https://2gis.ru/angarsk/search/АкТрейд",
+  "yandexUrl": "https://yandex.ru/maps/?text=%D0%90%D0%BA%D0%A2%D1%80%D0%B5%D0%B9%D0%B4%20%D0%90%D0%BD%D0%B3%D0%B0%D1%80%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A7%D0%B0%D0%B9%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%201%D0%90"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },
