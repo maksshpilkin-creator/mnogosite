@@ -28,13 +28,13 @@
   "city": "Мурманск",
   "district": "Ленинский р-н",
   "address": "ул. Свердлова, 9Б",
-  "phone": "+7 (8152) 70-44-40",
-  "phoneRaw": "+78152704440",
+  "phone": "+7 (911) 300-79-65",
+  "phoneRaw": "+79113007965",
   "whatsapp": "79113004440",
   "hours": "Пн-Пт 10:00-19:00, Сб 10:00-17:00",
   "rating": 4.8,
   "mapUrl": "https://2gis.ru/murmansk/firm/70000001021482010",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%A2%D0%B5%D1%85%D0%A6%D0%B5%D0%BD%D1%82%D1%80%20%D0%9C%D1%83%D1%80%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%A1%D0%B2%D0%B5%D1%80%D0%B4%D0%BB%D0%BE%D0%B2%D0%B0%2C%209%D0%91"
+  "yandexUrl": "https://tools51.ru/kontakty"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

@@ -28,13 +28,13 @@
   "city": "Братск",
   "district": "Центральный р-н",
   "address": "Коммунальная ул., 6",
-  "phone": "+7 (3953) 35-02-00",
-  "phoneRaw": "+73953350200",
+  "phone": "+7 (3953) 25-90-25",
+  "phoneRaw": "+73953259025",
   "whatsapp": "79143502000",
   "hours": "Пн-Сб 09:00-18:00, Вс 10:00-16:00",
   "rating": 4.8,
   "mapUrl": "https://2gis.ru/bratsk/firm/70000001021482166",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%90%D0%B2%D1%82%D0%BE%D0%9C%D0%BE%D1%82%D0%BE%20%D0%91%D1%80%D0%B0%D1%82%D1%81%D0%BA%20%D0%9A%D0%BE%D0%BC%D0%BC%D1%83%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%206"
+  "yandexUrl": "https://spravkainform.ru/russia/bratsk/zapchasti-dlya-avtomobiley-inostrannogo-proizvodstva/avtomoto"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

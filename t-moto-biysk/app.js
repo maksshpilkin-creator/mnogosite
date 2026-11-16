@@ -34,7 +34,7 @@
   "hours": "Пн-Сб 09:00-18:00, Вс 10:00-16:00",
   "rating": 4.8,
   "mapUrl": "https://2gis.ru/biysk/firm/70000001021482144",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%A2-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%91%D0%B8%D0%B9%D1%81%D0%BA%20%D0%A8%D1%83%D0%B1%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D0%B5%D1%80.%2C%2077%2F1"
+  "yandexUrl": "https://brl.auto2.info/biysk/mototehnika/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

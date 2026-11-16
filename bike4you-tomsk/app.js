@@ -28,13 +28,13 @@
   "city": "Томск",
   "district": "Октябрьский р-н",
   "address": "ул. Мичурина, 47г, ст. 1",
-  "phone": "+7 (923) 422-87-80",
-  "phoneRaw": "+79234228780",
+  "phone": "+7 (3822) 27-00-21",
+  "phoneRaw": "+73822270021",
   "whatsapp": "79234228780",
   "hours": "Пн-Сб 10:00-19:00, Вс 10:00-18:00",
   "rating": 4.8,
   "mapUrl": "https://2gis.ru/tomsk/firm/70000001048291845",
-  "yandexUrl": "https://yandex.ru/maps/?text=Bike4you%20%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%20%D1%83%D0%BB.%20%D0%9C%D0%B8%D1%87%D1%83%D1%80%D0%B8%D0%BD%D0%B0%2C%2047%D0%B3%2C%20%D1%81%D1%82.%201"
+  "yandexUrl": "https://bike4you.ru/contacts/stores/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

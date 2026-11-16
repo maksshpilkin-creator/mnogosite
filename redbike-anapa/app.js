@@ -34,7 +34,7 @@
   "hours": "Пн-Вс 09:00-19:00",
   "rating": 4.9,
   "mapUrl": "https://2gis.ru/anapa/firm/70000001021481966",
-  "yandexUrl": "https://yandex.ru/maps/?text=Redbike%20%D0%90%D0%BD%D0%B0%D0%BF%D0%B0%20%D1%83%D0%BB.%20%D0%A7%D0%B5%D1%85%D0%BE%D0%B2%D0%B0%2C%2077%2F1"
+  "yandexUrl": "https://red-bike.ru/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

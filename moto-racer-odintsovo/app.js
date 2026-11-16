@@ -28,13 +28,13 @@
   "city": "Одинцово",
   "district": "Западный р-н",
   "address": "Озёрная ул., 115",
-  "phone": "+7 (495) 780-45-45",
-  "phoneRaw": "+74957804545",
+  "phone": "+7 (905) 577-73-35",
+  "phoneRaw": "+79055777335",
   "whatsapp": "79257804545",
   "hours": "Пн-Вс 10:00-20:00",
   "rating": 4.8,
   "mapUrl": "https://yandex.ru/maps/org/moto_reyser/1294820192/",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%A0%D0%B5%D0%B9%D1%81%D0%B5%D1%80%20%D0%9E%D0%B4%D0%B8%D0%BD%D1%86%D0%BE%D0%B2%D0%BE%20%D0%9E%D0%B7%D1%91%D1%80%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%20115"
+  "yandexUrl": "https://moto-racer.ru/oplata/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

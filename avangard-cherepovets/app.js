@@ -28,13 +28,13 @@
   "city": "Череповец",
   "district": "Северный р-н",
   "address": "Кирилловское шоссе, 61А",
-  "phone": "+7 (8202) 67-66-48",
-  "phoneRaw": "+78202676648",
+  "phone": "+7 (8202) 67-60-60",
+  "phoneRaw": "+78202676060",
   "whatsapp": "79217236648",
   "hours": "Пн-Пт 09:00-19:00, Сб 10:00-17:00",
   "rating": 4.8,
   "mapUrl": "https://2gis.ru/cherepovets/firm/70000001021482032",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%D0%90%D0%B2%D0%B0%D0%BD%D0%B3%D0%B0%D1%80%D0%B4%20%D0%A7%D0%B5%D1%80%D0%B5%D0%BF%D0%BE%D0%B2%D0%B5%D1%86%20%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2061%D0%90"
+  "yandexUrl": "https://avangard35.ru/motosalon/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

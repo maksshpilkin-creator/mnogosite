@@ -28,13 +28,13 @@
   "city": "Коломна",
   "district": "Центральный р-н",
   "address": "ул. Октябрьской революции, 314",
-  "phone": "+7 (915) 220-10-20",
-  "phoneRaw": "+79152201020",
+  "phone": "+7 (4966) 15-04-98",
+  "phoneRaw": "+74966150498",
   "whatsapp": "79152201020",
   "hours": "Пн-Сб 09:00-19:00, Вс 09:00-17:00",
   "rating": 4.6,
   "mapUrl": "https://2gis.ru/kolomna/search/Мото-вело",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE-%D0%B2%D0%B5%D0%BB%D0%BE%20%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%BD%D0%B0%20%D1%83%D0%BB.%20%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%BE%D0%B9%20%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D0%B8%2C%20314"
+  "yandexUrl": "https://progasi.ru/dealers.html"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

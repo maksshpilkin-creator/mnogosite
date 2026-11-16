@@ -28,13 +28,13 @@
   "city": "Сызрань",
   "district": "Юго-Западный р-н",
   "address": "пр. 50 лет Октября, 22",
-  "phone": "+7 (927) 210-44-55",
-  "phoneRaw": "+79272104455",
+  "phone": "+7 (8464) 35-46-15",
+  "phoneRaw": "+78464354615",
   "whatsapp": "79272104455",
   "hours": "Пн-Сб 09:00-18:00, Вс 09:00-16:00",
   "rating": 4.6,
   "mapUrl": "https://yandex.ru/maps/org/motovelomagazin/1194829102/",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D0%92%D0%B5%D0%BB%D0%BE%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%A1%D1%8B%D0%B7%D1%80%D0%B0%D0%BD%D1%8C%20%D0%BF%D1%80.%2050%20%D0%BB%D0%B5%D1%82%20%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F%2C%2022"
+  "yandexUrl": "https://www.motovelomag.ru/syzran-motovelomagazin.html"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

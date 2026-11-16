@@ -28,13 +28,13 @@
   "city": "Владивосток",
   "district": "Советский р-н",
   "address": "Русская ул., 92",
-  "phone": "+7 (423) 260-88-88",
-  "phoneRaw": "+74232608888",
+  "phone": "+7 (800) 600-70-35",
+  "phoneRaw": "+78006007035",
   "whatsapp": "79025244711",
   "hours": "Пн-Сб 10:00-19:00, Вс 10:00-17:00",
   "rating": 4.9,
   "mapUrl": "https://2gis.ru/vladivostok/firm/3518929657475306",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%20%D0%94%D0%B5%D0%BF%D0%BE%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D0%BA%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%2092"
+  "yandexUrl": "https://moto-depo.com/page/contacts"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

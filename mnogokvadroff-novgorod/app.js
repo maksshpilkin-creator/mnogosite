@@ -28,13 +28,13 @@
   "city": "Великий Новгород",
   "district": "Северный р-н",
   "address": "Северная ул., 2 к1",
-  "phone": "+7 (911) 600-53-53",
-  "phoneRaw": "+79116005353",
+  "phone": "+7 (8162) 555-656",
+  "phoneRaw": "+78162555656",
   "whatsapp": "79116005353",
   "hours": "Пн-Пт 09:00-19:00, Сб 10:00-16:00",
   "rating": 4.7,
   "mapUrl": "https://2gis.ru/novgorod/firm/70000001021481988",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%BE%D0%A4%D0%A453%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%20%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%20%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%202%20%D0%BA1"
+  "yandexUrl": "https://mnogokvadroff53.ru/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

@@ -34,7 +34,7 @@
   "hours": "Пн-Сб 09:00-19:00, Вс 10:00-16:00",
   "rating": 4.8,
   "mapUrl": "https://2gis.ru/yoshkarola/firm/70000001021482065",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%A2%D0%B2%D0%BE%D0%B9%20%D0%AD%D0%BA%D1%81%D1%82%D1%80%D0%B8%D0%BC%20%D0%99%D0%BE%D1%88%D0%BA%D0%B0%D1%80-%D0%9E%D0%BB%D0%B0%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%2C%2012"
+  "yandexUrl": "https://твойэкстрим.рф/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

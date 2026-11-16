@@ -34,7 +34,7 @@
   "hours": "Пн-Сб 10:00-19:00, Вс 10:00-16:00",
   "rating": 4.9,
   "mapUrl": "https://yandex.ru/maps/org/tagenduro/1249201948/",
-  "yandexUrl": "https://yandex.ru/maps/?text=Tagenduro%20%D0%A2%D0%B0%D0%B3%D0%B0%D0%BD%D1%80%D0%BE%D0%B3%20%D1%83%D0%BB.%20%D0%9B%D0%B5%D1%81%D0%BD%D0%B0%D1%8F%20%D0%91%D0%B8%D1%80%D0%B6%D0%B0%2C%206%D0%9A"
+  "yandexUrl": "https://yandex.com/maps/org/tagenduro/166033710418/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

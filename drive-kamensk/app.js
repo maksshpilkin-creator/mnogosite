@@ -34,7 +34,7 @@
   "hours": "Пн-Пт 10:00-19:00, Сб 10:00-17:00",
   "rating": 4.8,
   "mapUrl": "https://yandex.ru/maps/org/drive/1284920198/",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%86%D0%B5%D0%BD%D1%82%D1%80%20Drive%20%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D1%81%D0%BA-%D0%A3%D1%80%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D1%83%D0%BB.%20%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%2C%2021"
+  "yandexUrl": "https://regulmoto.ru/dealer/?PAGEN_1=4"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

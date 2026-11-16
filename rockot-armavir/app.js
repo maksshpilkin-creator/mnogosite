@@ -28,13 +28,13 @@
   "city": "Армавир",
   "district": "Центральный р-н",
   "address": "ул. Ефремова, 229А",
-  "phone": "+7 (918) 333-22-11",
-  "phoneRaw": "+79183332211",
+  "phone": "+7 (938) 533-73-73",
+  "phoneRaw": "+79385337373",
   "whatsapp": "79183332211",
   "hours": "Пн-Сб 09:00-19:00, Вс 09:00-17:00",
   "rating": 5,
   "mapUrl": "https://2gis.ru/armavir/firm/70000001021481944",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20Rockot%20%D0%90%D1%80%D0%BC%D0%B0%D0%B2%D0%B8%D1%80%20%D1%83%D0%BB.%20%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B0%2C%20229%D0%90"
+  "yandexUrl": "https://armavir.rockot-motors.ru/contacts.html"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

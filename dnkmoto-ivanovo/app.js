@@ -34,7 +34,7 @@
   "hours": "Пн-Пт 10:00-19:00, Сб 10:00-17:00, Вс 10:00-15:00",
   "rating": 4.8,
   "mapUrl": "https://2gis.ru/ivanovo/firm/70000001034298154",
-  "yandexUrl": "https://yandex.ru/maps/?text=DnkMoto%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE%20%D1%83%D0%BB.%20%D0%9A%D1%83%D0%BA%D0%BE%D0%BD%D0%BA%D0%BE%D0%B2%D1%8B%D1%85%2C%2096"
+  "yandexUrl": "https://yandex.com/maps/org/dnkmoto/152539164507/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

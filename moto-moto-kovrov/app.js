@@ -28,13 +28,13 @@
   "city": "Ковров",
   "district": "Центральный р-н",
   "address": "Комсомольская ул., 116",
-  "phone": "+7 (49232) 9-90-55",
-  "phoneRaw": "+74923299055",
+  "phone": "+7 (800) 775-21-46",
+  "phoneRaw": "+78007752146",
   "whatsapp": "79209109055",
   "hours": "Пн-Сб 09:00-19:00, Вс 09:00-17:00",
   "rating": 4.8,
   "mapUrl": "https://yandex.ru/maps/org/moto_moto/1184918230/",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9C%D0%BE%D1%82%D0%BE-%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9A%D0%BE%D0%B2%D1%80%D0%BE%D0%B2%20%D0%9A%D0%BE%D0%BC%D1%81%D0%BE%D0%BC%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%20116"
+  "yandexUrl": "https://tk-gorodok.ru/shops/motosalon-moto-moto.html"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },

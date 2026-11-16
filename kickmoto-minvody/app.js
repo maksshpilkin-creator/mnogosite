@@ -28,13 +28,13 @@
   "city": "Минеральные Воды",
   "district": "Центральный р-н",
   "address": "Советская ул., 118",
-  "phone": "+7 (928) 350-11-22",
-  "phoneRaw": "+79283501122",
+  "phone": "+7 (933) 181-89-33",
+  "phoneRaw": "+79331818933",
   "whatsapp": "79283501122",
   "hours": "Пн-Сб 09:00-18:00, Вс 10:00-15:00",
   "rating": 4.6,
   "mapUrl": "https://yandex.ru/maps/org/kikmoto/1348192834/",
-  "yandexUrl": "https://yandex.ru/maps/?text=%D0%9A%D0%B8%D0%BA%D0%BC%D0%BE%D1%82%D0%BE%20%D0%9C%D0%B8%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%92%D0%BE%D0%B4%D1%8B%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB.%2C%20118"
+  "yandexUrl": "https://kikmoto.clients.site/"
 };
   const scenarios = {
     first: { label: 'Первый байк', text: 'Для первого байка важны умеренный вес, предсказуемый отклик на газ и удобная высота по седлу. Уточните доступные модели в салоне.' },
